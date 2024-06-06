@@ -1,0 +1,7 @@
+2024-06-06 02:09:57,380 Trading App started.
+2024-06-06 02:09:58,928 Received market data: red
+2024-06-06 02:09:58,928 Processing market data, generated order: Order for red
+2024-06-06 02:10:00,961 Error sending order: [WinError 10061] No connection could be made because the target machine actively refused it
+2024-06-06 02:10:14,699 Error sending order: [WinError 10061] No connection could be made because the target machine actively refused it
+2024-06-06 02:10:17,590 Error sending order: [WinError 10061] No connection could be made because the target machine actively refused it
+2024-06-06 02:10:19,609 Error sending order: [WinError 10061] No connection could be made because the target machine actively refused it

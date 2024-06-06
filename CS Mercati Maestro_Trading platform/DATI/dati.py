@@ -1,28 +1,44 @@
-#Market Data Tool
-
-# market_data_server.py
 import socket
-import threading
+import struct
 import time
+import logging
+import os
+import signal
 import random
 
-def handle_client(client_socket):
-    while True:
-        data = str(random.randint(0, 1))
-        client_socket.send(data.encode())
-        time.sleep(random.uniform(0.5, 2))  # Random interval between 0.5 to 2 seconds
+# Configuration
+MULTICAST_GROUP = '224.1.1.1'
+MULTICAST_PORT = 5007
+LOG_DIR = 'logs'
+LOG_FILE = f"{LOG_DIR}/marketdata{time.strftime('%y%m%d%H%M%S')}.log"
 
-def main():
-    server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-    server.bind(('0.0.0.0', 9999))
-    server.listen(5)
-    print("Market Data Server started on port 9999")
+# Ensure log directory exists
+os.makedirs(LOG_DIR, exist_ok=True)
 
+# Logging configuration
+logging.basicConfig(filename=LOG_FILE, level=logging.DEBUG, format='%(asctime)s %(message)s')
+logging.debug('Market Data App started.')
+
+def send_market_data():
+    """Function to send random 'blue' or 'red' messages via multicast every 1-3 seconds."""
+    multicast_socket = socket.socket(socket.AF_INET, socket.SOCK_DGRAM, socket.IPPROTO_UDP)
+    ttl = struct.pack('b', 1)
+    multicast_socket.setsockopt(socket.IPPROTO_IP, socket.IP_MULTICAST_TTL, ttl)
+    
     while True:
-        client_socket, addr = server.accept()
-        print(f"Accepted connection from {addr}")
-        client_handler = threading.Thread(target=handle_client, args=(client_socket,))
-        client_handler.start()
+        message = random.choice(['blue', 'red'])
+        multicast_socket.sendto(message.encode('utf-8'), (MULTICAST_GROUP, MULTICAST_PORT))
+        logging.debug(f'Sent message: {message}')
+        time.sleep(random.randint(1, 3))
+
+def handle_exit(signum, frame):
+    """Handle exit signals for graceful shutdown."""
+    logging.debug('Market Data App shutting down.')
+    exit(0)
+
+# Signal handling for graceful shutdown
+signal.signal(signal.SIGINT, handle_exit)
+signal.signal(signal.SIGTERM, handle_exit)
 
 if __name__ == "__main__":
-    main()
+    send_market_data()
