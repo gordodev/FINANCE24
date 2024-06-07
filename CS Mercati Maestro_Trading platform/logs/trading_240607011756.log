@@ -1,0 +1,58 @@
+2024-06-07 01:18:02,553 Received market data message: red
+2024-06-07 01:18:03,692 Error receiving market data message: main thread is not in main loop
+2024-06-07 01:18:04,693 Received market data message: blue
+2024-06-07 01:18:04,700 Received market data message: red
+2024-06-07 01:18:04,702 Received market data message: blue
+2024-06-07 01:18:04,704 Received market data message: blue
+2024-06-07 01:18:04,707 Received market data message: blue
+2024-06-07 01:18:04,717 Received market data message: blue
+2024-06-07 01:18:04,720 Received market data message: blue
+2024-06-07 01:18:06,326 Received market data message: blue
+2024-06-07 01:18:07,440 Received market data message: red
+2024-06-07 01:18:08,340 Received market data message: blue
+2024-06-07 01:18:08,451 Received market data message: blue
+2024-06-07 01:18:09,348 Received market data message: blue
+2024-06-07 01:18:11,349 Received market data message: blue
+2024-06-07 01:18:11,460 Received market data message: red
+2024-06-07 01:18:13,357 Received market data message: blue
+2024-06-07 01:18:13,467 Received market data message: blue
+2024-06-07 01:18:14,475 Received market data message: red
+2024-06-07 01:18:15,360 Received market data message: red
+2024-06-07 01:18:16,490 Received market data message: blue
+2024-06-07 01:18:17,364 Received market data message: blue
+2024-06-07 01:18:19,374 Received market data message: blue
+2024-06-07 01:18:19,501 Received market data message: blue
+2024-06-07 01:18:20,502 Received market data message: blue
+2024-06-07 01:18:21,509 Received market data message: blue
+2024-06-07 01:18:22,388 Received market data message: red
+2024-06-07 01:18:23,402 Received market data message: red
+2024-06-07 01:18:23,510 Received market data message: blue
+2024-06-07 01:18:24,408 Received market data message: red
+2024-06-07 01:18:26,416 Received market data message: blue
+2024-06-07 01:18:26,511 Received market data message: blue
+2024-06-07 01:18:28,429 Received market data message: red
+2024-06-07 01:18:28,524 Received market data message: red
+2024-06-07 01:18:30,434 Received market data message: red
+2024-06-07 01:18:30,528 Received market data message: blue
+2024-06-07 01:18:31,543 Received market data message: red
+2024-06-07 01:18:33,434 Received market data message: blue
+2024-06-07 01:18:34,555 Received market data message: red
+2024-06-07 01:18:36,437 Received market data message: red
+2024-06-07 01:18:37,109 Sent order: order blue
+2024-06-07 01:18:37,562 Received market data message: red
+2024-06-07 01:18:38,439 Sent order: order red
+2024-06-07 01:18:38,449 Received market data message: blue
+2024-06-07 01:18:38,574 Received market data message: red
+2024-06-07 01:18:39,515 Sent order: order blue
+2024-06-07 01:18:40,459 Received market data message: blue
+2024-06-07 01:18:40,582 Received market data message: red
+2024-06-07 01:18:40,939 Sent order: order red
+2024-06-07 01:18:42,593 Received market data message: red
+2024-06-07 01:18:43,462 Received market data message: red
+2024-06-07 01:18:44,477 Received market data message: red
+2024-06-07 01:18:45,603 Received market data message: blue
+2024-06-07 01:18:47,490 Received market data message: blue
+2024-06-07 01:18:48,504 Received market data message: blue
+2024-06-07 01:18:48,611 Received market data message: blue
+2024-06-07 01:18:50,506 Received market data message: blue
+2024-06-07 01:18:50,615 Received market data message: blue

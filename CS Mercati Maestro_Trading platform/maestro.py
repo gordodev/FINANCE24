@@ -85,10 +85,15 @@ class TradingApp:
     def listen_market_data(self):
         def listen():
             while True:
-                data, _ = sock.recvfrom(1024)
-                message = data.decode('utf-8')
-                logging.debug(f'Received market data message: {message}')
-                self.root.after(0, self.log_market_data, message)
+                try:
+                    data, _ = sock.recvfrom(1024)
+                    message = data.decode('utf-8')
+                    logging.debug(f'Received market data message: {message}')
+                    self.root.after(0, self.log_market_data, message)
+                    self.root.after(0, self.update_market_data_status, "green")
+                except Exception as e:
+                    logging.error(f"Error receiving market data message: {e}")
+                    self.root.after(0, self.update_market_data_status, "grey")
         thread = threading.Thread(target=listen, daemon=True)
         thread.start()
 
@@ -122,6 +127,9 @@ class TradingApp:
             status = self.ping_component(port)
             color = "green" if status else "grey"
             self.status_lights[component].configure(bg=color)
+
+    def update_market_data_status(self, color):
+        self.status_lights["MarketData"].configure(bg=color)
 
     def ping_component(self, port):
         try:
