@@ -1,44 +1,51 @@
 import socket
 import struct
 import time
+import random
 import logging
 import os
 import signal
-import random
+import sys
 
-# Configuration
-MULTICAST_GROUP = '224.1.1.1'
-MULTICAST_PORT = 5007
-LOG_DIR = 'logs'
-LOG_FILE = f"{LOG_DIR}/marketdata{time.strftime('%y%m%d%H%M%S')}.log"
+"""
+Market Data App
+---------------
+This application simulates a market data feed, sending random "blue" or "red" messages via multicast
+every 1-3 seconds. It acts as the data source for the trading platform.
 
-# Ensure log directory exists
-os.makedirs(LOG_DIR, exist_ok=True)
+- Sending: Multicast to 224.1.1.1 on port 5007.
+- Dependencies: None
+"""
 
-# Logging configuration
-logging.basicConfig(filename=LOG_FILE, level=logging.DEBUG, format='%(asctime)s %(message)s')
-logging.debug('Market Data App started.')
+# Logging setup
+log_dir = "logs"
+if not os.path.exists(log_dir):
+    os.makedirs(log_dir)
+logging.basicConfig(filename=os.path.join(log_dir, f'marketdata_{time.strftime("%y%m%d%H%M%S")}.log'), 
+                    level=logging.DEBUG, 
+                    format='%(asctime)s %(message)s')
 
-def send_market_data():
-    """Function to send random 'blue' or 'red' messages via multicast every 1-3 seconds."""
-    multicast_socket = socket.socket(socket.AF_INET, socket.SOCK_DGRAM, socket.IPPROTO_UDP)
-    ttl = struct.pack('b', 1)
-    multicast_socket.setsockopt(socket.IPPROTO_IP, socket.IP_MULTICAST_TTL, ttl)
-    
+# Multicast setup
+MCAST_GRP = '224.1.1.1'
+MCAST_PORT = 5007
+
+sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM, socket.IPPROTO_UDP)
+sock.setsockopt(socket.IPPROTO_IP, socket.IP_MULTICAST_TTL, 2)
+
+def signal_handler(sig, frame):
+    logging.info("Market Data App interrupted and exiting gracefully.")
+    sys.exit(0)
+
+signal.signal(signal.SIGINT, signal_handler)
+
+try:
     while True:
+        # Generate a random market data message
         message = random.choice(['blue', 'red'])
-        multicast_socket.sendto(message.encode('utf-8'), (MULTICAST_GROUP, MULTICAST_PORT))
-        logging.debug(f'Sent message: {message}')
+        logging.debug(f'Sending market data message: {message}')
+        sock.sendto(message.encode('utf-8'), (MCAST_GRP, MCAST_PORT))
         time.sleep(random.randint(1, 3))
-
-def handle_exit(signum, frame):
-    """Handle exit signals for graceful shutdown."""
-    logging.debug('Market Data App shutting down.')
-    exit(0)
-
-# Signal handling for graceful shutdown
-signal.signal(signal.SIGINT, handle_exit)
-signal.signal(signal.SIGTERM, handle_exit)
-
-if __name__ == "__main__":
-    send_market_data()
+except Exception as e:
+    logging.error(f'Exception occurred: {e}')
+finally:
+    logging.info("Market Data App exiting.")

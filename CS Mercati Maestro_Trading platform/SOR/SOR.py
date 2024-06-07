@@ -2,55 +2,64 @@ import socket
 import logging
 import os
 import signal
+import sys
+import threading
+import time
 
-# Configuration
-TCP_TRADING_APP_HOST = 'localhost'
-TCP_TRADING_APP_PORT = 5008
-TCP_FIX_ENGINE_HOST = 'localhost'
-TCP_FIX_ENGINE_PORT = 5009
-LOG_DIR = 'logs'
-LOG_FILE = f"{LOG_DIR}/orderrouter{time.strftime('%y%m%d%H%M%S')}.log"
+"""
+Order Router App
+----------------
+This application receives orders from the Trading App and forwards them to the FIX Engine.
 
-# Ensure log directory exists
-os.makedirs(LOG_DIR, exist_ok=True)
+- Receiving: TCP from Trading App on localhost:5008.
+- Sending: TCP to FIX Engine on localhost:5009.
+- Dependencies: None
+"""
 
-# Logging configuration
-logging.basicConfig(filename=LOG_FILE, level=logging.DEBUG, format='%(asctime)s %(message)s')
-logging.debug('Order Router App started.')
+# Logging setup
+log_dir = "logs"
+if not os.path.exists(log_dir):
+    os.makedirs(log_dir)
+logging.basicConfig(filename=os.path.join(log_dir, f'orderrouter_{time.strftime("%y%m%d%H%M%S")}.log'), 
+                    level=logging.DEBUG, 
+                    format='%(asctime)s %(message)s')
 
-def handle_order(conn, addr):
-    """Handle incoming orders from the Trading App and forward them to the FIX Engine."""
-    with conn:
-        order = conn.recv(1024).decode('utf-8')
-        logging.debug(f'Received order from Trading App: {order}')
-        send_to_fix_engine(order)
+# TCP setup
+HOST = 'localhost'
+PORT_RECEIVE = 5008
+PORT_SEND = 5009
 
-def send_to_fix_engine(order):
-    """Send the received order to the FIX Engine."""
+def signal_handler(sig, frame):
+    logging.info("Order Router App interrupted and exiting gracefully.")
+    sys.exit(0)
+
+signal.signal(signal.SIGINT, signal_handler)
+
+def handle_client(conn, addr):
+    logging.debug(f'Connected by {addr}')
     with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
-        s.connect((TCP_FIX_ENGINE_HOST, TCP_FIX_ENGINE_PORT))
-        s.sendall(order.encode('utf-8'))
-        logging.debug(f'Sent order to FIX Engine: {order}')
+        s.connect((HOST, PORT_SEND))
+        try:
+            while True:
+                data = conn.recv(1024)
+                if not data:
+                    break
+                logging.debug(f'Received order: {data.decode("utf-8")}')
+                s.sendall(data)
+        except Exception as e:
+            logging.error(f'Exception in handling client: {e}')
+        finally:
+            conn.close()
 
 def start_server():
-    """Start the TCP server to listen for orders from the Trading App."""
     with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
-        s.bind((TCP_TRADING_APP_HOST, TCP_TRADING_APP_PORT))
+        s.bind((HOST, PORT_RECEIVE))
         s.listen()
-        logging.debug(f'Order Router listening on {TCP_TRADING_APP_HOST}:{TCP_TRADING_APP_PORT}')
+        logging.info('Order Router listening for connections')
         while True:
             conn, addr = s.accept()
-            logging.debug(f'Connection from {addr}')
-            handle_order(conn, addr)
-
-def handle_exit(signum, frame):
-    """Handle exit signals for graceful shutdown."""
-    logging.debug('Order Router App shutting down.')
-    exit(0)
-
-# Signal handling for graceful shutdown
-signal.signal(signal.SIGINT, handle_exit)
-signal.signal(signal.SIGTERM, handle_exit)
+            thread = threading.Thread(target=handle_client, args=(conn, addr), daemon=True)
+            thread.start()
 
 if __name__ == "__main__":
     start_server()

@@ -2,59 +2,69 @@ import socket
 import logging
 import os
 import signal
+import sys
+import threading
+import time
 
-# Configuration
-TCP_FIX_ENGINE_HOST = 'localhost'
-TCP_FIX_ENGINE_PORT = 5010
-LOG_DIR = 'logs'
-LOG_FILE = f"{LOG_DIR}/marketsimulator{time.strftime('%y%m%d%H%M%S')}.log"
+"""
+Market Simulator App
+---------------------
+This application receives orders from the FIX Engine and sends fill messages back to the FIX Engine.
+The fill messages simulate trade fills and alternate between "fill 1 red" and "fill 1 blue".
 
-# Ensure log directory exists
-os.makedirs(LOG_DIR, exist_ok=True)
+- Receiving: TCP from FIX Engine on localhost:5010.
+- Sending: TCP back to FIX Engine on localhost:5009.
+- Dependencies: None
+"""
 
-# Logging configuration
-logging.basicConfig(filename=LOG_FILE, level=logging.DEBUG, format='%(asctime)s %(message)s')
-logging.debug('Market Simulator App started.')
+# Logging setup
+log_dir = "logs"
+if not os.path.exists(log_dir):
+    os.makedirs(log_dir)
+logging.basicConfig(filename=os.path.join(log_dir, f'marketsimulator_{time.strftime("%y%m%d%H%M%S")}.log'), 
+                    level=logging.DEBUG, 
+                    format='%(asctime)s %(message)s')
 
-fill_colors = ['red', 'blue']
-fill_index = 0
+# TCP setup
+HOST = 'localhost'
+PORT_RECEIVE = 5010
+PORT_SEND = 5009
 
-def handle_order(conn, addr):
-    """Handle incoming orders from the FIX Engine and send fill messages back."""
-    global fill_index
-    with conn:
-        order = conn.recv(1024).decode('utf-8')
-        logging.debug(f'Received order from FIX Engine: {order}')
-        fill_message = f'fill 1 {fill_colors[fill_index]}'
-        fill_index = (fill_index + 1) % len(fill_colors)
-        send_fill_to_fix_engine(fill_message)
+def signal_handler(sig, frame):
+    logging.info("Market Simulator App interrupted and exiting gracefully.")
+    sys.exit(0)
 
-def send_fill_to_fix_engine(fill_message):
-    """Send the fill message back to the FIX Engine."""
-    with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
-        s.connect((TCP_FIX_ENGINE_HOST, TCP_FIX_ENGINE_PORT))
-        s.sendall(fill_message.encode('utf-8'))
-        logging.debug(f'Sent fill message to FIX Engine: {fill_message}')
+signal.signal(signal.SIGINT, signal_handler)
+
+def handle_client(conn, addr):
+    logging.debug(f'Connected by {addr}')
+    try:
+        color = "red"
+        while True:
+            data = conn.recv(1024)
+            if not data:
+                break
+            logging.debug(f'Received order: {data.decode("utf-8")}')
+            fill_message = f'fill 1 {color}'
+            color = "blue" if color == "red" else "red"
+            with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
+                s.connect((HOST, PORT_SEND))
+                s.sendall(fill_message.encode('utf-8'))
+                logging.debug(f'Sent fill message: {fill_message}')
+    except Exception as e:
+        logging.error(f'Exception in handling client: {e}')
+    finally:
+        conn.close()
 
 def start_server():
-    """Start the TCP server to listen for orders from the FIX Engine."""
     with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
-        s.bind((TCP_FIX_ENGINE_HOST, TCP_FIX_ENGINE_PORT))
+        s.bind((HOST, PORT_RECEIVE))
         s.listen()
-        logging.debug(f'Market Simulator listening on {TCP_FIX_ENGINE_HOST}:{TCP_FIX_ENGINE_PORT}')
+        logging.info('Market Simulator listening for connections')
         while True:
             conn, addr = s.accept()
-            logging.debug(f'Connection from {addr}')
-            handle_order(conn, addr)
-
-def handle_exit(signum, frame):
-    """Handle exit signals for graceful shutdown."""
-    logging.debug('Market Simulator App shutting down.')
-    exit(0)
-
-# Signal handling for graceful shutdown
-signal.signal(signal.SIGINT, handle_exit)
-signal.signal(signal.SIGTERM, handle_exit)
+            thread = threading.Thread(target=handle_client, args=(conn, addr), daemon=True)
+            thread.start()
 
 if __name__ == "__main__":
     start_server()
