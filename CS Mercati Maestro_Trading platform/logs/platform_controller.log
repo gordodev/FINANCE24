@@ -1,0 +1,24 @@
+2024-06-08 12:38:35,374 - DEBUG - Starting dati.py
+2024-06-08 12:38:38,417 - DEBUG - dati.py running, using 0.0% CPU and 14.76MB RAM. Network details: Local address: 0.0.0.0:54667, Remote address: None
+2024-06-08 12:38:38,424 - DEBUG - Starting maestro.py
+2024-06-08 12:38:41,444 - DEBUG - maestro.py running, using 0.0% CPU and 24.84MB RAM. Network details: Local address: 127.0.0.1:50247, Remote address: 127.0.0.1:5009
+2024-06-08 12:38:41,451 - DEBUG - Starting SOR.py
+2024-06-08 12:38:44,496 - DEBUG - SOR.py running, using 0.0% CPU and 15.43MB RAM. Network details: Local address: 127.0.0.1:5008, Remote address: None
+2024-06-08 12:38:44,503 - DEBUG - Starting FIX.py
+2024-06-08 12:38:47,545 - DEBUG - FIX.py running, using 0.0% CPU and 15.58MB RAM. Network details: Local address: 127.0.0.1:5009, Remote address: None
+2024-06-08 12:38:47,554 - DEBUG - Starting marketsimulator.py
+2024-06-08 12:38:49,576 - ERROR - Failed to start marketsimulator.py
+2024-06-08 12:40:33,055 - DEBUG - Stopped 18324
+2024-06-08 12:40:33,060 - DEBUG - Stopped 4244
+2024-06-08 12:40:33,066 - DEBUG - Stopped 6640
+2024-06-08 12:40:33,068 - DEBUG - Stopped 2856
+2024-06-08 12:41:10,622 - DEBUG - Starting dati.py
+2024-06-08 12:41:13,660 - DEBUG - dati.py running, using 0.0% CPU and 14.78MB RAM. Network details: Local address: 0.0.0.0:65066, Remote address: None
+2024-06-08 12:41:13,664 - DEBUG - Starting maestro.py
+2024-06-08 12:41:16,711 - DEBUG - maestro.py running, using 0.0% CPU and 24.83MB RAM. Network details: Local address: 127.0.0.1:50655, Remote address: 127.0.0.1:5009
+2024-06-08 12:41:16,721 - DEBUG - Starting SOR.py
+2024-06-08 12:41:19,752 - DEBUG - SOR.py running, using 0.0% CPU and 15.43MB RAM. Network details: Local address: 127.0.0.1:5008, Remote address: None
+2024-06-08 12:41:19,759 - DEBUG - Starting FIX.py
+2024-06-08 12:41:22,790 - DEBUG - FIX.py running, using 3.1% CPU and 15.62MB RAM. Network details: Local address: 127.0.0.1:5009, Remote address: None
+2024-06-08 12:41:22,798 - DEBUG - Starting marketsimulator.py
+2024-06-08 12:41:25,838 - DEBUG - marketsimulator.py running, using 1.5% CPU and 15.50MB RAM. Network details: Local address: 127.0.0.1:5010, Remote address: None

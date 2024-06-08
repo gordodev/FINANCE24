@@ -1,0 +1,15 @@
+2024-06-08 01:15:58,733 Received market data message: red
+2024-06-08 01:15:59,841 Error receiving market data message: main thread is not in main loop
+2024-06-08 01:16:00,835 Received market data message: red
+2024-06-08 01:16:00,842 Received market data message: red
+2024-06-08 01:16:00,846 Received market data message: blue
+2024-06-08 01:16:00,848 Received market data message: blue
+2024-06-08 01:16:00,859 Received market data message: blue
+2024-06-08 01:16:00,863 Received market data message: red
+2024-06-08 01:16:00,868 Received market data message: blue
+2024-06-08 01:16:02,363 Received market data message: blue
+2024-06-08 01:16:02,744 Received market data message: blue
+2024-06-08 01:16:03,373 Received market data message: blue
+2024-06-08 01:16:05,382 Received market data message: red
+2024-06-08 01:16:05,763 Received market data message: red
+2024-06-08 01:16:07,390 Received market data message: red

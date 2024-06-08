@@ -1,0 +1,2 @@
+2024-06-08 12:38:44,680 Received market data message: blue
+2024-06-08 12:38:45,781 Error receiving market data message: main thread is not in main loop
