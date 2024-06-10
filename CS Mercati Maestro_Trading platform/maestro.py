@@ -19,6 +19,10 @@ sends orders to the Order Router, and logs orders to a database.
 - Receiving: Multicast from 224.1.1.1 on port 5007.
 - Sending: TCP to Order Router on localhost:5008.
 - Dependencies: SQLite3, tkinter
+
+BUGS:
+
+Not sending orders? I just see it recieving MD, but not sending anything. I see activity down stream, but how if nothing sent out?
 """
 
 # Logging setup
