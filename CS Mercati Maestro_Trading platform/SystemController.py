@@ -36,11 +36,17 @@ ORDER_ROUTER_APP = os.path.join(BASE_DIR, 'SOR', 'SOR.py')
 FIX_ENGINE_APP = os.path.join(BASE_DIR, 'FIX', 'FIX.py')
 MARKET_SIMULATOR_APP = os.path.join(BASE_DIR, 'SIM', 'marketsimulator.py')
 
-# List of all app scripts
-APPS = [MARKET_DATA_APP, TRADING_APP, ORDER_ROUTER_APP, FIX_ENGINE_APP, MARKET_SIMULATOR_APP]
+# List of all app scripts with their names
+APPS = {
+    "MARKET_DATA": MARKET_DATA_APP,
+    "TRADING": TRADING_APP,
+    "ORDER_ROUTER": ORDER_ROUTER_APP,
+    "FIX_ENGINE": FIX_ENGINE_APP,
+    "MARKET_SIMULATOR": MARKET_SIMULATOR_APP
+}
 
 # Track subprocesses
-processes = []
+processes = {}
 
 class PlatformController(tk.Tk):
     def __init__(self):
@@ -61,15 +67,26 @@ class PlatformController(tk.Tk):
         self.stop_button.pack(pady=10)
         
         self.protocol("WM_DELETE_WINDOW", self.on_closing)
+        
+        # Tags for text formatting
+        self.details_text.tag_configure('header', background='black', foreground='white', font=('Helvetica', 12, 'bold'))
+        self.details_text.tag_configure('details', background='white', foreground='black', font=('Helvetica', 10))
+        
+        # Thread to monitor the status of apps
+        self.monitor_thread = None
+        self.monitoring = False
     
     def update_status(self, status):
         """Update the status label in the GUI."""
         self.status_label.config(text=f"Status: {status}")
 
-    def append_text(self, text):
+    def append_text(self, text, is_header=False):
         """Append text to the details text box in the GUI."""
         self.details_text.config(state='normal')
-        self.details_text.insert(tk.END, text + '\n')
+        if is_header:
+            self.details_text.insert(tk.END, text + '\n', ('header',))
+        else:
+            self.details_text.insert(tk.END, text + '\n', ('details',))
         self.details_text.config(state='disabled')
         self.details_text.yview(tk.END)
 
@@ -103,12 +120,11 @@ class PlatformController(tk.Tk):
         
         all_started = True
 
-        for app in APPS:
-            app_name = os.path.basename(app)
+        for app_name, app_path in APPS.items():
             logging.debug(f"Starting {app_name}")
             self.append_text(f"Starting {app_name}")
-            process = subprocess.Popen(['python', app])
-            processes.append(process)
+            process = subprocess.Popen(['python', app_path])
+            processes[app_name] = process
             
             # Pause between starting each app
             time.sleep(2)
@@ -134,9 +150,10 @@ class PlatformController(tk.Tk):
 
         # Wait and verify if all processes are running
         time.sleep(5)
-        if all(process.poll() is None for process in processes):
+        if all(process.poll() is None for process in processes.values()):
             self.status_label.config(bg="green")
             self.update_status("Running")
+            self.start_monitoring()
         else:
             self.status_label.config(bg="red")
             self.update_status("Failed to Start")
@@ -152,7 +169,7 @@ class PlatformController(tk.Tk):
             if conn.pid == pid:
                 laddr = f"{conn.laddr.ip}:{conn.laddr.port}"
                 raddr = f"{conn.raddr.ip}:{conn.raddr.port}" if conn.raddr else "None"
-                return f"Local address: {laddr}, Remote address: {raddr}"
+                return f"{laddr}, Remote: {raddr}"
         return "No network info available"
     
     def stop_apps(self):
@@ -161,25 +178,62 @@ class PlatformController(tk.Tk):
         self.status_label.config(bg="blue")
         self.update()
         
-        for process in processes:
+        for app_name, process in processes.items():
             if process.poll() is None:
                 os.kill(process.pid, signal.SIGTERM)
-                logging.debug(f"Stopped {process.pid}")
-                self.append_text(f"Stopped {process.pid}")
+                logging.debug(f"Stopped {app_name}")
+                self.append_text(f"Stopped {app_name}")
         
         processes.clear()
         self.status_label.config(bg="red")
         self.update_status("Stopped")
+        self.stop_monitoring()
     
     def is_running(self):
         """Check if any platform apps are currently running."""
-        return any(process.poll() is None for process in processes)
+        return any(process.poll() is None for process in processes.values())
     
     def on_closing(self):
         """Handle the closing event of the GUI."""
         if self.is_running():
             self.stop_apps()
+        self.stop_monitoring()
         self.destroy()
+    
+    def start_monitoring(self):
+        """Start the background thread for monitoring the app statuses."""
+        self.monitoring = True
+        self.monitor_thread = threading.Thread(target=self.monitor_status)
+        self.monitor_thread.start()
+    
+    def stop_monitoring(self):
+        """Stop the background thread for monitoring the app statuses."""
+        self.monitoring = False
+        if self.monitor_thread:
+            self.monitor_thread.join()
+    
+    def monitor_status(self):
+        """Monitor the status of the apps and update the GUI with timestamps."""
+        while self.monitoring:
+            for app_name, process in processes.items():
+                if process.poll() is None:
+                    proc_info = psutil.Process(process.pid)
+                    cpu_usage = proc_info.cpu_percent(interval=1)
+                    mem_info = proc_info.memory_info()
+                    ram_usage = mem_info.rss / (1024 ** 2)  # Convert bytes to MB
+                    
+                    net_info = self.get_network_info(process.pid)
+                    timestamp = time.strftime("%Y-%m-%d %H:%M:%S")
+                    
+                    header_message = f"{timestamp} - {app_name}"
+                    details_message = (f"CPU: {cpu_usage}% | RAM: {ram_usage:.2f}MB | "
+                                       f"NET: {net_info}")
+                    
+                    logging.debug(header_message)
+                    logging.debug(details_message)
+                    self.append_text(header_message, is_header=True)
+                    self.append_text(details_message)
+            time.sleep(4)
 
 if __name__ == "__main__":
     app = PlatformController()
