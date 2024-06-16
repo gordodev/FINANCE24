@@ -1,1 +1,75 @@
+Summary of Traffic Paths:
 
+Market Data: 224.1.1.1:5007 (Market Data App) → localhost:5007 (Trading Front End App)
+Order: localhost: Any Port (Trading Front End App) → localhost:5008 (Order Router App)
+Order Processing: localhost: Any Port (Order Router App) → localhost:5009 (FIX Engine App)
+Order Execution: localhost: Any Port (FIX Engine App) → localhost:5010 (Market Simulator App)
+Fill Notification: localhost: Any Port (Market Simulator App) → localhost:5009 (FIX Engine App)
+This workflow ensures that the Order Router validates and routes orders efficiently before they reach the FIX Engine, which then communicates with the exchange or the Market Simulator for execution and fills.
+
+Market Data App (Source)
+
+Sending:
+Protocol: UDP
+Multicast Group: 224.1.1.1
+Port: 5007
+
+Trading Front End App (Listener & Sender)
+
+Receiving:
+Protocol: UDP
+Multicast Group: 224.1.1.1
+Port: 5007
+Sending:
+Protocol: TCP
+Destination IP: localhost
+Destination Port: 5008
+
+Order Router App (Listener & Sender)
+
+Receiving:
+Protocol: TCP
+Listening IP: localhost
+Listening Port: 5008
+Sending:
+Protocol: TCP
+Destination IP: localhost
+Destination Port: 5009
+
+FIX Engine App (Listener & Sender)
+
+Receiving:
+Protocol: TCP
+Listening IP: localhost
+Listening Port: 5009
+Sending:
+Protocol: TCP
+Destination IP: localhost
+Destination Port: 5010
+
+Market Simulator App (Listener & Sender)
+
+Receiving:
+Protocol: TCP
+Listening IP: localhost
+Listening Port: 5010
+Sending:
+Protocol: TCP
+Destination IP: localhost
+Destination Port: 5009
+
+Market Data App → Trading Front End App:
+
+Multicast UDP: The Market Data App sends market data messages via multicast to the Trading Front End App.
+Trading Front End App → Order Router App:
+
+TCP: The Trading Front End App sends user-generated orders to the Order Router. This step is necessary to allow the Order Router to preprocess and manage orders before they reach the FIX Engine.
+Order Router App → FIX Engine App:
+
+TCP: After receiving an order from the Trading Front End, the Order Router ensures the order is properly formatted and validated, then forwards it to the FIX Engine for further processing and execution.
+FIX Engine App → Market Simulator App:
+
+TCP: The FIX Engine forwards the order to the Market Simulator to simulate a trade fill.
+Market Simulator App → FIX Engine App:
+
+TCP: The Market Simulator sends fill messages back to the FIX Engine, which would then process these fills and update the order status.
