@@ -10,7 +10,6 @@ import threading
 import time
 import queue
 
-
 """
 Trading Front End App
 ---------------------
@@ -20,10 +19,6 @@ sends orders to the Order Router, and logs orders to a database.
 - Receiving: Multicast from 224.1.1.1 on port 5007.
 - Sending: TCP to Order Router on localhost:5008.
 - Dependencies: SQLite3, tkinter
-
-BUGS:
-
-Not sending orders? I just see it recieving MD, but not sending anything. I see activity down stream, but how if nothing sent out?
 """
 
 # Logging setup
@@ -32,7 +27,7 @@ if not os.path.exists(log_dir):
     os.makedirs(log_dir)
 logging.basicConfig(filename=os.path.join(log_dir, f'trading_{time.strftime("%y%m%d%H%M%S")}.log'),
                     level=logging.DEBUG,
-                    format='%(asctime)s %(message)s')
+                    format='%(asctime)s %(levelname)s %(message)s')
 
 # Multicast setup
 MCAST_GRP = '224.1.1.1'
@@ -45,33 +40,51 @@ class MarketDataListener(threading.Thread):
         self.update_status_callback = update_status_callback
         self.running = True
 
-        # Set up the socket for receiving multicast data
-        self.sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM, socket.IPPROTO_UDP)
-        self.sock.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
-        self.sock.bind(('', MCAST_PORT))
+        logging.debug("Initializing MarketDataListener")
 
-        # Join the multicast group
-        mreq = struct.pack("4sl", socket.inet_aton(MCAST_GRP), socket.INADDR_ANY)
-        self.sock.setsockopt(socket.IPPROTO_IP, socket.IP_ADD_MEMBERSHIP, mreq)
-        logging.info("MarketDataListener initialized and joined multicast group")
+        # Set up the socket for receiving multicast data
+        try:
+            self.sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM, socket.IPPROTO_UDP)
+            self.sock.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
+            self.sock.bind(('', MCAST_PORT))
+            logging.info(f"Socket bound to ('', {MCAST_PORT})")
+
+            # Join the multicast group
+            mreq = struct.pack("4sl", socket.inet_aton(MCAST_GRP), socket.INADDR_ANY)
+            self.sock.setsockopt(socket.IPPROTO_IP, socket.IP_ADD_MEMBERSHIP, mreq)
+            logging.info(f"MarketDataListener joined multicast group {MCAST_GRP} on port {MCAST_PORT}")
+            
+            # Set socket timeout
+            self.sock.settimeout(1)  # 1 second timeout
+        except Exception as e:
+            logging.error(f"Failed to initialize MarketDataListener: {e}")
 
     def run(self):
+        logging.debug("MarketDataListener thread started")
         while self.running:
             try:
                 # Receive data from the multicast group
-                data, _ = self.sock.recvfrom(1024)
+                data, addr = self.sock.recvfrom(1024)
+                source_ip, source_port = addr
                 message = data.decode('utf-8')
-                self.data_queue.put(message)
-                logging.debug(f"Received market data message: {message}")
+                self.data_queue.put((message, source_ip, source_port))
+                logging.debug(f"Received market data message from {source_ip}:{source_port}: {message}")
                 self.update_status_callback("green")  # Update status light to green on successful data reception
+            except socket.timeout:
+                # This is normal, just continue
+                continue
             except Exception as e:
                 logging.error(f"Error receiving market data message: {e}")
                 self.update_status_callback("red")  # Update status light to red on error
+                time.sleep(1)  # Avoid tight loop on persistent errors
 
     def stop(self):
         self.running = False
-        self.sock.close()
-        logging.info("MarketDataListener stopped")
+        try:
+            self.sock.close()
+            logging.info("MarketDataListener stopped")
+        except Exception as e:
+            logging.error(f"Error closing MarketDataListener socket: {e}")
 
 def signal_handler(sig, frame):
     logging.info("Trading App interrupted and exiting gracefully.")
@@ -85,9 +98,11 @@ class TradingApp:
         self.root.title("Trading App")
         self.root.geometry("800x600")
         self.data_queue = queue.Queue()
+        self.status_update_queue = queue.Queue()
 
         # Initialize the MarketDataListener
-        self.listener = MarketDataListener(self.data_queue, self.update_market_data_status)
+        logging.debug("Starting MarketDataListener")
+        self.listener = MarketDataListener(self.data_queue, self.schedule_update_market_data_status)
         self.listener.start()
 
         # Create and layout the widgets
@@ -95,6 +110,7 @@ class TradingApp:
 
         # Start the status light updates and market data processing
         self.update_status_lights()
+        self.root.after(100, self.process_status_updates)
         self.root.after(2000, self.update_market_data)
         self.check_dependencies()
 
@@ -143,30 +159,36 @@ class TradingApp:
         self.market_data_display.pack(fill=tk.BOTH, expand=True, padx=10, pady=10)
 
     def update_market_data(self):
+        logging.debug("Updating market data display")
         try:
-            if not self.data_queue.empty():
-                message = self.data_queue.get_nowait()
-                self.log_market_data(message)
+            while not self.data_queue.empty():
+                message, source_ip, source_port = self.data_queue.get_nowait()
+                logging.debug(f"Processing message: {message} from {source_ip}:{source_port}")
+                self.root.after(0, self.log_market_data, message, source_ip, source_port)
             self.root.after(1000, self.update_market_data)  # Keep checking for new data
         except Exception as e:
             logging.error(f"Error in update_market_data: {e}")
             messagebox.showerror("Error", f"Exception occurred: {e}")
 
-    def log_market_data(self, message):
-        # Log market data messages with a timestamp
+    def log_market_data(self, message, source_ip, source_port):
+        # Log market data messages with a timestamp and source details
         timestamp = time.strftime("%Y-%m-%d %H:%M:%S")
-        log_message = f"{timestamp} - {message}"
+        log_message = f"{timestamp} - {message} from {source_ip}:{source_port}"
         logging.info(log_message)
         self.market_data_display.config(text=log_message, bg="#001f3f", fg="#add8e6", font=("Arial", 18, "bold"))
 
     def send_order(self, color):
         # Send an order to the Order Router via TCP
+        logging.debug(f"Preparing to send order: {color}")
         try:
             with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
-                s.connect(('localhost', 5008))
+                destination_ip = 'localhost'
+                destination_port = 5008
+                logging.info(f"Connecting to Order Router at {destination_ip}:{destination_port}")
+                s.connect((destination_ip, destination_port))
                 order = f'order {color}'
                 s.sendall(order.encode('utf-8'))
-                logging.debug(f'Sent order: {order}')
+                logging.debug(f'Sent order to {destination_ip}:{destination_port}: {order}')
                 self.status_bar.config(text=f"Status: Sent order {color}")
         except ConnectionRefusedError:
             messagebox.showerror("Error", "Order Router is down. Cannot send order.")
@@ -177,6 +199,7 @@ class TradingApp:
             messagebox.showerror("Error", f"Exception occurred while sending order: {e}")
 
     def update_status_lights(self):
+        logging.debug("Updating status lights")
         try:
             self.check_dependencies()
             self.root.after(5000, self.update_status_lights)
@@ -185,6 +208,7 @@ class TradingApp:
             messagebox.showerror("Error", f"Exception occurred: {e}")
 
     def check_dependencies(self):
+        logging.debug("Checking dependencies")
         # Check the status of various components and update the status lights
         components = {
             "OrderRouter": 5008,
@@ -194,22 +218,72 @@ class TradingApp:
         for component, port in components.items():
             status = self.ping_component(port)
             color = "green" if status else "grey"
-            self.status_lights[component].configure(bg=color)
+            logging.debug(f"Component {component} status: {'up' if status else 'down'}")
+            self.root.after(0, self.status_lights[component].configure, {'bg': color})
+        
+        # Check the status of MarketData multicast reception
+        market_data_status = self.check_market_data_multicast()
+        color = "green" if market_data_status else "grey"
+        logging.debug(f"MarketData component status: {'up' if market_data_status else 'down'}")
+        self.root.after(0, self.status_lights["MarketData"].configure, {'bg': color})
+
+    def check_market_data_multicast(self):
+        logging.debug("Checking market data multicast")
+        try:
+            # Set up the socket for receiving multicast data
+            sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM, socket.IPPROTO_UDP)
+            sock.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
+            sock.bind(('', MCAST_PORT))
+
+            # Join the multicast group
+            mreq = struct.pack("4sl", socket.inet_aton(MCAST_GRP), socket.INADDR_ANY)
+            sock.setsockopt(socket.IPPROTO_IP, socket.IP_ADD_MEMBERSHIP, mreq)
+
+            # Attempt to receive data
+            sock.settimeout(1)
+            try:
+                data, _ = sock.recvfrom(1024)
+                logging.debug("Successfully received multicast data")
+                return True
+            except socket.timeout:
+                logging.error("Failed to receive multicast data within the timeout period")
+                return False
+            finally:
+                sock.close()
+        except Exception as e:
+            logging.error(f"Error checking market data multicast: {e}")
+            return False
+
+    def schedule_update_market_data_status(self, color):
+        logging.debug(f"Scheduling update for Market Data status light to {color}")
+        self.status_update_queue.put(color)
+
+    def process_status_updates(self):
+        try:
+            while not self.status_update_queue.empty():
+                color = self.status_update_queue.get_nowait()
+                self.update_market_data_status(color)
+        except queue.Empty:
+            pass
+        finally:
+            self.root.after(100, self.process_status_updates)
 
     def update_market_data_status(self, color):
-        # Update the status light for market data
+        logging.debug(f"Updating Market Data status light to {color}")
         try:
-            logging.debug(f"Updating Market Data status light to {color}")
             self.status_lights["MarketData"].configure(bg=color)
         except Exception as e:
             logging.error(f"Error updating market data status light: {e}")
             messagebox.showerror("Error", f"Exception occurred: {e}")
 
     def ping_component(self, port):
+        logging.debug(f"Pinging component on port {port}")
         # Check if a component is reachable via TCP
         try:
             with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
-                s.connect(('localhost', port))
+                destination_ip = 'localhost'
+                logging.info(f"Trying to connect to {destination_ip}:{port}")
+                s.connect((destination_ip, port))
             logging.debug(f"Component on port {port} is up")
             return True
         except ConnectionRefusedError:
@@ -221,6 +295,7 @@ class TradingApp:
 
 if __name__ == "__main__":
     try:
+        logging.debug("Starting TradingApp")
         root = tk.Tk()
         app = TradingApp(root)
         root.protocol("WM_DELETE_WINDOW", lambda: (app.listener.stop(), root.destroy()))
