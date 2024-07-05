@@ -19,6 +19,8 @@ sends orders to the Order Router, and logs orders to a database.
 - Receiving: Multicast from 224.1.1.1 on port 5007.
 - Sending: TCP to Order Router on localhost:5008.
 - Dependencies: SQLite3, tkinter
+
+commit issue on 7/5/24
 """
 
 # Logging setup
