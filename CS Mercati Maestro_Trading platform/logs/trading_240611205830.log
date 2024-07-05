@@ -1,0 +1,2962 @@
+2024-06-11 20:58:30,978 DEBUG Starting TradingApp
+2024-06-11 20:58:31,221 DEBUG Starting MarketDataListener
+2024-06-11 20:58:31,222 DEBUG Initializing MarketDataListener
+2024-06-11 20:58:31,224 INFO Socket bound to ('', 5007)
+2024-06-11 20:58:31,224 INFO MarketDataListener joined multicast group 224.1.1.1 on port 5007
+2024-06-11 20:58:31,225 DEBUG MarketDataListener thread started
+2024-06-11 20:58:31,233 DEBUG Updating status lights
+2024-06-11 20:58:31,233 DEBUG Checking dependencies
+2024-06-11 20:58:31,233 DEBUG Pinging component on port 5008
+2024-06-11 20:58:31,233 INFO Trying to connect to localhost:5008
+2024-06-11 20:58:31,915 DEBUG Received market data message from 192.168.56.1:51439: red
+2024-06-11 20:58:31,916 DEBUG Scheduling update for Market Data status light to green
+2024-06-11 20:58:33,023 ERROR Error receiving market data message: main thread is not in main loop
+2024-06-11 20:58:33,023 DEBUG Scheduling update for Market Data status light to red
+2024-06-11 20:58:33,275 DEBUG Component on port 5008 is down
+2024-06-11 20:58:33,275 DEBUG Component OrderRouter status: down
+2024-06-11 20:58:33,275 DEBUG Pinging component on port 5009
+2024-06-11 20:58:33,276 INFO Trying to connect to localhost:5009
+2024-06-11 20:58:35,321 DEBUG Component on port 5009 is down
+2024-06-11 20:58:35,321 DEBUG Component FIXEngine status: down
+2024-06-11 20:58:35,321 DEBUG Pinging component on port 5010
+2024-06-11 20:58:35,321 INFO Trying to connect to localhost:5010
+2024-06-11 20:58:37,357 DEBUG Component on port 5010 is down
+2024-06-11 20:58:37,357 DEBUG Component MarketSimulator status: down
+2024-06-11 20:58:37,357 DEBUG Checking dependencies
+2024-06-11 20:58:37,357 DEBUG Pinging component on port 5008
+2024-06-11 20:58:37,357 INFO Trying to connect to localhost:5008
+2024-06-11 20:58:37,359 DEBUG Component on port 5008 is up
+2024-06-11 20:58:37,359 DEBUG Component OrderRouter status: up
+2024-06-11 20:58:37,359 DEBUG Pinging component on port 5009
+2024-06-11 20:58:37,359 INFO Trying to connect to localhost:5009
+2024-06-11 20:58:37,360 DEBUG Component on port 5009 is up
+2024-06-11 20:58:37,360 DEBUG Component FIXEngine status: up
+2024-06-11 20:58:37,360 DEBUG Pinging component on port 5010
+2024-06-11 20:58:37,360 INFO Trying to connect to localhost:5010
+2024-06-11 20:58:39,382 DEBUG Component on port 5010 is down
+2024-06-11 20:58:39,382 DEBUG Component MarketSimulator status: down
+2024-06-11 20:58:39,385 DEBUG Updating market data display
+2024-06-11 20:58:39,385 INFO 2024-06-11 20:58:39 - red from 192.168.56.1:51439
+2024-06-11 20:58:40,388 DEBUG Updating market data display
+2024-06-11 20:58:41,394 DEBUG Updating market data display
+2024-06-11 20:58:42,367 DEBUG Updating status lights
+2024-06-11 20:58:42,367 DEBUG Checking dependencies
+2024-06-11 20:58:42,367 DEBUG Pinging component on port 5008
+2024-06-11 20:58:42,367 INFO Trying to connect to localhost:5008
+2024-06-11 20:58:42,368 DEBUG Component on port 5008 is up
+2024-06-11 20:58:42,368 DEBUG Component OrderRouter status: up
+2024-06-11 20:58:42,369 DEBUG Pinging component on port 5009
+2024-06-11 20:58:42,369 INFO Trying to connect to localhost:5009
+2024-06-11 20:58:42,370 DEBUG Component on port 5009 is up
+2024-06-11 20:58:42,370 DEBUG Component FIXEngine status: up
+2024-06-11 20:58:42,370 DEBUG Pinging component on port 5010
+2024-06-11 20:58:42,370 INFO Trying to connect to localhost:5010
+2024-06-11 20:58:42,371 DEBUG Component on port 5010 is up
+2024-06-11 20:58:42,371 DEBUG Component MarketSimulator status: up
+2024-06-11 20:58:42,398 DEBUG Updating market data display
+2024-06-11 20:58:43,409 DEBUG Updating market data display
+2024-06-11 20:58:44,421 DEBUG Updating market data display
+2024-06-11 20:58:45,425 DEBUG Updating market data display
+2024-06-11 20:58:46,432 DEBUG Updating market data display
+2024-06-11 20:58:47,377 DEBUG Updating status lights
+2024-06-11 20:58:47,377 DEBUG Checking dependencies
+2024-06-11 20:58:47,377 DEBUG Pinging component on port 5008
+2024-06-11 20:58:47,377 INFO Trying to connect to localhost:5008
+2024-06-11 20:58:47,379 DEBUG Component on port 5008 is up
+2024-06-11 20:58:47,379 DEBUG Component OrderRouter status: up
+2024-06-11 20:58:47,379 DEBUG Pinging component on port 5009
+2024-06-11 20:58:47,379 INFO Trying to connect to localhost:5009
+2024-06-11 20:58:47,381 DEBUG Component on port 5009 is up
+2024-06-11 20:58:47,381 DEBUG Component FIXEngine status: up
+2024-06-11 20:58:47,381 DEBUG Pinging component on port 5010
+2024-06-11 20:58:47,381 INFO Trying to connect to localhost:5010
+2024-06-11 20:58:47,383 DEBUG Component on port 5010 is up
+2024-06-11 20:58:47,383 DEBUG Component MarketSimulator status: up
+2024-06-11 20:58:47,440 DEBUG Updating market data display
+2024-06-11 20:58:48,453 DEBUG Updating market data display
+2024-06-11 20:58:49,461 DEBUG Updating market data display
+2024-06-11 20:58:50,473 DEBUG Updating market data display
+2024-06-11 20:58:51,479 DEBUG Updating market data display
+2024-06-11 20:58:52,391 DEBUG Updating status lights
+2024-06-11 20:58:52,391 DEBUG Checking dependencies
+2024-06-11 20:58:52,391 DEBUG Pinging component on port 5008
+2024-06-11 20:58:52,391 INFO Trying to connect to localhost:5008
+2024-06-11 20:58:52,392 DEBUG Component on port 5008 is up
+2024-06-11 20:58:52,392 DEBUG Component OrderRouter status: up
+2024-06-11 20:58:52,392 DEBUG Pinging component on port 5009
+2024-06-11 20:58:52,393 INFO Trying to connect to localhost:5009
+2024-06-11 20:58:52,394 DEBUG Component on port 5009 is up
+2024-06-11 20:58:52,394 DEBUG Component FIXEngine status: up
+2024-06-11 20:58:52,394 DEBUG Pinging component on port 5010
+2024-06-11 20:58:52,394 INFO Trying to connect to localhost:5010
+2024-06-11 20:58:52,395 DEBUG Component on port 5010 is up
+2024-06-11 20:58:52,395 DEBUG Component MarketSimulator status: up
+2024-06-11 20:58:52,487 DEBUG Updating market data display
+2024-06-11 20:58:53,500 DEBUG Updating market data display
+2024-06-11 20:58:54,510 DEBUG Updating market data display
+2024-06-11 20:58:55,519 DEBUG Updating market data display
+2024-06-11 20:58:56,531 DEBUG Updating market data display
+2024-06-11 20:58:57,410 DEBUG Updating status lights
+2024-06-11 20:58:57,410 DEBUG Checking dependencies
+2024-06-11 20:58:57,410 DEBUG Pinging component on port 5008
+2024-06-11 20:58:57,410 INFO Trying to connect to localhost:5008
+2024-06-11 20:58:57,412 DEBUG Component on port 5008 is up
+2024-06-11 20:58:57,412 DEBUG Component OrderRouter status: up
+2024-06-11 20:58:57,412 DEBUG Pinging component on port 5009
+2024-06-11 20:58:57,412 INFO Trying to connect to localhost:5009
+2024-06-11 20:58:57,413 DEBUG Component on port 5009 is up
+2024-06-11 20:58:57,413 DEBUG Component FIXEngine status: up
+2024-06-11 20:58:57,414 DEBUG Pinging component on port 5010
+2024-06-11 20:58:57,414 INFO Trying to connect to localhost:5010
+2024-06-11 20:58:57,415 DEBUG Component on port 5010 is up
+2024-06-11 20:58:57,415 DEBUG Component MarketSimulator status: up
+2024-06-11 20:58:57,535 DEBUG Updating market data display
+2024-06-11 20:58:58,547 DEBUG Updating market data display
+2024-06-11 20:58:59,560 DEBUG Updating market data display
+2024-06-11 20:59:00,567 DEBUG Updating market data display
+2024-06-11 20:59:01,572 DEBUG Updating market data display
+2024-06-11 20:59:02,419 DEBUG Updating status lights
+2024-06-11 20:59:02,419 DEBUG Checking dependencies
+2024-06-11 20:59:02,419 DEBUG Pinging component on port 5008
+2024-06-11 20:59:02,419 INFO Trying to connect to localhost:5008
+2024-06-11 20:59:02,420 DEBUG Component on port 5008 is up
+2024-06-11 20:59:02,421 DEBUG Component OrderRouter status: up
+2024-06-11 20:59:02,421 DEBUG Pinging component on port 5009
+2024-06-11 20:59:02,422 INFO Trying to connect to localhost:5009
+2024-06-11 20:59:02,423 DEBUG Component on port 5009 is up
+2024-06-11 20:59:02,423 DEBUG Component FIXEngine status: up
+2024-06-11 20:59:02,423 DEBUG Pinging component on port 5010
+2024-06-11 20:59:02,423 INFO Trying to connect to localhost:5010
+2024-06-11 20:59:02,424 DEBUG Component on port 5010 is up
+2024-06-11 20:59:02,424 DEBUG Component MarketSimulator status: up
+2024-06-11 20:59:02,576 DEBUG Updating market data display
+2024-06-11 20:59:03,584 DEBUG Updating market data display
+2024-06-11 20:59:04,590 DEBUG Updating market data display
+2024-06-11 20:59:05,595 DEBUG Updating market data display
+2024-06-11 20:59:06,596 DEBUG Updating market data display
+2024-06-11 20:59:07,426 DEBUG Updating status lights
+2024-06-11 20:59:07,426 DEBUG Checking dependencies
+2024-06-11 20:59:07,426 DEBUG Pinging component on port 5008
+2024-06-11 20:59:07,426 INFO Trying to connect to localhost:5008
+2024-06-11 20:59:07,427 DEBUG Component on port 5008 is up
+2024-06-11 20:59:07,428 DEBUG Component OrderRouter status: up
+2024-06-11 20:59:07,428 DEBUG Pinging component on port 5009
+2024-06-11 20:59:07,428 INFO Trying to connect to localhost:5009
+2024-06-11 20:59:07,430 DEBUG Component on port 5009 is up
+2024-06-11 20:59:07,430 DEBUG Component FIXEngine status: up
+2024-06-11 20:59:07,430 DEBUG Pinging component on port 5010
+2024-06-11 20:59:07,430 INFO Trying to connect to localhost:5010
+2024-06-11 20:59:07,431 DEBUG Component on port 5010 is up
+2024-06-11 20:59:07,431 DEBUG Component MarketSimulator status: up
+2024-06-11 20:59:07,596 DEBUG Updating market data display
+2024-06-11 20:59:08,601 DEBUG Updating market data display
+2024-06-11 20:59:09,610 DEBUG Updating market data display
+2024-06-11 20:59:10,618 DEBUG Updating market data display
+2024-06-11 20:59:11,623 DEBUG Updating market data display
+2024-06-11 20:59:12,432 DEBUG Updating status lights
+2024-06-11 20:59:12,432 DEBUG Checking dependencies
+2024-06-11 20:59:12,432 DEBUG Pinging component on port 5008
+2024-06-11 20:59:12,433 INFO Trying to connect to localhost:5008
+2024-06-11 20:59:12,434 DEBUG Component on port 5008 is up
+2024-06-11 20:59:12,435 DEBUG Component OrderRouter status: up
+2024-06-11 20:59:12,435 DEBUG Pinging component on port 5009
+2024-06-11 20:59:12,435 INFO Trying to connect to localhost:5009
+2024-06-11 20:59:12,437 DEBUG Component on port 5009 is up
+2024-06-11 20:59:12,437 DEBUG Component FIXEngine status: up
+2024-06-11 20:59:12,437 DEBUG Pinging component on port 5010
+2024-06-11 20:59:12,437 INFO Trying to connect to localhost:5010
+2024-06-11 20:59:12,439 DEBUG Component on port 5010 is up
+2024-06-11 20:59:12,439 DEBUG Component MarketSimulator status: up
+2024-06-11 20:59:12,635 DEBUG Updating market data display
+2024-06-11 20:59:13,647 DEBUG Updating market data display
+2024-06-11 20:59:14,655 DEBUG Updating market data display
+2024-06-11 20:59:15,663 DEBUG Updating market data display
+2024-06-11 20:59:16,677 DEBUG Updating market data display
+2024-06-11 20:59:17,454 DEBUG Updating status lights
+2024-06-11 20:59:17,454 DEBUG Checking dependencies
+2024-06-11 20:59:17,454 DEBUG Pinging component on port 5008
+2024-06-11 20:59:17,454 INFO Trying to connect to localhost:5008
+2024-06-11 20:59:17,455 DEBUG Component on port 5008 is up
+2024-06-11 20:59:17,455 DEBUG Component OrderRouter status: up
+2024-06-11 20:59:17,456 DEBUG Pinging component on port 5009
+2024-06-11 20:59:17,456 INFO Trying to connect to localhost:5009
+2024-06-11 20:59:17,457 DEBUG Component on port 5009 is up
+2024-06-11 20:59:17,457 DEBUG Component FIXEngine status: up
+2024-06-11 20:59:17,457 DEBUG Pinging component on port 5010
+2024-06-11 20:59:17,457 INFO Trying to connect to localhost:5010
+2024-06-11 20:59:17,458 DEBUG Component on port 5010 is up
+2024-06-11 20:59:17,459 DEBUG Component MarketSimulator status: up
+2024-06-11 20:59:17,683 DEBUG Updating market data display
+2024-06-11 20:59:18,689 DEBUG Updating market data display
+2024-06-11 20:59:19,699 DEBUG Updating market data display
+2024-06-11 20:59:20,713 DEBUG Updating market data display
+2024-06-11 20:59:21,727 DEBUG Updating market data display
+2024-06-11 20:59:22,471 DEBUG Updating status lights
+2024-06-11 20:59:22,471 DEBUG Checking dependencies
+2024-06-11 20:59:22,471 DEBUG Pinging component on port 5008
+2024-06-11 20:59:22,471 INFO Trying to connect to localhost:5008
+2024-06-11 20:59:22,472 DEBUG Component on port 5008 is up
+2024-06-11 20:59:22,473 DEBUG Component OrderRouter status: up
+2024-06-11 20:59:22,473 DEBUG Pinging component on port 5009
+2024-06-11 20:59:22,473 INFO Trying to connect to localhost:5009
+2024-06-11 20:59:22,474 DEBUG Component on port 5009 is up
+2024-06-11 20:59:22,474 DEBUG Component FIXEngine status: up
+2024-06-11 20:59:22,475 DEBUG Pinging component on port 5010
+2024-06-11 20:59:22,475 INFO Trying to connect to localhost:5010
+2024-06-11 20:59:22,476 DEBUG Component on port 5010 is up
+2024-06-11 20:59:22,476 DEBUG Component MarketSimulator status: up
+2024-06-11 20:59:22,735 DEBUG Updating market data display
+2024-06-11 20:59:23,749 DEBUG Updating market data display
+2024-06-11 20:59:24,762 DEBUG Updating market data display
+2024-06-11 20:59:25,771 DEBUG Updating market data display
+2024-06-11 20:59:26,784 DEBUG Updating market data display
+2024-06-11 20:59:27,485 DEBUG Updating status lights
+2024-06-11 20:59:27,485 DEBUG Checking dependencies
+2024-06-11 20:59:27,485 DEBUG Pinging component on port 5008
+2024-06-11 20:59:27,486 INFO Trying to connect to localhost:5008
+2024-06-11 20:59:27,487 DEBUG Component on port 5008 is up
+2024-06-11 20:59:27,487 DEBUG Component OrderRouter status: up
+2024-06-11 20:59:27,488 DEBUG Pinging component on port 5009
+2024-06-11 20:59:27,488 INFO Trying to connect to localhost:5009
+2024-06-11 20:59:27,489 DEBUG Component on port 5009 is up
+2024-06-11 20:59:27,489 DEBUG Component FIXEngine status: up
+2024-06-11 20:59:27,489 DEBUG Pinging component on port 5010
+2024-06-11 20:59:27,489 INFO Trying to connect to localhost:5010
+2024-06-11 20:59:27,491 DEBUG Component on port 5010 is up
+2024-06-11 20:59:27,492 DEBUG Component MarketSimulator status: up
+2024-06-11 20:59:27,799 DEBUG Updating market data display
+2024-06-11 20:59:28,802 DEBUG Updating market data display
+2024-06-11 20:59:29,816 DEBUG Updating market data display
+2024-06-11 20:59:30,825 DEBUG Updating market data display
+2024-06-11 20:59:31,830 DEBUG Updating market data display
+2024-06-11 20:59:32,493 DEBUG Updating status lights
+2024-06-11 20:59:32,493 DEBUG Checking dependencies
+2024-06-11 20:59:32,493 DEBUG Pinging component on port 5008
+2024-06-11 20:59:32,494 INFO Trying to connect to localhost:5008
+2024-06-11 20:59:32,495 DEBUG Component on port 5008 is up
+2024-06-11 20:59:32,495 DEBUG Component OrderRouter status: up
+2024-06-11 20:59:32,496 DEBUG Pinging component on port 5009
+2024-06-11 20:59:32,496 INFO Trying to connect to localhost:5009
+2024-06-11 20:59:32,497 DEBUG Component on port 5009 is up
+2024-06-11 20:59:32,498 DEBUG Component FIXEngine status: up
+2024-06-11 20:59:32,498 DEBUG Pinging component on port 5010
+2024-06-11 20:59:32,498 INFO Trying to connect to localhost:5010
+2024-06-11 20:59:32,500 DEBUG Component on port 5010 is up
+2024-06-11 20:59:32,500 DEBUG Component MarketSimulator status: up
+2024-06-11 20:59:32,838 DEBUG Updating market data display
+2024-06-11 20:59:33,844 DEBUG Updating market data display
+2024-06-11 20:59:34,852 DEBUG Updating market data display
+2024-06-11 20:59:35,854 DEBUG Updating market data display
+2024-06-11 20:59:36,865 DEBUG Updating market data display
+2024-06-11 20:59:37,508 DEBUG Updating status lights
+2024-06-11 20:59:37,508 DEBUG Checking dependencies
+2024-06-11 20:59:37,508 DEBUG Pinging component on port 5008
+2024-06-11 20:59:37,509 INFO Trying to connect to localhost:5008
+2024-06-11 20:59:37,510 DEBUG Component on port 5008 is up
+2024-06-11 20:59:37,511 DEBUG Component OrderRouter status: up
+2024-06-11 20:59:37,511 DEBUG Pinging component on port 5009
+2024-06-11 20:59:37,511 INFO Trying to connect to localhost:5009
+2024-06-11 20:59:37,513 DEBUG Component on port 5009 is up
+2024-06-11 20:59:37,513 DEBUG Component FIXEngine status: up
+2024-06-11 20:59:37,513 DEBUG Pinging component on port 5010
+2024-06-11 20:59:37,515 INFO Trying to connect to localhost:5010
+2024-06-11 20:59:37,515 DEBUG Component on port 5010 is up
+2024-06-11 20:59:37,516 DEBUG Component MarketSimulator status: up
+2024-06-11 20:59:37,866 DEBUG Updating market data display
+2024-06-11 20:59:38,876 DEBUG Updating market data display
+2024-06-11 20:59:39,890 DEBUG Updating market data display
+2024-06-11 20:59:40,901 DEBUG Updating market data display
+2024-06-11 20:59:41,905 DEBUG Updating market data display
+2024-06-11 20:59:42,519 DEBUG Updating status lights
+2024-06-11 20:59:42,519 DEBUG Checking dependencies
+2024-06-11 20:59:42,519 DEBUG Pinging component on port 5008
+2024-06-11 20:59:42,519 INFO Trying to connect to localhost:5008
+2024-06-11 20:59:42,520 DEBUG Component on port 5008 is up
+2024-06-11 20:59:42,521 DEBUG Component OrderRouter status: up
+2024-06-11 20:59:42,521 DEBUG Pinging component on port 5009
+2024-06-11 20:59:42,521 INFO Trying to connect to localhost:5009
+2024-06-11 20:59:42,522 DEBUG Component on port 5009 is up
+2024-06-11 20:59:42,522 DEBUG Component FIXEngine status: up
+2024-06-11 20:59:42,522 DEBUG Pinging component on port 5010
+2024-06-11 20:59:42,522 INFO Trying to connect to localhost:5010
+2024-06-11 20:59:42,524 DEBUG Component on port 5010 is up
+2024-06-11 20:59:42,525 DEBUG Component MarketSimulator status: up
+2024-06-11 20:59:42,912 DEBUG Updating market data display
+2024-06-11 20:59:43,921 DEBUG Updating market data display
+2024-06-11 20:59:44,924 DEBUG Updating market data display
+2024-06-11 20:59:45,932 DEBUG Updating market data display
+2024-06-11 20:59:46,941 DEBUG Updating market data display
+2024-06-11 20:59:47,526 DEBUG Updating status lights
+2024-06-11 20:59:47,526 DEBUG Checking dependencies
+2024-06-11 20:59:47,526 DEBUG Pinging component on port 5008
+2024-06-11 20:59:47,527 INFO Trying to connect to localhost:5008
+2024-06-11 20:59:47,528 DEBUG Component on port 5008 is up
+2024-06-11 20:59:47,529 DEBUG Component OrderRouter status: up
+2024-06-11 20:59:47,529 DEBUG Pinging component on port 5009
+2024-06-11 20:59:47,529 INFO Trying to connect to localhost:5009
+2024-06-11 20:59:47,531 DEBUG Component on port 5009 is up
+2024-06-11 20:59:47,531 DEBUG Component FIXEngine status: up
+2024-06-11 20:59:47,531 DEBUG Pinging component on port 5010
+2024-06-11 20:59:47,532 INFO Trying to connect to localhost:5010
+2024-06-11 20:59:47,533 DEBUG Component on port 5010 is up
+2024-06-11 20:59:47,534 DEBUG Component MarketSimulator status: up
+2024-06-11 20:59:47,946 DEBUG Updating market data display
+2024-06-11 20:59:48,949 DEBUG Updating market data display
+2024-06-11 20:59:49,958 DEBUG Updating market data display
+2024-06-11 20:59:50,971 DEBUG Updating market data display
+2024-06-11 20:59:51,980 DEBUG Updating market data display
+2024-06-11 20:59:52,539 DEBUG Updating status lights
+2024-06-11 20:59:52,539 DEBUG Checking dependencies
+2024-06-11 20:59:52,539 DEBUG Pinging component on port 5008
+2024-06-11 20:59:52,539 INFO Trying to connect to localhost:5008
+2024-06-11 20:59:52,541 DEBUG Component on port 5008 is up
+2024-06-11 20:59:52,541 DEBUG Component OrderRouter status: up
+2024-06-11 20:59:52,541 DEBUG Pinging component on port 5009
+2024-06-11 20:59:52,541 INFO Trying to connect to localhost:5009
+2024-06-11 20:59:52,543 DEBUG Component on port 5009 is up
+2024-06-11 20:59:52,543 DEBUG Component FIXEngine status: up
+2024-06-11 20:59:52,544 DEBUG Pinging component on port 5010
+2024-06-11 20:59:52,544 INFO Trying to connect to localhost:5010
+2024-06-11 20:59:52,545 DEBUG Component on port 5010 is up
+2024-06-11 20:59:52,545 DEBUG Component MarketSimulator status: up
+2024-06-11 20:59:52,981 DEBUG Updating market data display
+2024-06-11 20:59:53,982 DEBUG Updating market data display
+2024-06-11 20:59:54,995 DEBUG Updating market data display
+2024-06-11 20:59:56,008 DEBUG Updating market data display
+2024-06-11 20:59:57,014 DEBUG Updating market data display
+2024-06-11 20:59:57,553 DEBUG Updating status lights
+2024-06-11 20:59:57,553 DEBUG Checking dependencies
+2024-06-11 20:59:57,553 DEBUG Pinging component on port 5008
+2024-06-11 20:59:57,553 INFO Trying to connect to localhost:5008
+2024-06-11 20:59:57,555 DEBUG Component on port 5008 is up
+2024-06-11 20:59:57,555 DEBUG Component OrderRouter status: up
+2024-06-11 20:59:57,556 DEBUG Pinging component on port 5009
+2024-06-11 20:59:57,556 INFO Trying to connect to localhost:5009
+2024-06-11 20:59:57,557 DEBUG Component on port 5009 is up
+2024-06-11 20:59:57,558 DEBUG Component FIXEngine status: up
+2024-06-11 20:59:57,558 DEBUG Pinging component on port 5010
+2024-06-11 20:59:57,558 INFO Trying to connect to localhost:5010
+2024-06-11 20:59:57,560 DEBUG Component on port 5010 is up
+2024-06-11 20:59:57,560 DEBUG Component MarketSimulator status: up
+2024-06-11 20:59:58,025 DEBUG Updating market data display
+2024-06-11 20:59:59,038 DEBUG Updating market data display
+2024-06-11 21:00:00,048 DEBUG Updating market data display
+2024-06-11 21:00:01,059 DEBUG Updating market data display
+2024-06-11 21:00:02,071 DEBUG Updating market data display
+2024-06-11 21:00:02,573 DEBUG Updating status lights
+2024-06-11 21:00:02,573 DEBUG Checking dependencies
+2024-06-11 21:00:02,574 DEBUG Pinging component on port 5008
+2024-06-11 21:00:02,574 INFO Trying to connect to localhost:5008
+2024-06-11 21:00:02,576 DEBUG Component on port 5008 is up
+2024-06-11 21:00:02,576 DEBUG Component OrderRouter status: up
+2024-06-11 21:00:02,576 DEBUG Pinging component on port 5009
+2024-06-11 21:00:02,577 INFO Trying to connect to localhost:5009
+2024-06-11 21:00:02,578 DEBUG Component on port 5009 is up
+2024-06-11 21:00:02,578 DEBUG Component FIXEngine status: up
+2024-06-11 21:00:02,578 DEBUG Pinging component on port 5010
+2024-06-11 21:00:02,579 INFO Trying to connect to localhost:5010
+2024-06-11 21:00:02,580 DEBUG Component on port 5010 is up
+2024-06-11 21:00:02,580 DEBUG Component MarketSimulator status: up
+2024-06-11 21:00:03,083 DEBUG Updating market data display
+2024-06-11 21:00:04,093 DEBUG Updating market data display
+2024-06-11 21:00:05,100 DEBUG Updating market data display
+2024-06-11 21:00:06,109 DEBUG Updating market data display
+2024-06-11 21:00:07,123 DEBUG Updating market data display
+2024-06-11 21:00:07,592 DEBUG Updating status lights
+2024-06-11 21:00:07,592 DEBUG Checking dependencies
+2024-06-11 21:00:07,592 DEBUG Pinging component on port 5008
+2024-06-11 21:00:07,592 INFO Trying to connect to localhost:5008
+2024-06-11 21:00:07,594 DEBUG Component on port 5008 is up
+2024-06-11 21:00:07,594 DEBUG Component OrderRouter status: up
+2024-06-11 21:00:07,594 DEBUG Pinging component on port 5009
+2024-06-11 21:00:07,594 INFO Trying to connect to localhost:5009
+2024-06-11 21:00:07,595 DEBUG Component on port 5009 is up
+2024-06-11 21:00:07,595 DEBUG Component FIXEngine status: up
+2024-06-11 21:00:07,596 DEBUG Pinging component on port 5010
+2024-06-11 21:00:07,596 INFO Trying to connect to localhost:5010
+2024-06-11 21:00:07,597 DEBUG Component on port 5010 is up
+2024-06-11 21:00:07,597 DEBUG Component MarketSimulator status: up
+2024-06-11 21:00:08,125 DEBUG Updating market data display
+2024-06-11 21:00:09,133 DEBUG Updating market data display
+2024-06-11 21:00:10,139 DEBUG Updating market data display
+2024-06-11 21:00:11,143 DEBUG Updating market data display
+2024-06-11 21:00:12,149 DEBUG Updating market data display
+2024-06-11 21:00:12,604 DEBUG Updating status lights
+2024-06-11 21:00:12,604 DEBUG Checking dependencies
+2024-06-11 21:00:12,604 DEBUG Pinging component on port 5008
+2024-06-11 21:00:12,604 INFO Trying to connect to localhost:5008
+2024-06-11 21:00:12,605 DEBUG Component on port 5008 is up
+2024-06-11 21:00:12,606 DEBUG Component OrderRouter status: up
+2024-06-11 21:00:12,606 DEBUG Pinging component on port 5009
+2024-06-11 21:00:12,606 INFO Trying to connect to localhost:5009
+2024-06-11 21:00:12,608 DEBUG Component on port 5009 is up
+2024-06-11 21:00:12,608 DEBUG Component FIXEngine status: up
+2024-06-11 21:00:12,608 DEBUG Pinging component on port 5010
+2024-06-11 21:00:12,608 INFO Trying to connect to localhost:5010
+2024-06-11 21:00:12,610 DEBUG Component on port 5010 is up
+2024-06-11 21:00:12,610 DEBUG Component MarketSimulator status: up
+2024-06-11 21:00:13,156 DEBUG Updating market data display
+2024-06-11 21:00:14,160 DEBUG Updating market data display
+2024-06-11 21:00:15,168 DEBUG Updating market data display
+2024-06-11 21:00:16,168 DEBUG Updating market data display
+2024-06-11 21:00:17,174 DEBUG Updating market data display
+2024-06-11 21:00:17,614 DEBUG Updating status lights
+2024-06-11 21:00:17,614 DEBUG Checking dependencies
+2024-06-11 21:00:17,614 DEBUG Pinging component on port 5008
+2024-06-11 21:00:17,615 INFO Trying to connect to localhost:5008
+2024-06-11 21:00:17,616 DEBUG Component on port 5008 is up
+2024-06-11 21:00:17,616 DEBUG Component OrderRouter status: up
+2024-06-11 21:00:17,617 DEBUG Pinging component on port 5009
+2024-06-11 21:00:17,617 INFO Trying to connect to localhost:5009
+2024-06-11 21:00:17,618 DEBUG Component on port 5009 is up
+2024-06-11 21:00:17,619 DEBUG Component FIXEngine status: up
+2024-06-11 21:00:17,619 DEBUG Pinging component on port 5010
+2024-06-11 21:00:17,619 INFO Trying to connect to localhost:5010
+2024-06-11 21:00:17,621 DEBUG Component on port 5010 is up
+2024-06-11 21:00:17,621 DEBUG Component MarketSimulator status: up
+2024-06-11 21:00:18,175 DEBUG Updating market data display
+2024-06-11 21:00:19,188 DEBUG Updating market data display
+2024-06-11 21:00:20,199 DEBUG Updating market data display
+2024-06-11 21:00:21,208 DEBUG Updating market data display
+2024-06-11 21:00:22,215 DEBUG Updating market data display
+2024-06-11 21:00:22,626 DEBUG Updating status lights
+2024-06-11 21:00:22,626 DEBUG Checking dependencies
+2024-06-11 21:00:22,627 DEBUG Pinging component on port 5008
+2024-06-11 21:00:22,627 INFO Trying to connect to localhost:5008
+2024-06-11 21:00:22,628 DEBUG Component on port 5008 is up
+2024-06-11 21:00:22,628 DEBUG Component OrderRouter status: up
+2024-06-11 21:00:22,629 DEBUG Pinging component on port 5009
+2024-06-11 21:00:22,629 INFO Trying to connect to localhost:5009
+2024-06-11 21:00:22,630 DEBUG Component on port 5009 is up
+2024-06-11 21:00:22,631 DEBUG Component FIXEngine status: up
+2024-06-11 21:00:22,631 DEBUG Pinging component on port 5010
+2024-06-11 21:00:22,631 INFO Trying to connect to localhost:5010
+2024-06-11 21:00:22,633 DEBUG Component on port 5010 is up
+2024-06-11 21:00:22,633 DEBUG Component MarketSimulator status: up
+2024-06-11 21:00:23,225 DEBUG Updating market data display
+2024-06-11 21:00:24,230 DEBUG Updating market data display
+2024-06-11 21:00:25,232 DEBUG Updating market data display
+2024-06-11 21:00:26,234 DEBUG Updating market data display
+2024-06-11 21:00:27,243 DEBUG Updating market data display
+2024-06-11 21:00:27,638 DEBUG Updating status lights
+2024-06-11 21:00:27,638 DEBUG Checking dependencies
+2024-06-11 21:00:27,638 DEBUG Pinging component on port 5008
+2024-06-11 21:00:27,638 INFO Trying to connect to localhost:5008
+2024-06-11 21:00:27,640 DEBUG Component on port 5008 is up
+2024-06-11 21:00:27,640 DEBUG Component OrderRouter status: up
+2024-06-11 21:00:27,641 DEBUG Pinging component on port 5009
+2024-06-11 21:00:27,641 INFO Trying to connect to localhost:5009
+2024-06-11 21:00:27,643 DEBUG Component on port 5009 is up
+2024-06-11 21:00:27,643 DEBUG Component FIXEngine status: up
+2024-06-11 21:00:27,644 DEBUG Pinging component on port 5010
+2024-06-11 21:00:27,644 INFO Trying to connect to localhost:5010
+2024-06-11 21:00:27,645 DEBUG Component on port 5010 is up
+2024-06-11 21:00:27,645 DEBUG Component MarketSimulator status: up
+2024-06-11 21:00:28,249 DEBUG Updating market data display
+2024-06-11 21:00:29,251 DEBUG Updating market data display
+2024-06-11 21:00:30,265 DEBUG Updating market data display
+2024-06-11 21:00:31,273 DEBUG Updating market data display
+2024-06-11 21:00:32,278 DEBUG Updating market data display
+2024-06-11 21:00:32,653 DEBUG Updating status lights
+2024-06-11 21:00:32,653 DEBUG Checking dependencies
+2024-06-11 21:00:32,654 DEBUG Pinging component on port 5008
+2024-06-11 21:00:32,654 INFO Trying to connect to localhost:5008
+2024-06-11 21:00:32,656 DEBUG Component on port 5008 is up
+2024-06-11 21:00:32,657 DEBUG Component OrderRouter status: up
+2024-06-11 21:00:32,657 DEBUG Pinging component on port 5009
+2024-06-11 21:00:32,658 INFO Trying to connect to localhost:5009
+2024-06-11 21:00:32,660 DEBUG Component on port 5009 is up
+2024-06-11 21:00:32,660 DEBUG Component FIXEngine status: up
+2024-06-11 21:00:32,661 DEBUG Pinging component on port 5010
+2024-06-11 21:00:32,661 INFO Trying to connect to localhost:5010
+2024-06-11 21:00:32,664 DEBUG Component on port 5010 is up
+2024-06-11 21:00:32,664 DEBUG Component MarketSimulator status: up
+2024-06-11 21:00:33,284 DEBUG Updating market data display
+2024-06-11 21:00:34,288 DEBUG Updating market data display
+2024-06-11 21:00:35,289 DEBUG Updating market data display
+2024-06-11 21:00:36,301 DEBUG Updating market data display
+2024-06-11 21:00:37,311 DEBUG Updating market data display
+2024-06-11 21:00:37,673 DEBUG Updating status lights
+2024-06-11 21:00:37,673 DEBUG Checking dependencies
+2024-06-11 21:00:37,673 DEBUG Pinging component on port 5008
+2024-06-11 21:00:37,674 INFO Trying to connect to localhost:5008
+2024-06-11 21:00:37,675 DEBUG Component on port 5008 is up
+2024-06-11 21:00:37,676 DEBUG Component OrderRouter status: up
+2024-06-11 21:00:37,676 DEBUG Pinging component on port 5009
+2024-06-11 21:00:37,676 INFO Trying to connect to localhost:5009
+2024-06-11 21:00:37,678 DEBUG Component on port 5009 is up
+2024-06-11 21:00:37,678 DEBUG Component FIXEngine status: up
+2024-06-11 21:00:37,678 DEBUG Pinging component on port 5010
+2024-06-11 21:00:37,678 INFO Trying to connect to localhost:5010
+2024-06-11 21:00:37,680 DEBUG Component on port 5010 is up
+2024-06-11 21:00:37,680 DEBUG Component MarketSimulator status: up
+2024-06-11 21:00:38,314 DEBUG Updating market data display
+2024-06-11 21:00:39,325 DEBUG Updating market data display
+2024-06-11 21:00:40,333 DEBUG Updating market data display
+2024-06-11 21:00:41,341 DEBUG Updating market data display
+2024-06-11 21:00:42,347 DEBUG Updating market data display
+2024-06-11 21:00:42,695 DEBUG Updating status lights
+2024-06-11 21:00:42,695 DEBUG Checking dependencies
+2024-06-11 21:00:42,695 DEBUG Pinging component on port 5008
+2024-06-11 21:00:42,695 INFO Trying to connect to localhost:5008
+2024-06-11 21:00:42,696 DEBUG Component on port 5008 is up
+2024-06-11 21:00:42,696 DEBUG Component OrderRouter status: up
+2024-06-11 21:00:42,697 DEBUG Pinging component on port 5009
+2024-06-11 21:00:42,697 INFO Trying to connect to localhost:5009
+2024-06-11 21:00:42,698 DEBUG Component on port 5009 is up
+2024-06-11 21:00:42,698 DEBUG Component FIXEngine status: up
+2024-06-11 21:00:42,698 DEBUG Pinging component on port 5010
+2024-06-11 21:00:42,698 INFO Trying to connect to localhost:5010
+2024-06-11 21:00:42,700 DEBUG Component on port 5010 is up
+2024-06-11 21:00:42,700 DEBUG Component MarketSimulator status: up
+2024-06-11 21:00:43,357 DEBUG Updating market data display
+2024-06-11 21:00:44,362 DEBUG Updating market data display
+2024-06-11 21:00:45,376 DEBUG Updating market data display
+2024-06-11 21:00:46,377 DEBUG Updating market data display
+2024-06-11 21:00:47,390 DEBUG Updating market data display
+2024-06-11 21:00:47,707 DEBUG Updating status lights
+2024-06-11 21:00:47,707 DEBUG Checking dependencies
+2024-06-11 21:00:47,707 DEBUG Pinging component on port 5008
+2024-06-11 21:00:47,707 INFO Trying to connect to localhost:5008
+2024-06-11 21:00:47,708 DEBUG Component on port 5008 is up
+2024-06-11 21:00:47,708 DEBUG Component OrderRouter status: up
+2024-06-11 21:00:47,709 DEBUG Pinging component on port 5009
+2024-06-11 21:00:47,709 INFO Trying to connect to localhost:5009
+2024-06-11 21:00:47,710 DEBUG Component on port 5009 is up
+2024-06-11 21:00:47,710 DEBUG Component FIXEngine status: up
+2024-06-11 21:00:47,710 DEBUG Pinging component on port 5010
+2024-06-11 21:00:47,710 INFO Trying to connect to localhost:5010
+2024-06-11 21:00:47,711 DEBUG Component on port 5010 is up
+2024-06-11 21:00:47,711 DEBUG Component MarketSimulator status: up
+2024-06-11 21:00:48,404 DEBUG Updating market data display
+2024-06-11 21:00:49,407 DEBUG Updating market data display
+2024-06-11 21:00:50,409 DEBUG Updating market data display
+2024-06-11 21:00:51,419 DEBUG Updating market data display
+2024-06-11 21:00:52,427 DEBUG Updating market data display
+2024-06-11 21:00:52,726 DEBUG Updating status lights
+2024-06-11 21:00:52,726 DEBUG Checking dependencies
+2024-06-11 21:00:52,726 DEBUG Pinging component on port 5008
+2024-06-11 21:00:52,726 INFO Trying to connect to localhost:5008
+2024-06-11 21:00:52,728 DEBUG Component on port 5008 is up
+2024-06-11 21:00:52,728 DEBUG Component OrderRouter status: up
+2024-06-11 21:00:52,728 DEBUG Pinging component on port 5009
+2024-06-11 21:00:52,729 INFO Trying to connect to localhost:5009
+2024-06-11 21:00:52,730 DEBUG Component on port 5009 is up
+2024-06-11 21:00:52,730 DEBUG Component FIXEngine status: up
+2024-06-11 21:00:52,730 DEBUG Pinging component on port 5010
+2024-06-11 21:00:52,731 INFO Trying to connect to localhost:5010
+2024-06-11 21:00:52,732 DEBUG Component on port 5010 is up
+2024-06-11 21:00:52,732 DEBUG Component MarketSimulator status: up
+2024-06-11 21:00:53,431 DEBUG Updating market data display
+2024-06-11 21:00:54,432 DEBUG Updating market data display
+2024-06-11 21:00:55,447 DEBUG Updating market data display
+2024-06-11 21:00:56,450 DEBUG Updating market data display
+2024-06-11 21:00:57,456 DEBUG Updating market data display
+2024-06-11 21:00:57,739 DEBUG Updating status lights
+2024-06-11 21:00:57,739 DEBUG Checking dependencies
+2024-06-11 21:00:57,739 DEBUG Pinging component on port 5008
+2024-06-11 21:00:57,740 INFO Trying to connect to localhost:5008
+2024-06-11 21:00:57,741 DEBUG Component on port 5008 is up
+2024-06-11 21:00:57,741 DEBUG Component OrderRouter status: up
+2024-06-11 21:00:57,741 DEBUG Pinging component on port 5009
+2024-06-11 21:00:57,742 INFO Trying to connect to localhost:5009
+2024-06-11 21:00:57,743 DEBUG Component on port 5009 is up
+2024-06-11 21:00:57,743 DEBUG Component FIXEngine status: up
+2024-06-11 21:00:57,744 DEBUG Pinging component on port 5010
+2024-06-11 21:00:57,744 INFO Trying to connect to localhost:5010
+2024-06-11 21:00:57,746 DEBUG Component on port 5010 is up
+2024-06-11 21:00:57,746 DEBUG Component MarketSimulator status: up
+2024-06-11 21:00:58,458 DEBUG Updating market data display
+2024-06-11 21:00:59,468 DEBUG Updating market data display
+2024-06-11 21:01:00,483 DEBUG Updating market data display
+2024-06-11 21:01:01,487 DEBUG Updating market data display
+2024-06-11 21:01:02,493 DEBUG Updating market data display
+2024-06-11 21:01:02,754 DEBUG Updating status lights
+2024-06-11 21:01:02,754 DEBUG Checking dependencies
+2024-06-11 21:01:02,755 DEBUG Pinging component on port 5008
+2024-06-11 21:01:02,755 INFO Trying to connect to localhost:5008
+2024-06-11 21:01:02,758 DEBUG Component on port 5008 is up
+2024-06-11 21:01:02,758 DEBUG Component OrderRouter status: up
+2024-06-11 21:01:02,758 DEBUG Pinging component on port 5009
+2024-06-11 21:01:02,759 INFO Trying to connect to localhost:5009
+2024-06-11 21:01:02,761 DEBUG Component on port 5009 is up
+2024-06-11 21:01:02,761 DEBUG Component FIXEngine status: up
+2024-06-11 21:01:02,761 DEBUG Pinging component on port 5010
+2024-06-11 21:01:02,762 INFO Trying to connect to localhost:5010
+2024-06-11 21:01:02,764 DEBUG Component on port 5010 is up
+2024-06-11 21:01:02,764 DEBUG Component MarketSimulator status: up
+2024-06-11 21:01:03,494 DEBUG Updating market data display
+2024-06-11 21:01:04,498 DEBUG Updating market data display
+2024-06-11 21:01:05,503 DEBUG Updating market data display
+2024-06-11 21:01:06,506 DEBUG Updating market data display
+2024-06-11 21:01:07,521 DEBUG Updating market data display
+2024-06-11 21:01:07,773 DEBUG Updating status lights
+2024-06-11 21:01:07,773 DEBUG Checking dependencies
+2024-06-11 21:01:07,773 DEBUG Pinging component on port 5008
+2024-06-11 21:01:07,774 INFO Trying to connect to localhost:5008
+2024-06-11 21:01:07,776 DEBUG Component on port 5008 is up
+2024-06-11 21:01:07,776 DEBUG Component OrderRouter status: up
+2024-06-11 21:01:07,777 DEBUG Pinging component on port 5009
+2024-06-11 21:01:07,777 INFO Trying to connect to localhost:5009
+2024-06-11 21:01:07,779 DEBUG Component on port 5009 is up
+2024-06-11 21:01:07,779 DEBUG Component FIXEngine status: up
+2024-06-11 21:01:07,780 DEBUG Pinging component on port 5010
+2024-06-11 21:01:07,780 INFO Trying to connect to localhost:5010
+2024-06-11 21:01:07,782 DEBUG Component on port 5010 is up
+2024-06-11 21:01:07,782 DEBUG Component MarketSimulator status: up
+2024-06-11 21:01:08,525 DEBUG Updating market data display
+2024-06-11 21:01:09,535 DEBUG Updating market data display
+2024-06-11 21:01:10,540 DEBUG Updating market data display
+2024-06-11 21:01:11,543 DEBUG Updating market data display
+2024-06-11 21:01:12,545 DEBUG Updating market data display
+2024-06-11 21:01:12,793 DEBUG Updating status lights
+2024-06-11 21:01:12,793 DEBUG Checking dependencies
+2024-06-11 21:01:12,794 DEBUG Pinging component on port 5008
+2024-06-11 21:01:12,794 INFO Trying to connect to localhost:5008
+2024-06-11 21:01:12,796 DEBUG Component on port 5008 is up
+2024-06-11 21:01:12,796 DEBUG Component OrderRouter status: up
+2024-06-11 21:01:12,796 DEBUG Pinging component on port 5009
+2024-06-11 21:01:12,797 INFO Trying to connect to localhost:5009
+2024-06-11 21:01:12,798 DEBUG Component on port 5009 is up
+2024-06-11 21:01:12,798 DEBUG Component FIXEngine status: up
+2024-06-11 21:01:12,799 DEBUG Pinging component on port 5010
+2024-06-11 21:01:12,799 INFO Trying to connect to localhost:5010
+2024-06-11 21:01:12,800 DEBUG Component on port 5010 is up
+2024-06-11 21:01:12,800 DEBUG Component MarketSimulator status: up
+2024-06-11 21:01:13,546 DEBUG Updating market data display
+2024-06-11 21:01:14,556 DEBUG Updating market data display
+2024-06-11 21:01:15,562 DEBUG Updating market data display
+2024-06-11 21:01:16,563 DEBUG Updating market data display
+2024-06-11 21:01:17,574 DEBUG Updating market data display
+2024-06-11 21:01:17,805 DEBUG Updating status lights
+2024-06-11 21:01:17,805 DEBUG Checking dependencies
+2024-06-11 21:01:17,805 DEBUG Pinging component on port 5008
+2024-06-11 21:01:17,805 INFO Trying to connect to localhost:5008
+2024-06-11 21:01:17,806 DEBUG Component on port 5008 is up
+2024-06-11 21:01:17,806 DEBUG Component OrderRouter status: up
+2024-06-11 21:01:17,806 DEBUG Pinging component on port 5009
+2024-06-11 21:01:17,806 INFO Trying to connect to localhost:5009
+2024-06-11 21:01:17,807 DEBUG Component on port 5009 is up
+2024-06-11 21:01:17,807 DEBUG Component FIXEngine status: up
+2024-06-11 21:01:17,808 DEBUG Pinging component on port 5010
+2024-06-11 21:01:17,808 INFO Trying to connect to localhost:5010
+2024-06-11 21:01:17,809 DEBUG Component on port 5010 is up
+2024-06-11 21:01:17,809 DEBUG Component MarketSimulator status: up
+2024-06-11 21:01:18,588 DEBUG Updating market data display
+2024-06-11 21:01:19,599 DEBUG Updating market data display
+2024-06-11 21:01:20,609 DEBUG Updating market data display
+2024-06-11 21:01:21,617 DEBUG Updating market data display
+2024-06-11 21:01:22,625 DEBUG Updating market data display
+2024-06-11 21:01:22,813 DEBUG Updating status lights
+2024-06-11 21:01:22,813 DEBUG Checking dependencies
+2024-06-11 21:01:22,813 DEBUG Pinging component on port 5008
+2024-06-11 21:01:22,813 INFO Trying to connect to localhost:5008
+2024-06-11 21:01:22,815 DEBUG Component on port 5008 is up
+2024-06-11 21:01:22,815 DEBUG Component OrderRouter status: up
+2024-06-11 21:01:22,815 DEBUG Pinging component on port 5009
+2024-06-11 21:01:22,815 INFO Trying to connect to localhost:5009
+2024-06-11 21:01:22,816 DEBUG Component on port 5009 is up
+2024-06-11 21:01:22,817 DEBUG Component FIXEngine status: up
+2024-06-11 21:01:22,817 DEBUG Pinging component on port 5010
+2024-06-11 21:01:22,817 INFO Trying to connect to localhost:5010
+2024-06-11 21:01:22,818 DEBUG Component on port 5010 is up
+2024-06-11 21:01:22,818 DEBUG Component MarketSimulator status: up
+2024-06-11 21:01:23,635 DEBUG Updating market data display
+2024-06-11 21:01:24,644 DEBUG Updating market data display
+2024-06-11 21:01:25,645 DEBUG Updating market data display
+2024-06-11 21:01:26,649 DEBUG Updating market data display
+2024-06-11 21:01:27,654 DEBUG Updating market data display
+2024-06-11 21:01:27,828 DEBUG Updating status lights
+2024-06-11 21:01:27,828 DEBUG Checking dependencies
+2024-06-11 21:01:27,828 DEBUG Pinging component on port 5008
+2024-06-11 21:01:27,828 INFO Trying to connect to localhost:5008
+2024-06-11 21:01:27,829 DEBUG Component on port 5008 is up
+2024-06-11 21:01:27,829 DEBUG Component OrderRouter status: up
+2024-06-11 21:01:27,830 DEBUG Pinging component on port 5009
+2024-06-11 21:01:27,830 INFO Trying to connect to localhost:5009
+2024-06-11 21:01:27,831 DEBUG Component on port 5009 is up
+2024-06-11 21:01:27,831 DEBUG Component FIXEngine status: up
+2024-06-11 21:01:27,831 DEBUG Pinging component on port 5010
+2024-06-11 21:01:27,831 INFO Trying to connect to localhost:5010
+2024-06-11 21:01:27,832 DEBUG Component on port 5010 is up
+2024-06-11 21:01:27,832 DEBUG Component MarketSimulator status: up
+2024-06-11 21:01:28,664 DEBUG Updating market data display
+2024-06-11 21:01:29,673 DEBUG Updating market data display
+2024-06-11 21:01:30,673 DEBUG Updating market data display
+2024-06-11 21:01:31,679 DEBUG Updating market data display
+2024-06-11 21:01:32,685 DEBUG Updating market data display
+2024-06-11 21:01:32,844 DEBUG Updating status lights
+2024-06-11 21:01:32,844 DEBUG Checking dependencies
+2024-06-11 21:01:32,844 DEBUG Pinging component on port 5008
+2024-06-11 21:01:32,844 INFO Trying to connect to localhost:5008
+2024-06-11 21:01:32,845 DEBUG Component on port 5008 is up
+2024-06-11 21:01:32,845 DEBUG Component OrderRouter status: up
+2024-06-11 21:01:32,846 DEBUG Pinging component on port 5009
+2024-06-11 21:01:32,846 INFO Trying to connect to localhost:5009
+2024-06-11 21:01:32,847 DEBUG Component on port 5009 is up
+2024-06-11 21:01:32,847 DEBUG Component FIXEngine status: up
+2024-06-11 21:01:32,847 DEBUG Pinging component on port 5010
+2024-06-11 21:01:32,847 INFO Trying to connect to localhost:5010
+2024-06-11 21:01:32,848 DEBUG Component on port 5010 is up
+2024-06-11 21:01:32,848 DEBUG Component MarketSimulator status: up
+2024-06-11 21:01:33,694 DEBUG Updating market data display
+2024-06-11 21:01:34,704 DEBUG Updating market data display
+2024-06-11 21:01:35,716 DEBUG Updating market data display
+2024-06-11 21:01:36,719 DEBUG Updating market data display
+2024-06-11 21:01:37,733 DEBUG Updating market data display
+2024-06-11 21:01:37,858 DEBUG Updating status lights
+2024-06-11 21:01:37,858 DEBUG Checking dependencies
+2024-06-11 21:01:37,858 DEBUG Pinging component on port 5008
+2024-06-11 21:01:37,859 INFO Trying to connect to localhost:5008
+2024-06-11 21:01:37,860 DEBUG Component on port 5008 is up
+2024-06-11 21:01:37,860 DEBUG Component OrderRouter status: up
+2024-06-11 21:01:37,861 DEBUG Pinging component on port 5009
+2024-06-11 21:01:37,861 INFO Trying to connect to localhost:5009
+2024-06-11 21:01:37,862 DEBUG Component on port 5009 is up
+2024-06-11 21:01:37,862 DEBUG Component FIXEngine status: up
+2024-06-11 21:01:37,863 DEBUG Pinging component on port 5010
+2024-06-11 21:01:37,863 INFO Trying to connect to localhost:5010
+2024-06-11 21:01:37,864 DEBUG Component on port 5010 is up
+2024-06-11 21:01:37,865 DEBUG Component MarketSimulator status: up
+2024-06-11 21:01:38,736 DEBUG Updating market data display
+2024-06-11 21:01:39,743 DEBUG Updating market data display
+2024-06-11 21:01:40,746 DEBUG Updating market data display
+2024-06-11 21:01:41,749 DEBUG Updating market data display
+2024-06-11 21:01:42,758 DEBUG Updating market data display
+2024-06-11 21:01:42,867 DEBUG Updating status lights
+2024-06-11 21:01:42,867 DEBUG Checking dependencies
+2024-06-11 21:01:42,867 DEBUG Pinging component on port 5008
+2024-06-11 21:01:42,867 INFO Trying to connect to localhost:5008
+2024-06-11 21:01:42,868 DEBUG Component on port 5008 is up
+2024-06-11 21:01:42,868 DEBUG Component OrderRouter status: up
+2024-06-11 21:01:42,869 DEBUG Pinging component on port 5009
+2024-06-11 21:01:42,869 INFO Trying to connect to localhost:5009
+2024-06-11 21:01:42,869 DEBUG Component on port 5009 is up
+2024-06-11 21:01:42,869 DEBUG Component FIXEngine status: up
+2024-06-11 21:01:42,869 DEBUG Pinging component on port 5010
+2024-06-11 21:01:42,870 INFO Trying to connect to localhost:5010
+2024-06-11 21:01:42,870 DEBUG Component on port 5010 is up
+2024-06-11 21:01:42,871 DEBUG Component MarketSimulator status: up
+2024-06-11 21:01:43,763 DEBUG Updating market data display
+2024-06-11 21:01:44,775 DEBUG Updating market data display
+2024-06-11 21:01:45,784 DEBUG Updating market data display
+2024-06-11 21:01:46,792 DEBUG Updating market data display
+2024-06-11 21:01:47,792 DEBUG Updating market data display
+2024-06-11 21:01:47,885 DEBUG Updating status lights
+2024-06-11 21:01:47,885 DEBUG Checking dependencies
+2024-06-11 21:01:47,885 DEBUG Pinging component on port 5008
+2024-06-11 21:01:47,885 INFO Trying to connect to localhost:5008
+2024-06-11 21:01:47,886 DEBUG Component on port 5008 is up
+2024-06-11 21:01:47,886 DEBUG Component OrderRouter status: up
+2024-06-11 21:01:47,887 DEBUG Pinging component on port 5009
+2024-06-11 21:01:47,887 INFO Trying to connect to localhost:5009
+2024-06-11 21:01:47,888 DEBUG Component on port 5009 is up
+2024-06-11 21:01:47,888 DEBUG Component FIXEngine status: up
+2024-06-11 21:01:47,888 DEBUG Pinging component on port 5010
+2024-06-11 21:01:47,888 INFO Trying to connect to localhost:5010
+2024-06-11 21:01:47,889 DEBUG Component on port 5010 is up
+2024-06-11 21:01:47,889 DEBUG Component MarketSimulator status: up
+2024-06-11 21:01:48,800 DEBUG Updating market data display
+2024-06-11 21:01:49,811 DEBUG Updating market data display
+2024-06-11 21:01:50,825 DEBUG Updating market data display
+2024-06-11 21:01:51,833 DEBUG Updating market data display
+2024-06-11 21:01:52,846 DEBUG Updating market data display
+2024-06-11 21:01:52,894 DEBUG Updating status lights
+2024-06-11 21:01:52,894 DEBUG Checking dependencies
+2024-06-11 21:01:52,894 DEBUG Pinging component on port 5008
+2024-06-11 21:01:52,894 INFO Trying to connect to localhost:5008
+2024-06-11 21:01:52,896 DEBUG Component on port 5008 is up
+2024-06-11 21:01:52,896 DEBUG Component OrderRouter status: up
+2024-06-11 21:01:52,896 DEBUG Pinging component on port 5009
+2024-06-11 21:01:52,897 INFO Trying to connect to localhost:5009
+2024-06-11 21:01:52,898 DEBUG Component on port 5009 is up
+2024-06-11 21:01:52,898 DEBUG Component FIXEngine status: up
+2024-06-11 21:01:52,898 DEBUG Pinging component on port 5010
+2024-06-11 21:01:52,898 INFO Trying to connect to localhost:5010
+2024-06-11 21:01:52,900 DEBUG Component on port 5010 is up
+2024-06-11 21:01:52,900 DEBUG Component MarketSimulator status: up
+2024-06-11 21:01:53,852 DEBUG Updating market data display
+2024-06-11 21:01:54,862 DEBUG Updating market data display
+2024-06-11 21:01:55,870 DEBUG Updating market data display
+2024-06-11 21:01:56,881 DEBUG Updating market data display
+2024-06-11 21:01:57,881 DEBUG Updating market data display
+2024-06-11 21:01:57,912 DEBUG Updating status lights
+2024-06-11 21:01:57,912 DEBUG Checking dependencies
+2024-06-11 21:01:57,912 DEBUG Pinging component on port 5008
+2024-06-11 21:01:57,913 INFO Trying to connect to localhost:5008
+2024-06-11 21:01:57,914 DEBUG Component on port 5008 is up
+2024-06-11 21:01:57,914 DEBUG Component OrderRouter status: up
+2024-06-11 21:01:57,914 DEBUG Pinging component on port 5009
+2024-06-11 21:01:57,915 INFO Trying to connect to localhost:5009
+2024-06-11 21:01:57,916 DEBUG Component on port 5009 is up
+2024-06-11 21:01:57,916 DEBUG Component FIXEngine status: up
+2024-06-11 21:01:57,916 DEBUG Pinging component on port 5010
+2024-06-11 21:01:57,917 INFO Trying to connect to localhost:5010
+2024-06-11 21:01:57,918 DEBUG Component on port 5010 is up
+2024-06-11 21:01:57,918 DEBUG Component MarketSimulator status: up
+2024-06-11 21:01:58,892 DEBUG Updating market data display
+2024-06-11 21:01:59,906 DEBUG Updating market data display
+2024-06-11 21:02:00,918 DEBUG Updating market data display
+2024-06-11 21:02:01,927 DEBUG Updating market data display
+2024-06-11 21:02:02,923 DEBUG Updating status lights
+2024-06-11 21:02:02,924 DEBUG Checking dependencies
+2024-06-11 21:02:02,924 DEBUG Pinging component on port 5008
+2024-06-11 21:02:02,924 INFO Trying to connect to localhost:5008
+2024-06-11 21:02:02,926 DEBUG Component on port 5008 is up
+2024-06-11 21:02:02,926 DEBUG Component OrderRouter status: up
+2024-06-11 21:02:02,927 DEBUG Pinging component on port 5009
+2024-06-11 21:02:02,927 INFO Trying to connect to localhost:5009
+2024-06-11 21:02:02,929 DEBUG Component on port 5009 is up
+2024-06-11 21:02:02,929 DEBUG Component FIXEngine status: up
+2024-06-11 21:02:02,929 DEBUG Pinging component on port 5010
+2024-06-11 21:02:02,930 INFO Trying to connect to localhost:5010
+2024-06-11 21:02:02,931 DEBUG Component on port 5010 is up
+2024-06-11 21:02:02,932 DEBUG Component MarketSimulator status: up
+2024-06-11 21:02:02,932 DEBUG Updating market data display
+2024-06-11 21:02:03,944 DEBUG Updating market data display
+2024-06-11 21:02:04,944 DEBUG Updating market data display
+2024-06-11 21:02:05,955 DEBUG Updating market data display
+2024-06-11 21:02:06,970 DEBUG Updating market data display
+2024-06-11 21:02:07,944 DEBUG Updating status lights
+2024-06-11 21:02:07,944 DEBUG Checking dependencies
+2024-06-11 21:02:07,944 DEBUG Pinging component on port 5008
+2024-06-11 21:02:07,944 INFO Trying to connect to localhost:5008
+2024-06-11 21:02:07,945 DEBUG Component on port 5008 is up
+2024-06-11 21:02:07,945 DEBUG Component OrderRouter status: up
+2024-06-11 21:02:07,946 DEBUG Pinging component on port 5009
+2024-06-11 21:02:07,946 INFO Trying to connect to localhost:5009
+2024-06-11 21:02:07,948 DEBUG Component on port 5009 is up
+2024-06-11 21:02:07,948 DEBUG Component FIXEngine status: up
+2024-06-11 21:02:07,948 DEBUG Pinging component on port 5010
+2024-06-11 21:02:07,948 INFO Trying to connect to localhost:5010
+2024-06-11 21:02:07,950 DEBUG Component on port 5010 is up
+2024-06-11 21:02:07,950 DEBUG Component MarketSimulator status: up
+2024-06-11 21:02:07,975 DEBUG Updating market data display
+2024-06-11 21:02:08,976 DEBUG Updating market data display
+2024-06-11 21:02:09,982 DEBUG Updating market data display
+2024-06-11 21:02:10,985 DEBUG Updating market data display
+2024-06-11 21:02:11,991 DEBUG Updating market data display
+2024-06-11 21:02:12,954 DEBUG Updating status lights
+2024-06-11 21:02:12,954 DEBUG Checking dependencies
+2024-06-11 21:02:12,954 DEBUG Pinging component on port 5008
+2024-06-11 21:02:12,955 INFO Trying to connect to localhost:5008
+2024-06-11 21:02:12,956 DEBUG Component on port 5008 is up
+2024-06-11 21:02:12,956 DEBUG Component OrderRouter status: up
+2024-06-11 21:02:12,956 DEBUG Pinging component on port 5009
+2024-06-11 21:02:12,957 INFO Trying to connect to localhost:5009
+2024-06-11 21:02:12,958 DEBUG Component on port 5009 is up
+2024-06-11 21:02:12,958 DEBUG Component FIXEngine status: up
+2024-06-11 21:02:12,958 DEBUG Pinging component on port 5010
+2024-06-11 21:02:12,959 INFO Trying to connect to localhost:5010
+2024-06-11 21:02:12,960 DEBUG Component on port 5010 is up
+2024-06-11 21:02:12,960 DEBUG Component MarketSimulator status: up
+2024-06-11 21:02:13,001 DEBUG Updating market data display
+2024-06-11 21:02:14,013 DEBUG Updating market data display
+2024-06-11 21:02:15,026 DEBUG Updating market data display
+2024-06-11 21:02:16,033 DEBUG Updating market data display
+2024-06-11 21:02:17,045 DEBUG Updating market data display
+2024-06-11 21:02:17,960 DEBUG Updating status lights
+2024-06-11 21:02:17,961 DEBUG Checking dependencies
+2024-06-11 21:02:17,961 DEBUG Pinging component on port 5008
+2024-06-11 21:02:17,961 INFO Trying to connect to localhost:5008
+2024-06-11 21:02:17,963 DEBUG Component on port 5008 is up
+2024-06-11 21:02:17,963 DEBUG Component OrderRouter status: up
+2024-06-11 21:02:17,963 DEBUG Pinging component on port 5009
+2024-06-11 21:02:17,964 INFO Trying to connect to localhost:5009
+2024-06-11 21:02:17,965 DEBUG Component on port 5009 is up
+2024-06-11 21:02:17,965 DEBUG Component FIXEngine status: up
+2024-06-11 21:02:17,966 DEBUG Pinging component on port 5010
+2024-06-11 21:02:17,966 INFO Trying to connect to localhost:5010
+2024-06-11 21:02:17,968 DEBUG Component on port 5010 is up
+2024-06-11 21:02:17,968 DEBUG Component MarketSimulator status: up
+2024-06-11 21:02:18,053 DEBUG Updating market data display
+2024-06-11 21:02:19,059 DEBUG Updating market data display
+2024-06-11 21:02:20,064 DEBUG Updating market data display
+2024-06-11 21:02:21,065 DEBUG Updating market data display
+2024-06-11 21:02:22,080 DEBUG Updating market data display
+2024-06-11 21:02:22,969 DEBUG Updating status lights
+2024-06-11 21:02:22,969 DEBUG Checking dependencies
+2024-06-11 21:02:22,969 DEBUG Pinging component on port 5008
+2024-06-11 21:02:22,970 INFO Trying to connect to localhost:5008
+2024-06-11 21:02:22,972 DEBUG Component on port 5008 is up
+2024-06-11 21:02:22,972 DEBUG Component OrderRouter status: up
+2024-06-11 21:02:22,972 DEBUG Pinging component on port 5009
+2024-06-11 21:02:22,973 INFO Trying to connect to localhost:5009
+2024-06-11 21:02:22,975 DEBUG Component on port 5009 is up
+2024-06-11 21:02:22,975 DEBUG Component FIXEngine status: up
+2024-06-11 21:02:22,975 DEBUG Pinging component on port 5010
+2024-06-11 21:02:22,975 INFO Trying to connect to localhost:5010
+2024-06-11 21:02:22,977 DEBUG Component on port 5010 is up
+2024-06-11 21:02:22,977 DEBUG Component MarketSimulator status: up
+2024-06-11 21:02:23,096 DEBUG Updating market data display
+2024-06-11 21:02:24,104 DEBUG Updating market data display
+2024-06-11 21:02:25,110 DEBUG Updating market data display
+2024-06-11 21:02:26,116 DEBUG Updating market data display
+2024-06-11 21:02:27,131 DEBUG Updating market data display
+2024-06-11 21:02:27,989 DEBUG Updating status lights
+2024-06-11 21:02:27,989 DEBUG Checking dependencies
+2024-06-11 21:02:27,989 DEBUG Pinging component on port 5008
+2024-06-11 21:02:27,990 INFO Trying to connect to localhost:5008
+2024-06-11 21:02:27,991 DEBUG Component on port 5008 is up
+2024-06-11 21:02:27,991 DEBUG Component OrderRouter status: up
+2024-06-11 21:02:27,992 DEBUG Pinging component on port 5009
+2024-06-11 21:02:27,992 INFO Trying to connect to localhost:5009
+2024-06-11 21:02:27,993 DEBUG Component on port 5009 is up
+2024-06-11 21:02:27,993 DEBUG Component FIXEngine status: up
+2024-06-11 21:02:27,994 DEBUG Pinging component on port 5010
+2024-06-11 21:02:27,994 INFO Trying to connect to localhost:5010
+2024-06-11 21:02:27,995 DEBUG Component on port 5010 is up
+2024-06-11 21:02:27,995 DEBUG Component MarketSimulator status: up
+2024-06-11 21:02:28,130 DEBUG Updating market data display
+2024-06-11 21:02:29,145 DEBUG Updating market data display
+2024-06-11 21:02:30,149 DEBUG Updating market data display
+2024-06-11 21:02:31,159 DEBUG Updating market data display
+2024-06-11 21:02:32,164 DEBUG Updating market data display
+2024-06-11 21:02:33,006 DEBUG Updating status lights
+2024-06-11 21:02:33,006 DEBUG Checking dependencies
+2024-06-11 21:02:33,006 DEBUG Pinging component on port 5008
+2024-06-11 21:02:33,007 INFO Trying to connect to localhost:5008
+2024-06-11 21:02:33,009 DEBUG Component on port 5008 is up
+2024-06-11 21:02:33,009 DEBUG Component OrderRouter status: up
+2024-06-11 21:02:33,009 DEBUG Pinging component on port 5009
+2024-06-11 21:02:33,010 INFO Trying to connect to localhost:5009
+2024-06-11 21:02:33,012 DEBUG Component on port 5009 is up
+2024-06-11 21:02:33,012 DEBUG Component FIXEngine status: up
+2024-06-11 21:02:33,012 DEBUG Pinging component on port 5010
+2024-06-11 21:02:33,013 INFO Trying to connect to localhost:5010
+2024-06-11 21:02:33,015 DEBUG Component on port 5010 is up
+2024-06-11 21:02:33,015 DEBUG Component MarketSimulator status: up
+2024-06-11 21:02:33,177 DEBUG Updating market data display
+2024-06-11 21:02:34,184 DEBUG Updating market data display
+2024-06-11 21:02:35,188 DEBUG Updating market data display
+2024-06-11 21:02:36,192 DEBUG Updating market data display
+2024-06-11 21:02:37,192 DEBUG Updating market data display
+2024-06-11 21:02:38,024 DEBUG Updating status lights
+2024-06-11 21:02:38,024 DEBUG Checking dependencies
+2024-06-11 21:02:38,024 DEBUG Pinging component on port 5008
+2024-06-11 21:02:38,024 INFO Trying to connect to localhost:5008
+2024-06-11 21:02:38,026 DEBUG Component on port 5008 is up
+2024-06-11 21:02:38,026 DEBUG Component OrderRouter status: up
+2024-06-11 21:02:38,026 DEBUG Pinging component on port 5009
+2024-06-11 21:02:38,027 INFO Trying to connect to localhost:5009
+2024-06-11 21:02:38,028 DEBUG Component on port 5009 is up
+2024-06-11 21:02:38,028 DEBUG Component FIXEngine status: up
+2024-06-11 21:02:38,029 DEBUG Pinging component on port 5010
+2024-06-11 21:02:38,029 INFO Trying to connect to localhost:5010
+2024-06-11 21:02:38,030 DEBUG Component on port 5010 is up
+2024-06-11 21:02:38,031 DEBUG Component MarketSimulator status: up
+2024-06-11 21:02:38,196 DEBUG Updating market data display
+2024-06-11 21:02:39,210 DEBUG Updating market data display
+2024-06-11 21:02:40,221 DEBUG Updating market data display
+2024-06-11 21:02:41,228 DEBUG Updating market data display
+2024-06-11 21:02:42,231 DEBUG Updating market data display
+2024-06-11 21:02:43,038 DEBUG Updating status lights
+2024-06-11 21:02:43,038 DEBUG Checking dependencies
+2024-06-11 21:02:43,038 DEBUG Pinging component on port 5008
+2024-06-11 21:02:43,039 INFO Trying to connect to localhost:5008
+2024-06-11 21:02:43,040 DEBUG Component on port 5008 is up
+2024-06-11 21:02:43,040 DEBUG Component OrderRouter status: up
+2024-06-11 21:02:43,040 DEBUG Pinging component on port 5009
+2024-06-11 21:02:43,041 INFO Trying to connect to localhost:5009
+2024-06-11 21:02:43,042 DEBUG Component on port 5009 is up
+2024-06-11 21:02:43,042 DEBUG Component FIXEngine status: up
+2024-06-11 21:02:43,043 DEBUG Pinging component on port 5010
+2024-06-11 21:02:43,043 INFO Trying to connect to localhost:5010
+2024-06-11 21:02:43,044 DEBUG Component on port 5010 is up
+2024-06-11 21:02:43,045 DEBUG Component MarketSimulator status: up
+2024-06-11 21:02:43,243 DEBUG Updating market data display
+2024-06-11 21:02:44,255 DEBUG Updating market data display
+2024-06-11 21:02:45,262 DEBUG Updating market data display
+2024-06-11 21:02:46,273 DEBUG Updating market data display
+2024-06-11 21:02:47,278 DEBUG Updating market data display
+2024-06-11 21:02:48,047 DEBUG Updating status lights
+2024-06-11 21:02:48,047 DEBUG Checking dependencies
+2024-06-11 21:02:48,048 DEBUG Pinging component on port 5008
+2024-06-11 21:02:48,048 INFO Trying to connect to localhost:5008
+2024-06-11 21:02:48,050 DEBUG Component on port 5008 is up
+2024-06-11 21:02:48,050 DEBUG Component OrderRouter status: up
+2024-06-11 21:02:48,050 DEBUG Pinging component on port 5009
+2024-06-11 21:02:48,050 INFO Trying to connect to localhost:5009
+2024-06-11 21:02:48,052 DEBUG Component on port 5009 is up
+2024-06-11 21:02:48,052 DEBUG Component FIXEngine status: up
+2024-06-11 21:02:48,052 DEBUG Pinging component on port 5010
+2024-06-11 21:02:48,053 INFO Trying to connect to localhost:5010
+2024-06-11 21:02:48,054 DEBUG Component on port 5010 is up
+2024-06-11 21:02:48,055 DEBUG Component MarketSimulator status: up
+2024-06-11 21:02:48,281 DEBUG Updating market data display
+2024-06-11 21:02:49,297 DEBUG Updating market data display
+2024-06-11 21:02:50,300 DEBUG Updating market data display
+2024-06-11 21:02:51,303 DEBUG Updating market data display
+2024-06-11 21:02:52,317 DEBUG Updating market data display
+2024-06-11 21:02:53,060 DEBUG Updating status lights
+2024-06-11 21:02:53,060 DEBUG Checking dependencies
+2024-06-11 21:02:53,061 DEBUG Pinging component on port 5008
+2024-06-11 21:02:53,061 INFO Trying to connect to localhost:5008
+2024-06-11 21:02:53,063 DEBUG Component on port 5008 is up
+2024-06-11 21:02:53,064 DEBUG Component OrderRouter status: up
+2024-06-11 21:02:53,064 DEBUG Pinging component on port 5009
+2024-06-11 21:02:53,065 INFO Trying to connect to localhost:5009
+2024-06-11 21:02:53,066 DEBUG Component on port 5009 is up
+2024-06-11 21:02:53,067 DEBUG Component FIXEngine status: up
+2024-06-11 21:02:53,067 DEBUG Pinging component on port 5010
+2024-06-11 21:02:53,067 INFO Trying to connect to localhost:5010
+2024-06-11 21:02:53,069 DEBUG Component on port 5010 is up
+2024-06-11 21:02:53,069 DEBUG Component MarketSimulator status: up
+2024-06-11 21:02:53,324 DEBUG Updating market data display
+2024-06-11 21:02:54,337 DEBUG Updating market data display
+2024-06-11 21:02:55,340 DEBUG Updating market data display
+2024-06-11 21:02:56,351 DEBUG Updating market data display
+2024-06-11 21:02:57,356 DEBUG Updating market data display
+2024-06-11 21:02:58,082 DEBUG Updating status lights
+2024-06-11 21:02:58,082 DEBUG Checking dependencies
+2024-06-11 21:02:58,082 DEBUG Pinging component on port 5008
+2024-06-11 21:02:58,083 INFO Trying to connect to localhost:5008
+2024-06-11 21:02:58,085 DEBUG Component on port 5008 is up
+2024-06-11 21:02:58,085 DEBUG Component OrderRouter status: up
+2024-06-11 21:02:58,086 DEBUG Pinging component on port 5009
+2024-06-11 21:02:58,086 INFO Trying to connect to localhost:5009
+2024-06-11 21:02:58,088 DEBUG Component on port 5009 is up
+2024-06-11 21:02:58,088 DEBUG Component FIXEngine status: up
+2024-06-11 21:02:58,089 DEBUG Pinging component on port 5010
+2024-06-11 21:02:58,089 INFO Trying to connect to localhost:5010
+2024-06-11 21:02:58,091 DEBUG Component on port 5010 is up
+2024-06-11 21:02:58,091 DEBUG Component MarketSimulator status: up
+2024-06-11 21:02:58,364 DEBUG Updating market data display
+2024-06-11 21:02:59,365 DEBUG Updating market data display
+2024-06-11 21:03:00,378 DEBUG Updating market data display
+2024-06-11 21:03:01,379 DEBUG Updating market data display
+2024-06-11 21:03:02,394 DEBUG Updating market data display
+2024-06-11 21:03:03,098 DEBUG Updating status lights
+2024-06-11 21:03:03,098 DEBUG Checking dependencies
+2024-06-11 21:03:03,099 DEBUG Pinging component on port 5008
+2024-06-11 21:03:03,099 INFO Trying to connect to localhost:5008
+2024-06-11 21:03:03,101 DEBUG Component on port 5008 is up
+2024-06-11 21:03:03,102 DEBUG Component OrderRouter status: up
+2024-06-11 21:03:03,102 DEBUG Pinging component on port 5009
+2024-06-11 21:03:03,102 INFO Trying to connect to localhost:5009
+2024-06-11 21:03:03,104 DEBUG Component on port 5009 is up
+2024-06-11 21:03:03,104 DEBUG Component FIXEngine status: up
+2024-06-11 21:03:03,105 DEBUG Pinging component on port 5010
+2024-06-11 21:03:03,105 INFO Trying to connect to localhost:5010
+2024-06-11 21:03:03,106 DEBUG Component on port 5010 is up
+2024-06-11 21:03:03,106 DEBUG Component MarketSimulator status: up
+2024-06-11 21:03:03,398 DEBUG Updating market data display
+2024-06-11 21:03:04,410 DEBUG Updating market data display
+2024-06-11 21:03:05,423 DEBUG Updating market data display
+2024-06-11 21:03:06,438 DEBUG Updating market data display
+2024-06-11 21:03:07,449 DEBUG Updating market data display
+2024-06-11 21:03:08,120 DEBUG Updating status lights
+2024-06-11 21:03:08,120 DEBUG Checking dependencies
+2024-06-11 21:03:08,120 DEBUG Pinging component on port 5008
+2024-06-11 21:03:08,121 INFO Trying to connect to localhost:5008
+2024-06-11 21:03:08,122 DEBUG Component on port 5008 is up
+2024-06-11 21:03:08,123 DEBUG Component OrderRouter status: up
+2024-06-11 21:03:08,123 DEBUG Pinging component on port 5009
+2024-06-11 21:03:08,123 INFO Trying to connect to localhost:5009
+2024-06-11 21:03:08,125 DEBUG Component on port 5009 is up
+2024-06-11 21:03:08,125 DEBUG Component FIXEngine status: up
+2024-06-11 21:03:08,125 DEBUG Pinging component on port 5010
+2024-06-11 21:03:08,126 INFO Trying to connect to localhost:5010
+2024-06-11 21:03:08,128 DEBUG Component on port 5010 is up
+2024-06-11 21:03:08,128 DEBUG Component MarketSimulator status: up
+2024-06-11 21:03:08,464 DEBUG Updating market data display
+2024-06-11 21:03:09,478 DEBUG Updating market data display
+2024-06-11 21:03:10,483 DEBUG Updating market data display
+2024-06-11 21:03:11,493 DEBUG Updating market data display
+2024-06-11 21:03:12,496 DEBUG Updating market data display
+2024-06-11 21:03:13,141 DEBUG Updating status lights
+2024-06-11 21:03:13,141 DEBUG Checking dependencies
+2024-06-11 21:03:13,141 DEBUG Pinging component on port 5008
+2024-06-11 21:03:13,142 INFO Trying to connect to localhost:5008
+2024-06-11 21:03:13,144 DEBUG Component on port 5008 is up
+2024-06-11 21:03:13,144 DEBUG Component OrderRouter status: up
+2024-06-11 21:03:13,144 DEBUG Pinging component on port 5009
+2024-06-11 21:03:13,145 INFO Trying to connect to localhost:5009
+2024-06-11 21:03:13,146 DEBUG Component on port 5009 is up
+2024-06-11 21:03:13,147 DEBUG Component FIXEngine status: up
+2024-06-11 21:03:13,147 DEBUG Pinging component on port 5010
+2024-06-11 21:03:13,148 INFO Trying to connect to localhost:5010
+2024-06-11 21:03:13,149 DEBUG Component on port 5010 is up
+2024-06-11 21:03:13,150 DEBUG Component MarketSimulator status: up
+2024-06-11 21:03:13,498 DEBUG Updating market data display
+2024-06-11 21:03:14,498 DEBUG Updating market data display
+2024-06-11 21:03:15,499 DEBUG Updating market data display
+2024-06-11 21:03:16,509 DEBUG Updating market data display
+2024-06-11 21:03:17,523 DEBUG Updating market data display
+2024-06-11 21:03:18,162 DEBUG Updating status lights
+2024-06-11 21:03:18,162 DEBUG Checking dependencies
+2024-06-11 21:03:18,163 DEBUG Pinging component on port 5008
+2024-06-11 21:03:18,163 INFO Trying to connect to localhost:5008
+2024-06-11 21:03:18,165 DEBUG Component on port 5008 is up
+2024-06-11 21:03:18,165 DEBUG Component OrderRouter status: up
+2024-06-11 21:03:18,166 DEBUG Pinging component on port 5009
+2024-06-11 21:03:18,166 INFO Trying to connect to localhost:5009
+2024-06-11 21:03:18,168 DEBUG Component on port 5009 is up
+2024-06-11 21:03:18,168 DEBUG Component FIXEngine status: up
+2024-06-11 21:03:18,168 DEBUG Pinging component on port 5010
+2024-06-11 21:03:18,169 INFO Trying to connect to localhost:5010
+2024-06-11 21:03:18,170 DEBUG Component on port 5010 is up
+2024-06-11 21:03:18,170 DEBUG Component MarketSimulator status: up
+2024-06-11 21:03:18,533 DEBUG Updating market data display
+2024-06-11 21:03:19,536 DEBUG Updating market data display
+2024-06-11 21:03:20,538 DEBUG Updating market data display
+2024-06-11 21:03:21,551 DEBUG Updating market data display
+2024-06-11 21:03:22,562 DEBUG Updating market data display
+2024-06-11 21:03:23,185 DEBUG Updating status lights
+2024-06-11 21:03:23,185 DEBUG Checking dependencies
+2024-06-11 21:03:23,185 DEBUG Pinging component on port 5008
+2024-06-11 21:03:23,186 INFO Trying to connect to localhost:5008
+2024-06-11 21:03:23,187 DEBUG Component on port 5008 is up
+2024-06-11 21:03:23,188 DEBUG Component OrderRouter status: up
+2024-06-11 21:03:23,188 DEBUG Pinging component on port 5009
+2024-06-11 21:03:23,188 INFO Trying to connect to localhost:5009
+2024-06-11 21:03:23,190 DEBUG Component on port 5009 is up
+2024-06-11 21:03:23,190 DEBUG Component FIXEngine status: up
+2024-06-11 21:03:23,191 DEBUG Pinging component on port 5010
+2024-06-11 21:03:23,191 INFO Trying to connect to localhost:5010
+2024-06-11 21:03:23,192 DEBUG Component on port 5010 is up
+2024-06-11 21:03:23,193 DEBUG Component MarketSimulator status: up
+2024-06-11 21:03:23,574 DEBUG Updating market data display
+2024-06-11 21:03:24,576 DEBUG Updating market data display
+2024-06-11 21:03:25,588 DEBUG Updating market data display
+2024-06-11 21:03:26,601 DEBUG Updating market data display
+2024-06-11 21:03:27,603 DEBUG Updating market data display
+2024-06-11 21:03:28,206 DEBUG Updating status lights
+2024-06-11 21:03:28,206 DEBUG Checking dependencies
+2024-06-11 21:03:28,206 DEBUG Pinging component on port 5008
+2024-06-11 21:03:28,207 INFO Trying to connect to localhost:5008
+2024-06-11 21:03:28,208 DEBUG Component on port 5008 is up
+2024-06-11 21:03:28,209 DEBUG Component OrderRouter status: up
+2024-06-11 21:03:28,209 DEBUG Pinging component on port 5009
+2024-06-11 21:03:28,209 INFO Trying to connect to localhost:5009
+2024-06-11 21:03:28,211 DEBUG Component on port 5009 is up
+2024-06-11 21:03:28,211 DEBUG Component FIXEngine status: up
+2024-06-11 21:03:28,211 DEBUG Pinging component on port 5010
+2024-06-11 21:03:28,211 INFO Trying to connect to localhost:5010
+2024-06-11 21:03:28,213 DEBUG Component on port 5010 is up
+2024-06-11 21:03:28,213 DEBUG Component MarketSimulator status: up
+2024-06-11 21:03:28,614 DEBUG Updating market data display
+2024-06-11 21:03:29,628 DEBUG Updating market data display
+2024-06-11 21:03:30,634 DEBUG Updating market data display
+2024-06-11 21:03:31,635 DEBUG Updating market data display
+2024-06-11 21:03:32,641 DEBUG Updating market data display
+2024-06-11 21:03:33,220 DEBUG Updating status lights
+2024-06-11 21:03:33,220 DEBUG Checking dependencies
+2024-06-11 21:03:33,220 DEBUG Pinging component on port 5008
+2024-06-11 21:03:33,221 INFO Trying to connect to localhost:5008
+2024-06-11 21:03:33,223 DEBUG Component on port 5008 is up
+2024-06-11 21:03:33,223 DEBUG Component OrderRouter status: up
+2024-06-11 21:03:33,223 DEBUG Pinging component on port 5009
+2024-06-11 21:03:33,224 INFO Trying to connect to localhost:5009
+2024-06-11 21:03:33,225 DEBUG Component on port 5009 is up
+2024-06-11 21:03:33,225 DEBUG Component FIXEngine status: up
+2024-06-11 21:03:33,226 DEBUG Pinging component on port 5010
+2024-06-11 21:03:33,226 INFO Trying to connect to localhost:5010
+2024-06-11 21:03:33,228 DEBUG Component on port 5010 is up
+2024-06-11 21:03:33,229 DEBUG Component MarketSimulator status: up
+2024-06-11 21:03:33,643 DEBUG Updating market data display
+2024-06-11 21:03:34,648 DEBUG Updating market data display
+2024-06-11 21:03:35,649 DEBUG Updating market data display
+2024-06-11 21:03:36,663 DEBUG Updating market data display
+2024-06-11 21:03:37,676 DEBUG Updating market data display
+2024-06-11 21:03:38,235 DEBUG Updating status lights
+2024-06-11 21:03:38,235 DEBUG Checking dependencies
+2024-06-11 21:03:38,235 DEBUG Pinging component on port 5008
+2024-06-11 21:03:38,236 INFO Trying to connect to localhost:5008
+2024-06-11 21:03:38,237 DEBUG Component on port 5008 is up
+2024-06-11 21:03:38,238 DEBUG Component OrderRouter status: up
+2024-06-11 21:03:38,238 DEBUG Pinging component on port 5009
+2024-06-11 21:03:38,239 INFO Trying to connect to localhost:5009
+2024-06-11 21:03:38,240 DEBUG Component on port 5009 is up
+2024-06-11 21:03:38,241 DEBUG Component FIXEngine status: up
+2024-06-11 21:03:38,241 DEBUG Pinging component on port 5010
+2024-06-11 21:03:38,241 INFO Trying to connect to localhost:5010
+2024-06-11 21:03:38,243 DEBUG Component on port 5010 is up
+2024-06-11 21:03:38,243 DEBUG Component MarketSimulator status: up
+2024-06-11 21:03:38,677 DEBUG Updating market data display
+2024-06-11 21:03:39,681 DEBUG Updating market data display
+2024-06-11 21:03:40,685 DEBUG Updating market data display
+2024-06-11 21:03:41,690 DEBUG Updating market data display
+2024-06-11 21:03:42,696 DEBUG Updating market data display
+2024-06-11 21:03:43,250 DEBUG Updating status lights
+2024-06-11 21:03:43,250 DEBUG Checking dependencies
+2024-06-11 21:03:43,250 DEBUG Pinging component on port 5008
+2024-06-11 21:03:43,250 INFO Trying to connect to localhost:5008
+2024-06-11 21:03:43,252 DEBUG Component on port 5008 is up
+2024-06-11 21:03:43,252 DEBUG Component OrderRouter status: up
+2024-06-11 21:03:43,252 DEBUG Pinging component on port 5009
+2024-06-11 21:03:43,253 INFO Trying to connect to localhost:5009
+2024-06-11 21:03:43,254 DEBUG Component on port 5009 is up
+2024-06-11 21:03:43,254 DEBUG Component FIXEngine status: up
+2024-06-11 21:03:43,255 DEBUG Pinging component on port 5010
+2024-06-11 21:03:43,255 INFO Trying to connect to localhost:5010
+2024-06-11 21:03:43,257 DEBUG Component on port 5010 is up
+2024-06-11 21:03:43,257 DEBUG Component MarketSimulator status: up
+2024-06-11 21:03:43,703 DEBUG Updating market data display
+2024-06-11 21:03:44,705 DEBUG Updating market data display
+2024-06-11 21:03:45,711 DEBUG Updating market data display
+2024-06-11 21:03:46,720 DEBUG Updating market data display
+2024-06-11 21:03:47,728 DEBUG Updating market data display
+2024-06-11 21:03:48,271 DEBUG Updating status lights
+2024-06-11 21:03:48,271 DEBUG Checking dependencies
+2024-06-11 21:03:48,271 DEBUG Pinging component on port 5008
+2024-06-11 21:03:48,272 INFO Trying to connect to localhost:5008
+2024-06-11 21:03:48,273 DEBUG Component on port 5008 is up
+2024-06-11 21:03:48,274 DEBUG Component OrderRouter status: up
+2024-06-11 21:03:48,274 DEBUG Pinging component on port 5009
+2024-06-11 21:03:48,274 INFO Trying to connect to localhost:5009
+2024-06-11 21:03:48,276 DEBUG Component on port 5009 is up
+2024-06-11 21:03:48,276 DEBUG Component FIXEngine status: up
+2024-06-11 21:03:48,277 DEBUG Pinging component on port 5010
+2024-06-11 21:03:48,277 INFO Trying to connect to localhost:5010
+2024-06-11 21:03:48,279 DEBUG Component on port 5010 is up
+2024-06-11 21:03:48,279 DEBUG Component MarketSimulator status: up
+2024-06-11 21:03:48,739 DEBUG Updating market data display
+2024-06-11 21:03:49,749 DEBUG Updating market data display
+2024-06-11 21:03:50,763 DEBUG Updating market data display
+2024-06-11 21:03:51,771 DEBUG Updating market data display
+2024-06-11 21:03:52,781 DEBUG Updating market data display
+2024-06-11 21:03:53,284 DEBUG Updating status lights
+2024-06-11 21:03:53,284 DEBUG Checking dependencies
+2024-06-11 21:03:53,284 DEBUG Pinging component on port 5008
+2024-06-11 21:03:53,284 INFO Trying to connect to localhost:5008
+2024-06-11 21:03:53,286 DEBUG Component on port 5008 is up
+2024-06-11 21:03:53,286 DEBUG Component OrderRouter status: up
+2024-06-11 21:03:53,287 DEBUG Pinging component on port 5009
+2024-06-11 21:03:53,287 INFO Trying to connect to localhost:5009
+2024-06-11 21:03:53,288 DEBUG Component on port 5009 is up
+2024-06-11 21:03:53,288 DEBUG Component FIXEngine status: up
+2024-06-11 21:03:53,289 DEBUG Pinging component on port 5010
+2024-06-11 21:03:53,289 INFO Trying to connect to localhost:5010
+2024-06-11 21:03:53,290 DEBUG Component on port 5010 is up
+2024-06-11 21:03:53,291 DEBUG Component MarketSimulator status: up
+2024-06-11 21:03:53,795 DEBUG Updating market data display
+2024-06-11 21:03:54,799 DEBUG Updating market data display
+2024-06-11 21:03:55,808 DEBUG Updating market data display
+2024-06-11 21:03:56,817 DEBUG Updating market data display
+2024-06-11 21:03:57,824 DEBUG Updating market data display
+2024-06-11 21:03:58,296 DEBUG Updating status lights
+2024-06-11 21:03:58,296 DEBUG Checking dependencies
+2024-06-11 21:03:58,296 DEBUG Pinging component on port 5008
+2024-06-11 21:03:58,297 INFO Trying to connect to localhost:5008
+2024-06-11 21:03:58,298 DEBUG Component on port 5008 is up
+2024-06-11 21:03:58,298 DEBUG Component OrderRouter status: up
+2024-06-11 21:03:58,299 DEBUG Pinging component on port 5009
+2024-06-11 21:03:58,299 INFO Trying to connect to localhost:5009
+2024-06-11 21:03:58,300 DEBUG Component on port 5009 is up
+2024-06-11 21:03:58,301 DEBUG Component FIXEngine status: up
+2024-06-11 21:03:58,301 DEBUG Pinging component on port 5010
+2024-06-11 21:03:58,301 INFO Trying to connect to localhost:5010
+2024-06-11 21:03:58,303 DEBUG Component on port 5010 is up
+2024-06-11 21:03:58,303 DEBUG Component MarketSimulator status: up
+2024-06-11 21:03:58,830 DEBUG Updating market data display
+2024-06-11 21:03:59,837 DEBUG Updating market data display
+2024-06-11 21:04:00,845 DEBUG Updating market data display
+2024-06-11 21:04:01,851 DEBUG Updating market data display
+2024-06-11 21:04:02,860 DEBUG Updating market data display
+2024-06-11 21:04:03,312 DEBUG Updating status lights
+2024-06-11 21:04:03,312 DEBUG Checking dependencies
+2024-06-11 21:04:03,312 DEBUG Pinging component on port 5008
+2024-06-11 21:04:03,313 INFO Trying to connect to localhost:5008
+2024-06-11 21:04:03,315 DEBUG Component on port 5008 is up
+2024-06-11 21:04:03,315 DEBUG Component OrderRouter status: up
+2024-06-11 21:04:03,315 DEBUG Pinging component on port 5009
+2024-06-11 21:04:03,315 INFO Trying to connect to localhost:5009
+2024-06-11 21:04:03,317 DEBUG Component on port 5009 is up
+2024-06-11 21:04:03,318 DEBUG Component FIXEngine status: up
+2024-06-11 21:04:03,318 DEBUG Pinging component on port 5010
+2024-06-11 21:04:03,318 INFO Trying to connect to localhost:5010
+2024-06-11 21:04:03,320 DEBUG Component on port 5010 is up
+2024-06-11 21:04:03,320 DEBUG Component MarketSimulator status: up
+2024-06-11 21:04:03,875 DEBUG Updating market data display
+2024-06-11 21:04:04,887 DEBUG Updating market data display
+2024-06-11 21:04:05,896 DEBUG Updating market data display
+2024-06-11 21:04:06,910 DEBUG Updating market data display
+2024-06-11 21:04:07,915 DEBUG Updating market data display
+2024-06-11 21:04:08,323 DEBUG Updating status lights
+2024-06-11 21:04:08,324 DEBUG Checking dependencies
+2024-06-11 21:04:08,324 DEBUG Pinging component on port 5008
+2024-06-11 21:04:08,324 INFO Trying to connect to localhost:5008
+2024-06-11 21:04:08,326 DEBUG Component on port 5008 is up
+2024-06-11 21:04:08,326 DEBUG Component OrderRouter status: up
+2024-06-11 21:04:08,326 DEBUG Pinging component on port 5009
+2024-06-11 21:04:08,327 INFO Trying to connect to localhost:5009
+2024-06-11 21:04:08,328 DEBUG Component on port 5009 is up
+2024-06-11 21:04:08,328 DEBUG Component FIXEngine status: up
+2024-06-11 21:04:08,329 DEBUG Pinging component on port 5010
+2024-06-11 21:04:08,329 INFO Trying to connect to localhost:5010
+2024-06-11 21:04:08,330 DEBUG Component on port 5010 is up
+2024-06-11 21:04:08,331 DEBUG Component MarketSimulator status: up
+2024-06-11 21:04:08,916 DEBUG Updating market data display
+2024-06-11 21:04:09,927 DEBUG Updating market data display
+2024-06-11 21:04:10,939 DEBUG Updating market data display
+2024-06-11 21:04:11,940 DEBUG Updating market data display
+2024-06-11 21:04:12,946 DEBUG Updating market data display
+2024-06-11 21:04:13,337 DEBUG Updating status lights
+2024-06-11 21:04:13,337 DEBUG Checking dependencies
+2024-06-11 21:04:13,337 DEBUG Pinging component on port 5008
+2024-06-11 21:04:13,338 INFO Trying to connect to localhost:5008
+2024-06-11 21:04:13,341 DEBUG Component on port 5008 is up
+2024-06-11 21:04:13,341 DEBUG Component OrderRouter status: up
+2024-06-11 21:04:13,342 DEBUG Pinging component on port 5009
+2024-06-11 21:04:13,342 INFO Trying to connect to localhost:5009
+2024-06-11 21:04:13,344 DEBUG Component on port 5009 is up
+2024-06-11 21:04:13,344 DEBUG Component FIXEngine status: up
+2024-06-11 21:04:13,344 DEBUG Pinging component on port 5010
+2024-06-11 21:04:13,345 INFO Trying to connect to localhost:5010
+2024-06-11 21:04:13,346 DEBUG Component on port 5010 is up
+2024-06-11 21:04:13,347 DEBUG Component MarketSimulator status: up
+2024-06-11 21:04:13,952 DEBUG Updating market data display
+2024-06-11 21:04:14,958 DEBUG Updating market data display
+2024-06-11 21:04:15,967 DEBUG Updating market data display
+2024-06-11 21:04:16,979 DEBUG Updating market data display
+2024-06-11 21:04:17,984 DEBUG Updating market data display
+2024-06-11 21:04:18,357 DEBUG Updating status lights
+2024-06-11 21:04:18,357 DEBUG Checking dependencies
+2024-06-11 21:04:18,357 DEBUG Pinging component on port 5008
+2024-06-11 21:04:18,358 INFO Trying to connect to localhost:5008
+2024-06-11 21:04:18,359 DEBUG Component on port 5008 is up
+2024-06-11 21:04:18,360 DEBUG Component OrderRouter status: up
+2024-06-11 21:04:18,360 DEBUG Pinging component on port 5009
+2024-06-11 21:04:18,360 INFO Trying to connect to localhost:5009
+2024-06-11 21:04:18,362 DEBUG Component on port 5009 is up
+2024-06-11 21:04:18,362 DEBUG Component FIXEngine status: up
+2024-06-11 21:04:18,363 DEBUG Pinging component on port 5010
+2024-06-11 21:04:18,363 INFO Trying to connect to localhost:5010
+2024-06-11 21:04:18,364 DEBUG Component on port 5010 is up
+2024-06-11 21:04:18,365 DEBUG Component MarketSimulator status: up
+2024-06-11 21:04:18,988 DEBUG Updating market data display
+2024-06-11 21:04:19,994 DEBUG Updating market data display
+2024-06-11 21:04:21,001 DEBUG Updating market data display
+2024-06-11 21:04:22,012 DEBUG Updating market data display
+2024-06-11 21:04:23,023 DEBUG Updating market data display
+2024-06-11 21:04:23,371 DEBUG Updating status lights
+2024-06-11 21:04:23,371 DEBUG Checking dependencies
+2024-06-11 21:04:23,371 DEBUG Pinging component on port 5008
+2024-06-11 21:04:23,372 INFO Trying to connect to localhost:5008
+2024-06-11 21:04:23,373 DEBUG Component on port 5008 is up
+2024-06-11 21:04:23,373 DEBUG Component OrderRouter status: up
+2024-06-11 21:04:23,374 DEBUG Pinging component on port 5009
+2024-06-11 21:04:23,374 INFO Trying to connect to localhost:5009
+2024-06-11 21:04:23,375 DEBUG Component on port 5009 is up
+2024-06-11 21:04:23,376 DEBUG Component FIXEngine status: up
+2024-06-11 21:04:23,376 DEBUG Pinging component on port 5010
+2024-06-11 21:04:23,376 INFO Trying to connect to localhost:5010
+2024-06-11 21:04:23,378 DEBUG Component on port 5010 is up
+2024-06-11 21:04:23,378 DEBUG Component MarketSimulator status: up
+2024-06-11 21:04:24,033 DEBUG Updating market data display
+2024-06-11 21:04:25,042 DEBUG Updating market data display
+2024-06-11 21:04:26,054 DEBUG Updating market data display
+2024-06-11 21:04:27,065 DEBUG Updating market data display
+2024-06-11 21:04:28,073 DEBUG Updating market data display
+2024-06-11 21:04:28,388 DEBUG Updating status lights
+2024-06-11 21:04:28,388 DEBUG Checking dependencies
+2024-06-11 21:04:28,388 DEBUG Pinging component on port 5008
+2024-06-11 21:04:28,389 INFO Trying to connect to localhost:5008
+2024-06-11 21:04:28,391 DEBUG Component on port 5008 is up
+2024-06-11 21:04:28,391 DEBUG Component OrderRouter status: up
+2024-06-11 21:04:28,391 DEBUG Pinging component on port 5009
+2024-06-11 21:04:28,391 INFO Trying to connect to localhost:5009
+2024-06-11 21:04:28,393 DEBUG Component on port 5009 is up
+2024-06-11 21:04:28,393 DEBUG Component FIXEngine status: up
+2024-06-11 21:04:28,394 DEBUG Pinging component on port 5010
+2024-06-11 21:04:28,394 INFO Trying to connect to localhost:5010
+2024-06-11 21:04:28,396 DEBUG Component on port 5010 is up
+2024-06-11 21:04:28,396 DEBUG Component MarketSimulator status: up
+2024-06-11 21:04:29,076 DEBUG Updating market data display
+2024-06-11 21:04:30,079 DEBUG Updating market data display
+2024-06-11 21:04:31,092 DEBUG Updating market data display
+2024-06-11 21:04:32,099 DEBUG Updating market data display
+2024-06-11 21:04:33,105 DEBUG Updating market data display
+2024-06-11 21:04:33,400 DEBUG Updating status lights
+2024-06-11 21:04:33,400 DEBUG Checking dependencies
+2024-06-11 21:04:33,400 DEBUG Pinging component on port 5008
+2024-06-11 21:04:33,401 INFO Trying to connect to localhost:5008
+2024-06-11 21:04:33,403 DEBUG Component on port 5008 is up
+2024-06-11 21:04:33,403 DEBUG Component OrderRouter status: up
+2024-06-11 21:04:33,403 DEBUG Pinging component on port 5009
+2024-06-11 21:04:33,404 INFO Trying to connect to localhost:5009
+2024-06-11 21:04:33,405 DEBUG Component on port 5009 is up
+2024-06-11 21:04:33,406 DEBUG Component FIXEngine status: up
+2024-06-11 21:04:33,406 DEBUG Pinging component on port 5010
+2024-06-11 21:04:33,406 INFO Trying to connect to localhost:5010
+2024-06-11 21:04:33,408 DEBUG Component on port 5010 is up
+2024-06-11 21:04:33,409 DEBUG Component MarketSimulator status: up
+2024-06-11 21:04:34,108 DEBUG Updating market data display
+2024-06-11 21:04:35,121 DEBUG Updating market data display
+2024-06-11 21:04:36,136 DEBUG Updating market data display
+2024-06-11 21:04:37,157 DEBUG Updating market data display
+2024-06-11 21:04:38,161 DEBUG Updating market data display
+2024-06-11 21:04:38,421 DEBUG Updating status lights
+2024-06-11 21:04:38,421 DEBUG Checking dependencies
+2024-06-11 21:04:38,421 DEBUG Pinging component on port 5008
+2024-06-11 21:04:38,422 INFO Trying to connect to localhost:5008
+2024-06-11 21:04:38,424 DEBUG Component on port 5008 is up
+2024-06-11 21:04:38,424 DEBUG Component OrderRouter status: up
+2024-06-11 21:04:38,424 DEBUG Pinging component on port 5009
+2024-06-11 21:04:38,425 INFO Trying to connect to localhost:5009
+2024-06-11 21:04:38,427 DEBUG Component on port 5009 is up
+2024-06-11 21:04:38,427 DEBUG Component FIXEngine status: up
+2024-06-11 21:04:38,427 DEBUG Pinging component on port 5010
+2024-06-11 21:04:38,427 INFO Trying to connect to localhost:5010
+2024-06-11 21:04:38,429 DEBUG Component on port 5010 is up
+2024-06-11 21:04:38,430 DEBUG Component MarketSimulator status: up
+2024-06-11 21:04:39,167 DEBUG Updating market data display
+2024-06-11 21:04:40,169 DEBUG Updating market data display
+2024-06-11 21:04:41,170 DEBUG Updating market data display
+2024-06-11 21:04:42,183 DEBUG Updating market data display
+2024-06-11 21:04:43,185 DEBUG Updating market data display
+2024-06-11 21:04:43,441 DEBUG Updating status lights
+2024-06-11 21:04:43,441 DEBUG Checking dependencies
+2024-06-11 21:04:43,441 DEBUG Pinging component on port 5008
+2024-06-11 21:04:43,441 INFO Trying to connect to localhost:5008
+2024-06-11 21:04:43,443 DEBUG Component on port 5008 is up
+2024-06-11 21:04:43,444 DEBUG Component OrderRouter status: up
+2024-06-11 21:04:43,444 DEBUG Pinging component on port 5009
+2024-06-11 21:04:43,444 INFO Trying to connect to localhost:5009
+2024-06-11 21:04:43,446 DEBUG Component on port 5009 is up
+2024-06-11 21:04:43,446 DEBUG Component FIXEngine status: up
+2024-06-11 21:04:43,446 DEBUG Pinging component on port 5010
+2024-06-11 21:04:43,447 INFO Trying to connect to localhost:5010
+2024-06-11 21:04:43,448 DEBUG Component on port 5010 is up
+2024-06-11 21:04:43,449 DEBUG Component MarketSimulator status: up
+2024-06-11 21:04:44,199 DEBUG Updating market data display
+2024-06-11 21:04:45,215 DEBUG Updating market data display
+2024-06-11 21:04:46,230 DEBUG Updating market data display
+2024-06-11 21:04:47,243 DEBUG Updating market data display
+2024-06-11 21:04:48,255 DEBUG Updating market data display
+2024-06-11 21:04:48,463 DEBUG Updating status lights
+2024-06-11 21:04:48,463 DEBUG Checking dependencies
+2024-06-11 21:04:48,463 DEBUG Pinging component on port 5008
+2024-06-11 21:04:48,464 INFO Trying to connect to localhost:5008
+2024-06-11 21:04:48,465 DEBUG Component on port 5008 is up
+2024-06-11 21:04:48,466 DEBUG Component OrderRouter status: up
+2024-06-11 21:04:48,466 DEBUG Pinging component on port 5009
+2024-06-11 21:04:48,466 INFO Trying to connect to localhost:5009
+2024-06-11 21:04:48,468 DEBUG Component on port 5009 is up
+2024-06-11 21:04:48,468 DEBUG Component FIXEngine status: up
+2024-06-11 21:04:48,469 DEBUG Pinging component on port 5010
+2024-06-11 21:04:48,469 INFO Trying to connect to localhost:5010
+2024-06-11 21:04:48,471 DEBUG Component on port 5010 is up
+2024-06-11 21:04:48,471 DEBUG Component MarketSimulator status: up
+2024-06-11 21:04:49,267 DEBUG Updating market data display
+2024-06-11 21:04:50,270 DEBUG Updating market data display
+2024-06-11 21:04:51,271 DEBUG Updating market data display
+2024-06-11 21:04:52,275 DEBUG Updating market data display
+2024-06-11 21:04:53,282 DEBUG Updating market data display
+2024-06-11 21:04:53,472 DEBUG Updating status lights
+2024-06-11 21:04:53,472 DEBUG Checking dependencies
+2024-06-11 21:04:53,472 DEBUG Pinging component on port 5008
+2024-06-11 21:04:53,473 INFO Trying to connect to localhost:5008
+2024-06-11 21:04:53,474 DEBUG Component on port 5008 is up
+2024-06-11 21:04:53,475 DEBUG Component OrderRouter status: up
+2024-06-11 21:04:53,475 DEBUG Pinging component on port 5009
+2024-06-11 21:04:53,475 INFO Trying to connect to localhost:5009
+2024-06-11 21:04:53,477 DEBUG Component on port 5009 is up
+2024-06-11 21:04:53,477 DEBUG Component FIXEngine status: up
+2024-06-11 21:04:53,477 DEBUG Pinging component on port 5010
+2024-06-11 21:04:53,477 INFO Trying to connect to localhost:5010
+2024-06-11 21:04:53,479 DEBUG Component on port 5010 is up
+2024-06-11 21:04:53,480 DEBUG Component MarketSimulator status: up
+2024-06-11 21:04:54,283 DEBUG Updating market data display
+2024-06-11 21:04:55,287 DEBUG Updating market data display
+2024-06-11 21:04:56,289 DEBUG Updating market data display
+2024-06-11 21:04:57,302 DEBUG Updating market data display
+2024-06-11 21:04:58,309 DEBUG Updating market data display
+2024-06-11 21:04:58,482 DEBUG Updating status lights
+2024-06-11 21:04:58,482 DEBUG Checking dependencies
+2024-06-11 21:04:58,482 DEBUG Pinging component on port 5008
+2024-06-11 21:04:58,483 INFO Trying to connect to localhost:5008
+2024-06-11 21:04:58,485 DEBUG Component on port 5008 is up
+2024-06-11 21:04:58,485 DEBUG Component OrderRouter status: up
+2024-06-11 21:04:58,485 DEBUG Pinging component on port 5009
+2024-06-11 21:04:58,485 INFO Trying to connect to localhost:5009
+2024-06-11 21:04:58,487 DEBUG Component on port 5009 is up
+2024-06-11 21:04:58,487 DEBUG Component FIXEngine status: up
+2024-06-11 21:04:58,487 DEBUG Pinging component on port 5010
+2024-06-11 21:04:58,488 INFO Trying to connect to localhost:5010
+2024-06-11 21:04:58,489 DEBUG Component on port 5010 is up
+2024-06-11 21:04:58,489 DEBUG Component MarketSimulator status: up
+2024-06-11 21:04:59,316 DEBUG Updating market data display
+2024-06-11 21:05:00,329 DEBUG Updating market data display
+2024-06-11 21:05:01,330 DEBUG Updating market data display
+2024-06-11 21:05:02,331 DEBUG Updating market data display
+2024-06-11 21:05:03,343 DEBUG Updating market data display
+2024-06-11 21:05:03,503 DEBUG Updating status lights
+2024-06-11 21:05:03,503 DEBUG Checking dependencies
+2024-06-11 21:05:03,503 DEBUG Pinging component on port 5008
+2024-06-11 21:05:03,504 INFO Trying to connect to localhost:5008
+2024-06-11 21:05:03,505 DEBUG Component on port 5008 is up
+2024-06-11 21:05:03,506 DEBUG Component OrderRouter status: up
+2024-06-11 21:05:03,506 DEBUG Pinging component on port 5009
+2024-06-11 21:05:03,506 INFO Trying to connect to localhost:5009
+2024-06-11 21:05:03,508 DEBUG Component on port 5009 is up
+2024-06-11 21:05:03,508 DEBUG Component FIXEngine status: up
+2024-06-11 21:05:03,508 DEBUG Pinging component on port 5010
+2024-06-11 21:05:03,509 INFO Trying to connect to localhost:5010
+2024-06-11 21:05:03,511 DEBUG Component on port 5010 is up
+2024-06-11 21:05:03,511 DEBUG Component MarketSimulator status: up
+2024-06-11 21:05:04,343 DEBUG Updating market data display
+2024-06-11 21:05:05,345 DEBUG Updating market data display
+2024-06-11 21:05:06,347 DEBUG Updating market data display
+2024-06-11 21:05:07,350 DEBUG Updating market data display
+2024-06-11 21:05:08,361 DEBUG Updating market data display
+2024-06-11 21:05:08,520 DEBUG Updating status lights
+2024-06-11 21:05:08,520 DEBUG Checking dependencies
+2024-06-11 21:05:08,520 DEBUG Pinging component on port 5008
+2024-06-11 21:05:08,521 INFO Trying to connect to localhost:5008
+2024-06-11 21:05:08,523 DEBUG Component on port 5008 is up
+2024-06-11 21:05:08,523 DEBUG Component OrderRouter status: up
+2024-06-11 21:05:08,524 DEBUG Pinging component on port 5009
+2024-06-11 21:05:08,524 INFO Trying to connect to localhost:5009
+2024-06-11 21:05:08,526 DEBUG Component on port 5009 is up
+2024-06-11 21:05:08,527 DEBUG Component FIXEngine status: up
+2024-06-11 21:05:08,527 DEBUG Pinging component on port 5010
+2024-06-11 21:05:08,527 INFO Trying to connect to localhost:5010
+2024-06-11 21:05:08,530 DEBUG Component on port 5010 is up
+2024-06-11 21:05:08,530 DEBUG Component MarketSimulator status: up
+2024-06-11 21:05:09,375 DEBUG Updating market data display
+2024-06-11 21:05:10,385 DEBUG Updating market data display
+2024-06-11 21:05:11,390 DEBUG Updating market data display
+2024-06-11 21:05:12,402 DEBUG Updating market data display
+2024-06-11 21:05:13,409 DEBUG Updating market data display
+2024-06-11 21:05:13,534 DEBUG Updating status lights
+2024-06-11 21:05:13,534 DEBUG Checking dependencies
+2024-06-11 21:05:13,534 DEBUG Pinging component on port 5008
+2024-06-11 21:05:13,535 INFO Trying to connect to localhost:5008
+2024-06-11 21:05:13,537 DEBUG Component on port 5008 is up
+2024-06-11 21:05:13,537 DEBUG Component OrderRouter status: up
+2024-06-11 21:05:13,537 DEBUG Pinging component on port 5009
+2024-06-11 21:05:13,538 INFO Trying to connect to localhost:5009
+2024-06-11 21:05:13,540 DEBUG Component on port 5009 is up
+2024-06-11 21:05:13,540 DEBUG Component FIXEngine status: up
+2024-06-11 21:05:13,540 DEBUG Pinging component on port 5010
+2024-06-11 21:05:13,541 INFO Trying to connect to localhost:5010
+2024-06-11 21:05:13,551 DEBUG Component on port 5010 is up
+2024-06-11 21:05:13,551 DEBUG Component MarketSimulator status: up
+2024-06-11 21:05:14,416 DEBUG Updating market data display
+2024-06-11 21:05:15,417 DEBUG Updating market data display
+2024-06-11 21:05:16,424 DEBUG Updating market data display
+2024-06-11 21:05:17,437 DEBUG Updating market data display
+2024-06-11 21:05:18,440 DEBUG Updating market data display
+2024-06-11 21:05:18,566 DEBUG Updating status lights
+2024-06-11 21:05:18,566 DEBUG Checking dependencies
+2024-06-11 21:05:18,566 DEBUG Pinging component on port 5008
+2024-06-11 21:05:18,567 INFO Trying to connect to localhost:5008
+2024-06-11 21:05:18,570 DEBUG Component on port 5008 is up
+2024-06-11 21:05:18,570 DEBUG Component OrderRouter status: up
+2024-06-11 21:05:18,571 DEBUG Pinging component on port 5009
+2024-06-11 21:05:18,571 INFO Trying to connect to localhost:5009
+2024-06-11 21:05:18,573 DEBUG Component on port 5009 is up
+2024-06-11 21:05:18,573 DEBUG Component FIXEngine status: up
+2024-06-11 21:05:18,574 DEBUG Pinging component on port 5010
+2024-06-11 21:05:18,574 INFO Trying to connect to localhost:5010
+2024-06-11 21:05:18,576 DEBUG Component on port 5010 is up
+2024-06-11 21:05:18,576 DEBUG Component MarketSimulator status: up
+2024-06-11 21:05:19,449 DEBUG Updating market data display
+2024-06-11 21:05:20,451 DEBUG Updating market data display
+2024-06-11 21:05:21,453 DEBUG Updating market data display
+2024-06-11 21:05:22,458 DEBUG Updating market data display
+2024-06-11 21:05:23,459 DEBUG Updating market data display
+2024-06-11 21:05:23,583 DEBUG Updating status lights
+2024-06-11 21:05:23,583 DEBUG Checking dependencies
+2024-06-11 21:05:23,583 DEBUG Pinging component on port 5008
+2024-06-11 21:05:23,584 INFO Trying to connect to localhost:5008
+2024-06-11 21:05:23,585 DEBUG Component on port 5008 is up
+2024-06-11 21:05:23,586 DEBUG Component OrderRouter status: up
+2024-06-11 21:05:23,586 DEBUG Pinging component on port 5009
+2024-06-11 21:05:23,586 INFO Trying to connect to localhost:5009
+2024-06-11 21:05:23,588 DEBUG Component on port 5009 is up
+2024-06-11 21:05:23,588 DEBUG Component FIXEngine status: up
+2024-06-11 21:05:23,589 DEBUG Pinging component on port 5010
+2024-06-11 21:05:23,589 INFO Trying to connect to localhost:5010
+2024-06-11 21:05:23,591 DEBUG Component on port 5010 is up
+2024-06-11 21:05:23,591 DEBUG Component MarketSimulator status: up
+2024-06-11 21:05:24,463 DEBUG Updating market data display
+2024-06-11 21:05:25,470 DEBUG Updating market data display
+2024-06-11 21:05:26,486 DEBUG Updating market data display
+2024-06-11 21:05:27,491 DEBUG Updating market data display
+2024-06-11 21:05:28,503 DEBUG Updating market data display
+2024-06-11 21:05:28,596 DEBUG Updating status lights
+2024-06-11 21:05:28,596 DEBUG Checking dependencies
+2024-06-11 21:05:28,596 DEBUG Pinging component on port 5008
+2024-06-11 21:05:28,597 INFO Trying to connect to localhost:5008
+2024-06-11 21:05:28,599 DEBUG Component on port 5008 is up
+2024-06-11 21:05:28,599 DEBUG Component OrderRouter status: up
+2024-06-11 21:05:28,600 DEBUG Pinging component on port 5009
+2024-06-11 21:05:28,600 INFO Trying to connect to localhost:5009
+2024-06-11 21:05:28,602 DEBUG Component on port 5009 is up
+2024-06-11 21:05:28,602 DEBUG Component FIXEngine status: up
+2024-06-11 21:05:28,603 DEBUG Pinging component on port 5010
+2024-06-11 21:05:28,603 INFO Trying to connect to localhost:5010
+2024-06-11 21:05:28,605 DEBUG Component on port 5010 is up
+2024-06-11 21:05:28,605 DEBUG Component MarketSimulator status: up
+2024-06-11 21:05:29,517 DEBUG Updating market data display
+2024-06-11 21:05:30,530 DEBUG Updating market data display
+2024-06-11 21:05:31,541 DEBUG Updating market data display
+2024-06-11 21:05:32,543 DEBUG Updating market data display
+2024-06-11 21:05:33,555 DEBUG Updating market data display
+2024-06-11 21:05:33,618 DEBUG Updating status lights
+2024-06-11 21:05:33,618 DEBUG Checking dependencies
+2024-06-11 21:05:33,619 DEBUG Pinging component on port 5008
+2024-06-11 21:05:33,619 INFO Trying to connect to localhost:5008
+2024-06-11 21:05:33,621 DEBUG Component on port 5008 is up
+2024-06-11 21:05:33,621 DEBUG Component OrderRouter status: up
+2024-06-11 21:05:33,622 DEBUG Pinging component on port 5009
+2024-06-11 21:05:33,622 INFO Trying to connect to localhost:5009
+2024-06-11 21:05:33,624 DEBUG Component on port 5009 is up
+2024-06-11 21:05:33,624 DEBUG Component FIXEngine status: up
+2024-06-11 21:05:33,624 DEBUG Pinging component on port 5010
+2024-06-11 21:05:33,624 INFO Trying to connect to localhost:5010
+2024-06-11 21:05:33,626 DEBUG Component on port 5010 is up
+2024-06-11 21:05:33,626 DEBUG Component MarketSimulator status: up
+2024-06-11 21:05:34,568 DEBUG Updating market data display
+2024-06-11 21:05:35,568 DEBUG Updating market data display
+2024-06-11 21:05:36,582 DEBUG Updating market data display
+2024-06-11 21:05:37,585 DEBUG Updating market data display
+2024-06-11 21:05:38,585 DEBUG Updating market data display
+2024-06-11 21:05:38,632 DEBUG Updating status lights
+2024-06-11 21:05:38,632 DEBUG Checking dependencies
+2024-06-11 21:05:38,632 DEBUG Pinging component on port 5008
+2024-06-11 21:05:38,632 INFO Trying to connect to localhost:5008
+2024-06-11 21:05:38,634 DEBUG Component on port 5008 is up
+2024-06-11 21:05:38,635 DEBUG Component OrderRouter status: up
+2024-06-11 21:05:38,635 DEBUG Pinging component on port 5009
+2024-06-11 21:05:38,635 INFO Trying to connect to localhost:5009
+2024-06-11 21:05:38,637 DEBUG Component on port 5009 is up
+2024-06-11 21:05:38,637 DEBUG Component FIXEngine status: up
+2024-06-11 21:05:38,637 DEBUG Pinging component on port 5010
+2024-06-11 21:05:38,638 INFO Trying to connect to localhost:5010
+2024-06-11 21:05:38,640 DEBUG Component on port 5010 is up
+2024-06-11 21:05:38,640 DEBUG Component MarketSimulator status: up
+2024-06-11 21:05:39,598 DEBUG Updating market data display
+2024-06-11 21:05:40,609 DEBUG Updating market data display
+2024-06-11 21:05:41,619 DEBUG Updating market data display
+2024-06-11 21:05:42,623 DEBUG Updating market data display
+2024-06-11 21:05:43,631 DEBUG Updating market data display
+2024-06-11 21:05:43,647 DEBUG Updating status lights
+2024-06-11 21:05:43,647 DEBUG Checking dependencies
+2024-06-11 21:05:43,647 DEBUG Pinging component on port 5008
+2024-06-11 21:05:43,648 INFO Trying to connect to localhost:5008
+2024-06-11 21:05:43,649 DEBUG Component on port 5008 is up
+2024-06-11 21:05:43,650 DEBUG Component OrderRouter status: up
+2024-06-11 21:05:43,650 DEBUG Pinging component on port 5009
+2024-06-11 21:05:43,650 INFO Trying to connect to localhost:5009
+2024-06-11 21:05:43,652 DEBUG Component on port 5009 is up
+2024-06-11 21:05:43,652 DEBUG Component FIXEngine status: up
+2024-06-11 21:05:43,652 DEBUG Pinging component on port 5010
+2024-06-11 21:05:43,653 INFO Trying to connect to localhost:5010
+2024-06-11 21:05:43,654 DEBUG Component on port 5010 is up
+2024-06-11 21:05:43,654 DEBUG Component MarketSimulator status: up
+2024-06-11 21:05:44,632 DEBUG Updating market data display
+2024-06-11 21:05:45,646 DEBUG Updating market data display
+2024-06-11 21:05:46,647 DEBUG Updating market data display
+2024-06-11 21:05:47,660 DEBUG Updating market data display
+2024-06-11 21:05:48,655 DEBUG Updating status lights
+2024-06-11 21:05:48,655 DEBUG Checking dependencies
+2024-06-11 21:05:48,656 DEBUG Pinging component on port 5008
+2024-06-11 21:05:48,656 INFO Trying to connect to localhost:5008
+2024-06-11 21:05:48,658 DEBUG Component on port 5008 is up
+2024-06-11 21:05:48,659 DEBUG Component OrderRouter status: up
+2024-06-11 21:05:48,659 DEBUG Pinging component on port 5009
+2024-06-11 21:05:48,660 INFO Trying to connect to localhost:5009
+2024-06-11 21:05:48,662 DEBUG Component on port 5009 is up
+2024-06-11 21:05:48,663 DEBUG Component FIXEngine status: up
+2024-06-11 21:05:48,663 DEBUG Pinging component on port 5010
+2024-06-11 21:05:48,663 INFO Trying to connect to localhost:5010
+2024-06-11 21:05:48,666 DEBUG Component on port 5010 is up
+2024-06-11 21:05:48,666 DEBUG Component MarketSimulator status: up
+2024-06-11 21:05:48,666 DEBUG Updating market data display
+2024-06-11 21:05:49,671 DEBUG Updating market data display
+2024-06-11 21:05:50,685 DEBUG Updating market data display
+2024-06-11 21:05:51,685 DEBUG Updating market data display
+2024-06-11 21:05:52,699 DEBUG Updating market data display
+2024-06-11 21:05:53,670 DEBUG Updating status lights
+2024-06-11 21:05:53,670 DEBUG Checking dependencies
+2024-06-11 21:05:53,671 DEBUG Pinging component on port 5008
+2024-06-11 21:05:53,671 INFO Trying to connect to localhost:5008
+2024-06-11 21:05:53,673 DEBUG Component on port 5008 is up
+2024-06-11 21:05:53,673 DEBUG Component OrderRouter status: up
+2024-06-11 21:05:53,674 DEBUG Pinging component on port 5009
+2024-06-11 21:05:53,674 INFO Trying to connect to localhost:5009
+2024-06-11 21:05:53,677 DEBUG Component on port 5009 is up
+2024-06-11 21:05:53,677 DEBUG Component FIXEngine status: up
+2024-06-11 21:05:53,677 DEBUG Pinging component on port 5010
+2024-06-11 21:05:53,678 INFO Trying to connect to localhost:5010
+2024-06-11 21:05:53,680 DEBUG Component on port 5010 is up
+2024-06-11 21:05:53,680 DEBUG Component MarketSimulator status: up
+2024-06-11 21:05:53,700 DEBUG Updating market data display
+2024-06-11 21:05:54,703 DEBUG Updating market data display
+2024-06-11 21:05:55,716 DEBUG Updating market data display
+2024-06-11 21:05:56,721 DEBUG Updating market data display
+2024-06-11 21:05:57,724 DEBUG Updating market data display
+2024-06-11 21:05:58,689 DEBUG Updating status lights
+2024-06-11 21:05:58,689 DEBUG Checking dependencies
+2024-06-11 21:05:58,689 DEBUG Pinging component on port 5008
+2024-06-11 21:05:58,690 INFO Trying to connect to localhost:5008
+2024-06-11 21:05:58,692 DEBUG Component on port 5008 is up
+2024-06-11 21:05:58,692 DEBUG Component OrderRouter status: up
+2024-06-11 21:05:58,693 DEBUG Pinging component on port 5009
+2024-06-11 21:05:58,693 INFO Trying to connect to localhost:5009
+2024-06-11 21:05:58,695 DEBUG Component on port 5009 is up
+2024-06-11 21:05:58,695 DEBUG Component FIXEngine status: up
+2024-06-11 21:05:58,695 DEBUG Pinging component on port 5010
+2024-06-11 21:05:58,696 INFO Trying to connect to localhost:5010
+2024-06-11 21:05:58,697 DEBUG Component on port 5010 is up
+2024-06-11 21:05:58,698 DEBUG Component MarketSimulator status: up
+2024-06-11 21:05:58,736 DEBUG Updating market data display
+2024-06-11 21:05:59,741 DEBUG Updating market data display
+2024-06-11 21:06:00,743 DEBUG Updating market data display
+2024-06-11 21:06:01,744 DEBUG Updating market data display
+2024-06-11 21:06:02,753 DEBUG Updating market data display
+2024-06-11 21:06:03,697 DEBUG Updating status lights
+2024-06-11 21:06:03,697 DEBUG Checking dependencies
+2024-06-11 21:06:03,698 DEBUG Pinging component on port 5008
+2024-06-11 21:06:03,698 INFO Trying to connect to localhost:5008
+2024-06-11 21:06:03,700 DEBUG Component on port 5008 is up
+2024-06-11 21:06:03,700 DEBUG Component OrderRouter status: up
+2024-06-11 21:06:03,700 DEBUG Pinging component on port 5009
+2024-06-11 21:06:03,700 INFO Trying to connect to localhost:5009
+2024-06-11 21:06:03,702 DEBUG Component on port 5009 is up
+2024-06-11 21:06:03,702 DEBUG Component FIXEngine status: up
+2024-06-11 21:06:03,702 DEBUG Pinging component on port 5010
+2024-06-11 21:06:03,703 INFO Trying to connect to localhost:5010
+2024-06-11 21:06:03,704 DEBUG Component on port 5010 is up
+2024-06-11 21:06:03,704 DEBUG Component MarketSimulator status: up
+2024-06-11 21:06:03,760 DEBUG Updating market data display
+2024-06-11 21:06:04,766 DEBUG Updating market data display
+2024-06-11 21:06:05,773 DEBUG Updating market data display
+2024-06-11 21:06:06,778 DEBUG Updating market data display
+2024-06-11 21:06:07,783 DEBUG Updating market data display
+2024-06-11 21:06:08,714 DEBUG Updating status lights
+2024-06-11 21:06:08,714 DEBUG Checking dependencies
+2024-06-11 21:06:08,714 DEBUG Pinging component on port 5008
+2024-06-11 21:06:08,715 INFO Trying to connect to localhost:5008
+2024-06-11 21:06:08,717 DEBUG Component on port 5008 is up
+2024-06-11 21:06:08,717 DEBUG Component OrderRouter status: up
+2024-06-11 21:06:08,717 DEBUG Pinging component on port 5009
+2024-06-11 21:06:08,717 INFO Trying to connect to localhost:5009
+2024-06-11 21:06:08,719 DEBUG Component on port 5009 is up
+2024-06-11 21:06:08,719 DEBUG Component FIXEngine status: up
+2024-06-11 21:06:08,720 DEBUG Pinging component on port 5010
+2024-06-11 21:06:08,720 INFO Trying to connect to localhost:5010
+2024-06-11 21:06:08,722 DEBUG Component on port 5010 is up
+2024-06-11 21:06:08,722 DEBUG Component MarketSimulator status: up
+2024-06-11 21:06:08,793 DEBUG Updating market data display
+2024-06-11 21:06:09,800 DEBUG Updating market data display
+2024-06-11 21:06:10,804 DEBUG Updating market data display
+2024-06-11 21:06:11,818 DEBUG Updating market data display
+2024-06-11 21:06:12,819 DEBUG Updating market data display
+2024-06-11 21:06:13,732 DEBUG Updating status lights
+2024-06-11 21:06:13,733 DEBUG Checking dependencies
+2024-06-11 21:06:13,733 DEBUG Pinging component on port 5008
+2024-06-11 21:06:13,734 INFO Trying to connect to localhost:5008
+2024-06-11 21:06:13,736 DEBUG Component on port 5008 is up
+2024-06-11 21:06:13,737 DEBUG Component OrderRouter status: up
+2024-06-11 21:06:13,737 DEBUG Pinging component on port 5009
+2024-06-11 21:06:13,737 INFO Trying to connect to localhost:5009
+2024-06-11 21:06:13,740 DEBUG Component on port 5009 is up
+2024-06-11 21:06:13,741 DEBUG Component FIXEngine status: up
+2024-06-11 21:06:13,741 DEBUG Pinging component on port 5010
+2024-06-11 21:06:13,741 INFO Trying to connect to localhost:5010
+2024-06-11 21:06:13,744 DEBUG Component on port 5010 is up
+2024-06-11 21:06:13,744 DEBUG Component MarketSimulator status: up
+2024-06-11 21:06:13,824 DEBUG Updating market data display
+2024-06-11 21:06:14,825 DEBUG Updating market data display
+2024-06-11 21:06:15,830 DEBUG Updating market data display
+2024-06-11 21:06:16,837 DEBUG Updating market data display
+2024-06-11 21:06:17,851 DEBUG Updating market data display
+2024-06-11 21:06:18,750 DEBUG Updating status lights
+2024-06-11 21:06:18,750 DEBUG Checking dependencies
+2024-06-11 21:06:18,750 DEBUG Pinging component on port 5008
+2024-06-11 21:06:18,750 INFO Trying to connect to localhost:5008
+2024-06-11 21:06:18,752 DEBUG Component on port 5008 is up
+2024-06-11 21:06:18,752 DEBUG Component OrderRouter status: up
+2024-06-11 21:06:18,753 DEBUG Pinging component on port 5009
+2024-06-11 21:06:18,753 INFO Trying to connect to localhost:5009
+2024-06-11 21:06:18,755 DEBUG Component on port 5009 is up
+2024-06-11 21:06:18,755 DEBUG Component FIXEngine status: up
+2024-06-11 21:06:18,755 DEBUG Pinging component on port 5010
+2024-06-11 21:06:18,756 INFO Trying to connect to localhost:5010
+2024-06-11 21:06:18,758 DEBUG Component on port 5010 is up
+2024-06-11 21:06:18,758 DEBUG Component MarketSimulator status: up
+2024-06-11 21:06:18,857 DEBUG Updating market data display
+2024-06-11 21:06:19,872 DEBUG Updating market data display
+2024-06-11 21:06:20,877 DEBUG Updating market data display
+2024-06-11 21:06:21,878 DEBUG Updating market data display
+2024-06-11 21:06:22,884 DEBUG Updating market data display
+2024-06-11 21:06:23,771 DEBUG Updating status lights
+2024-06-11 21:06:23,771 DEBUG Checking dependencies
+2024-06-11 21:06:23,771 DEBUG Pinging component on port 5008
+2024-06-11 21:06:23,772 INFO Trying to connect to localhost:5008
+2024-06-11 21:06:23,774 DEBUG Component on port 5008 is up
+2024-06-11 21:06:23,774 DEBUG Component OrderRouter status: up
+2024-06-11 21:06:23,774 DEBUG Pinging component on port 5009
+2024-06-11 21:06:23,774 INFO Trying to connect to localhost:5009
+2024-06-11 21:06:23,776 DEBUG Component on port 5009 is up
+2024-06-11 21:06:23,776 DEBUG Component FIXEngine status: up
+2024-06-11 21:06:23,777 DEBUG Pinging component on port 5010
+2024-06-11 21:06:23,777 INFO Trying to connect to localhost:5010
+2024-06-11 21:06:23,779 DEBUG Component on port 5010 is up
+2024-06-11 21:06:23,779 DEBUG Component MarketSimulator status: up
+2024-06-11 21:06:23,898 DEBUG Updating market data display
+2024-06-11 21:06:24,911 DEBUG Updating market data display
+2024-06-11 21:06:25,911 DEBUG Updating market data display
+2024-06-11 21:06:26,912 DEBUG Updating market data display
+2024-06-11 21:06:27,924 DEBUG Updating market data display
+2024-06-11 21:06:28,787 DEBUG Updating status lights
+2024-06-11 21:06:28,787 DEBUG Checking dependencies
+2024-06-11 21:06:28,788 DEBUG Pinging component on port 5008
+2024-06-11 21:06:28,788 INFO Trying to connect to localhost:5008
+2024-06-11 21:06:28,790 DEBUG Component on port 5008 is up
+2024-06-11 21:06:28,790 DEBUG Component OrderRouter status: up
+2024-06-11 21:06:28,790 DEBUG Pinging component on port 5009
+2024-06-11 21:06:28,790 INFO Trying to connect to localhost:5009
+2024-06-11 21:06:28,792 DEBUG Component on port 5009 is up
+2024-06-11 21:06:28,792 DEBUG Component FIXEngine status: up
+2024-06-11 21:06:28,793 DEBUG Pinging component on port 5010
+2024-06-11 21:06:28,793 INFO Trying to connect to localhost:5010
+2024-06-11 21:06:28,794 DEBUG Component on port 5010 is up
+2024-06-11 21:06:28,794 DEBUG Component MarketSimulator status: up
+2024-06-11 21:06:28,926 DEBUG Updating market data display
+2024-06-11 21:06:29,928 DEBUG Updating market data display
+2024-06-11 21:06:30,929 DEBUG Updating market data display
+2024-06-11 21:06:31,939 DEBUG Updating market data display
+2024-06-11 21:06:32,947 DEBUG Updating market data display
+2024-06-11 21:06:33,799 DEBUG Updating status lights
+2024-06-11 21:06:33,799 DEBUG Checking dependencies
+2024-06-11 21:06:33,800 DEBUG Pinging component on port 5008
+2024-06-11 21:06:33,800 INFO Trying to connect to localhost:5008
+2024-06-11 21:06:33,803 DEBUG Component on port 5008 is up
+2024-06-11 21:06:33,803 DEBUG Component OrderRouter status: up
+2024-06-11 21:06:33,803 DEBUG Pinging component on port 5009
+2024-06-11 21:06:33,803 INFO Trying to connect to localhost:5009
+2024-06-11 21:06:33,806 DEBUG Component on port 5009 is up
+2024-06-11 21:06:33,806 DEBUG Component FIXEngine status: up
+2024-06-11 21:06:33,806 DEBUG Pinging component on port 5010
+2024-06-11 21:06:33,807 INFO Trying to connect to localhost:5010
+2024-06-11 21:06:33,808 DEBUG Component on port 5010 is up
+2024-06-11 21:06:33,808 DEBUG Component MarketSimulator status: up
+2024-06-11 21:06:33,956 DEBUG Updating market data display
+2024-06-11 21:06:34,958 DEBUG Updating market data display
+2024-06-11 21:06:35,969 DEBUG Updating market data display
+2024-06-11 21:06:36,976 DEBUG Updating market data display
+2024-06-11 21:06:37,982 DEBUG Updating market data display
+2024-06-11 21:06:38,817 DEBUG Updating status lights
+2024-06-11 21:06:38,817 DEBUG Checking dependencies
+2024-06-11 21:06:38,818 DEBUG Pinging component on port 5008
+2024-06-11 21:06:38,818 INFO Trying to connect to localhost:5008
+2024-06-11 21:06:38,820 DEBUG Component on port 5008 is up
+2024-06-11 21:06:38,820 DEBUG Component OrderRouter status: up
+2024-06-11 21:06:38,821 DEBUG Pinging component on port 5009
+2024-06-11 21:06:38,821 INFO Trying to connect to localhost:5009
+2024-06-11 21:06:38,823 DEBUG Component on port 5009 is up
+2024-06-11 21:06:38,824 DEBUG Component FIXEngine status: up
+2024-06-11 21:06:38,824 DEBUG Pinging component on port 5010
+2024-06-11 21:06:38,824 INFO Trying to connect to localhost:5010
+2024-06-11 21:06:38,827 DEBUG Component on port 5010 is up
+2024-06-11 21:06:38,827 DEBUG Component MarketSimulator status: up
+2024-06-11 21:06:38,990 DEBUG Updating market data display
+2024-06-11 21:06:39,997 DEBUG Updating market data display
+2024-06-11 21:06:40,997 DEBUG Updating market data display
+2024-06-11 21:06:41,999 DEBUG Updating market data display
+2024-06-11 21:06:43,012 DEBUG Updating market data display
+2024-06-11 21:06:43,827 DEBUG Updating status lights
+2024-06-11 21:06:43,828 DEBUG Checking dependencies
+2024-06-11 21:06:43,828 DEBUG Pinging component on port 5008
+2024-06-11 21:06:43,828 INFO Trying to connect to localhost:5008
+2024-06-11 21:06:43,830 DEBUG Component on port 5008 is up
+2024-06-11 21:06:43,830 DEBUG Component OrderRouter status: up
+2024-06-11 21:06:43,830 DEBUG Pinging component on port 5009
+2024-06-11 21:06:43,830 INFO Trying to connect to localhost:5009
+2024-06-11 21:06:43,832 DEBUG Component on port 5009 is up
+2024-06-11 21:06:43,832 DEBUG Component FIXEngine status: up
+2024-06-11 21:06:43,832 DEBUG Pinging component on port 5010
+2024-06-11 21:06:43,833 INFO Trying to connect to localhost:5010
+2024-06-11 21:06:43,834 DEBUG Component on port 5010 is up
+2024-06-11 21:06:43,834 DEBUG Component MarketSimulator status: up
+2024-06-11 21:06:44,015 DEBUG Updating market data display
+2024-06-11 21:06:45,016 DEBUG Updating market data display
+2024-06-11 21:06:46,016 DEBUG Updating market data display
+2024-06-11 21:06:47,022 DEBUG Updating market data display
+2024-06-11 21:06:48,025 DEBUG Updating market data display
+2024-06-11 21:06:48,841 DEBUG Updating status lights
+2024-06-11 21:06:48,841 DEBUG Checking dependencies
+2024-06-11 21:06:48,841 DEBUG Pinging component on port 5008
+2024-06-11 21:06:48,842 INFO Trying to connect to localhost:5008
+2024-06-11 21:06:48,844 DEBUG Component on port 5008 is up
+2024-06-11 21:06:48,844 DEBUG Component OrderRouter status: up
+2024-06-11 21:06:48,844 DEBUG Pinging component on port 5009
+2024-06-11 21:06:48,844 INFO Trying to connect to localhost:5009
+2024-06-11 21:06:48,846 DEBUG Component on port 5009 is up
+2024-06-11 21:06:48,846 DEBUG Component FIXEngine status: up
+2024-06-11 21:06:48,847 DEBUG Pinging component on port 5010
+2024-06-11 21:06:48,847 INFO Trying to connect to localhost:5010
+2024-06-11 21:06:48,849 DEBUG Component on port 5010 is up
+2024-06-11 21:06:48,849 DEBUG Component MarketSimulator status: up
+2024-06-11 21:06:49,029 DEBUG Updating market data display
+2024-06-11 21:06:50,035 DEBUG Updating market data display
+2024-06-11 21:06:51,042 DEBUG Updating market data display
+2024-06-11 21:06:52,048 DEBUG Updating market data display
+2024-06-11 21:06:53,053 DEBUG Updating market data display
+2024-06-11 21:06:53,863 DEBUG Updating status lights
+2024-06-11 21:06:53,863 DEBUG Checking dependencies
+2024-06-11 21:06:53,863 DEBUG Pinging component on port 5008
+2024-06-11 21:06:53,864 INFO Trying to connect to localhost:5008
+2024-06-11 21:06:53,865 DEBUG Component on port 5008 is up
+2024-06-11 21:06:53,865 DEBUG Component OrderRouter status: up
+2024-06-11 21:06:53,866 DEBUG Pinging component on port 5009
+2024-06-11 21:06:53,866 INFO Trying to connect to localhost:5009
+2024-06-11 21:06:53,867 DEBUG Component on port 5009 is up
+2024-06-11 21:06:53,868 DEBUG Component FIXEngine status: up
+2024-06-11 21:06:53,868 DEBUG Pinging component on port 5010
+2024-06-11 21:06:53,869 INFO Trying to connect to localhost:5010
+2024-06-11 21:06:53,870 DEBUG Component on port 5010 is up
+2024-06-11 21:06:53,871 DEBUG Component MarketSimulator status: up
+2024-06-11 21:06:54,053 DEBUG Updating market data display
+2024-06-11 21:06:55,065 DEBUG Updating market data display
+2024-06-11 21:06:56,065 DEBUG Updating market data display
+2024-06-11 21:06:57,076 DEBUG Updating market data display
+2024-06-11 21:06:58,080 DEBUG Updating market data display
+2024-06-11 21:06:58,877 DEBUG Updating status lights
+2024-06-11 21:06:58,877 DEBUG Checking dependencies
+2024-06-11 21:06:58,877 DEBUG Pinging component on port 5008
+2024-06-11 21:06:58,878 INFO Trying to connect to localhost:5008
+2024-06-11 21:06:58,879 DEBUG Component on port 5008 is up
+2024-06-11 21:06:58,879 DEBUG Component OrderRouter status: up
+2024-06-11 21:06:58,880 DEBUG Pinging component on port 5009
+2024-06-11 21:06:58,880 INFO Trying to connect to localhost:5009
+2024-06-11 21:06:58,881 DEBUG Component on port 5009 is up
+2024-06-11 21:06:58,881 DEBUG Component FIXEngine status: up
+2024-06-11 21:06:58,882 DEBUG Pinging component on port 5010
+2024-06-11 21:06:58,882 INFO Trying to connect to localhost:5010
+2024-06-11 21:06:58,884 DEBUG Component on port 5010 is up
+2024-06-11 21:06:58,885 DEBUG Component MarketSimulator status: up
+2024-06-11 21:06:59,094 DEBUG Updating market data display
+2024-06-11 21:07:00,096 DEBUG Updating market data display
+2024-06-11 21:07:01,101 DEBUG Updating market data display
+2024-06-11 21:07:02,102 DEBUG Updating market data display
+2024-06-11 21:07:03,113 DEBUG Updating market data display
+2024-06-11 21:07:03,894 DEBUG Updating status lights
+2024-06-11 21:07:03,894 DEBUG Checking dependencies
+2024-06-11 21:07:03,894 DEBUG Pinging component on port 5008
+2024-06-11 21:07:03,894 INFO Trying to connect to localhost:5008
+2024-06-11 21:07:03,895 DEBUG Component on port 5008 is up
+2024-06-11 21:07:03,895 DEBUG Component OrderRouter status: up
+2024-06-11 21:07:03,895 DEBUG Pinging component on port 5009
+2024-06-11 21:07:03,896 INFO Trying to connect to localhost:5009
+2024-06-11 21:07:03,897 DEBUG Component on port 5009 is up
+2024-06-11 21:07:03,897 DEBUG Component FIXEngine status: up
+2024-06-11 21:07:03,897 DEBUG Pinging component on port 5010
+2024-06-11 21:07:03,897 INFO Trying to connect to localhost:5010
+2024-06-11 21:07:03,898 DEBUG Component on port 5010 is up
+2024-06-11 21:07:03,898 DEBUG Component MarketSimulator status: up
+2024-06-11 21:07:04,127 DEBUG Updating market data display
+2024-06-11 21:07:05,131 DEBUG Updating market data display
+2024-06-11 21:07:06,136 DEBUG Updating market data display
+2024-06-11 21:07:07,140 DEBUG Updating market data display
+2024-06-11 21:07:08,143 DEBUG Updating market data display
+2024-06-11 21:07:08,908 DEBUG Updating status lights
+2024-06-11 21:07:08,908 DEBUG Checking dependencies
+2024-06-11 21:07:08,908 DEBUG Pinging component on port 5008
+2024-06-11 21:07:08,908 INFO Trying to connect to localhost:5008
+2024-06-11 21:07:08,910 DEBUG Component on port 5008 is up
+2024-06-11 21:07:08,910 DEBUG Component OrderRouter status: up
+2024-06-11 21:07:08,910 DEBUG Pinging component on port 5009
+2024-06-11 21:07:08,910 INFO Trying to connect to localhost:5009
+2024-06-11 21:07:08,912 DEBUG Component on port 5009 is up
+2024-06-11 21:07:08,912 DEBUG Component FIXEngine status: up
+2024-06-11 21:07:08,912 DEBUG Pinging component on port 5010
+2024-06-11 21:07:08,912 INFO Trying to connect to localhost:5010
+2024-06-11 21:07:08,914 DEBUG Component on port 5010 is up
+2024-06-11 21:07:08,914 DEBUG Component MarketSimulator status: up
+2024-06-11 21:07:09,158 DEBUG Updating market data display
+2024-06-11 21:07:10,161 DEBUG Updating market data display
+2024-06-11 21:07:11,161 DEBUG Updating market data display
+2024-06-11 21:07:12,164 DEBUG Updating market data display
+2024-06-11 21:07:13,172 DEBUG Updating market data display
+2024-06-11 21:07:13,923 DEBUG Updating status lights
+2024-06-11 21:07:13,923 DEBUG Checking dependencies
+2024-06-11 21:07:13,923 DEBUG Pinging component on port 5008
+2024-06-11 21:07:13,924 INFO Trying to connect to localhost:5008
+2024-06-11 21:07:13,925 DEBUG Component on port 5008 is up
+2024-06-11 21:07:13,925 DEBUG Component OrderRouter status: up
+2024-06-11 21:07:13,925 DEBUG Pinging component on port 5009
+2024-06-11 21:07:13,925 INFO Trying to connect to localhost:5009
+2024-06-11 21:07:13,927 DEBUG Component on port 5009 is up
+2024-06-11 21:07:13,927 DEBUG Component FIXEngine status: up
+2024-06-11 21:07:13,927 DEBUG Pinging component on port 5010
+2024-06-11 21:07:13,928 INFO Trying to connect to localhost:5010
+2024-06-11 21:07:13,929 DEBUG Component on port 5010 is up
+2024-06-11 21:07:13,929 DEBUG Component MarketSimulator status: up
+2024-06-11 21:07:14,186 DEBUG Updating market data display
+2024-06-11 21:07:15,191 DEBUG Updating market data display
+2024-06-11 21:07:16,201 DEBUG Updating market data display
+2024-06-11 21:07:17,209 DEBUG Updating market data display
+2024-06-11 21:07:18,215 DEBUG Updating market data display
+2024-06-11 21:07:18,931 DEBUG Updating status lights
+2024-06-11 21:07:18,931 DEBUG Checking dependencies
+2024-06-11 21:07:18,931 DEBUG Pinging component on port 5008
+2024-06-11 21:07:18,932 INFO Trying to connect to localhost:5008
+2024-06-11 21:07:18,933 DEBUG Component on port 5008 is up
+2024-06-11 21:07:18,933 DEBUG Component OrderRouter status: up
+2024-06-11 21:07:18,933 DEBUG Pinging component on port 5009
+2024-06-11 21:07:18,934 INFO Trying to connect to localhost:5009
+2024-06-11 21:07:18,935 DEBUG Component on port 5009 is up
+2024-06-11 21:07:18,935 DEBUG Component FIXEngine status: up
+2024-06-11 21:07:18,935 DEBUG Pinging component on port 5010
+2024-06-11 21:07:18,935 INFO Trying to connect to localhost:5010
+2024-06-11 21:07:18,937 DEBUG Component on port 5010 is up
+2024-06-11 21:07:18,937 DEBUG Component MarketSimulator status: up
+2024-06-11 21:07:19,227 DEBUG Updating market data display
+2024-06-11 21:07:20,240 DEBUG Updating market data display
+2024-06-11 21:07:21,243 DEBUG Updating market data display
+2024-06-11 21:07:22,246 DEBUG Updating market data display
+2024-06-11 21:07:23,253 DEBUG Updating market data display
+2024-06-11 21:07:23,941 DEBUG Updating status lights
+2024-06-11 21:07:23,941 DEBUG Checking dependencies
+2024-06-11 21:07:23,942 DEBUG Pinging component on port 5008
+2024-06-11 21:07:23,942 INFO Trying to connect to localhost:5008
+2024-06-11 21:07:23,944 DEBUG Component on port 5008 is up
+2024-06-11 21:07:23,945 DEBUG Component OrderRouter status: up
+2024-06-11 21:07:23,945 DEBUG Pinging component on port 5009
+2024-06-11 21:07:23,945 INFO Trying to connect to localhost:5009
+2024-06-11 21:07:23,947 DEBUG Component on port 5009 is up
+2024-06-11 21:07:23,947 DEBUG Component FIXEngine status: up
+2024-06-11 21:07:23,948 DEBUG Pinging component on port 5010
+2024-06-11 21:07:23,948 INFO Trying to connect to localhost:5010
+2024-06-11 21:07:23,950 DEBUG Component on port 5010 is up
+2024-06-11 21:07:23,950 DEBUG Component MarketSimulator status: up
+2024-06-11 21:07:24,254 DEBUG Updating market data display
+2024-06-11 21:07:25,257 DEBUG Updating market data display
+2024-06-11 21:07:26,257 DEBUG Updating market data display
+2024-06-11 21:07:27,258 DEBUG Updating market data display
+2024-06-11 21:07:28,272 DEBUG Updating market data display
+2024-06-11 21:07:28,958 DEBUG Updating status lights
+2024-06-11 21:07:28,958 DEBUG Checking dependencies
+2024-06-11 21:07:28,958 DEBUG Pinging component on port 5008
+2024-06-11 21:07:28,958 INFO Trying to connect to localhost:5008
+2024-06-11 21:07:28,960 DEBUG Component on port 5008 is up
+2024-06-11 21:07:28,960 DEBUG Component OrderRouter status: up
+2024-06-11 21:07:28,960 DEBUG Pinging component on port 5009
+2024-06-11 21:07:28,960 INFO Trying to connect to localhost:5009
+2024-06-11 21:07:28,962 DEBUG Component on port 5009 is up
+2024-06-11 21:07:28,962 DEBUG Component FIXEngine status: up
+2024-06-11 21:07:28,962 DEBUG Pinging component on port 5010
+2024-06-11 21:07:28,963 INFO Trying to connect to localhost:5010
+2024-06-11 21:07:28,965 DEBUG Component on port 5010 is up
+2024-06-11 21:07:28,965 DEBUG Component MarketSimulator status: up
+2024-06-11 21:07:29,285 DEBUG Updating market data display
+2024-06-11 21:07:30,301 DEBUG Updating market data display
+2024-06-11 21:07:31,305 DEBUG Updating market data display
+2024-06-11 21:07:32,313 DEBUG Updating market data display
+2024-06-11 21:07:33,319 DEBUG Updating market data display
+2024-06-11 21:07:33,972 DEBUG Updating status lights
+2024-06-11 21:07:33,972 DEBUG Checking dependencies
+2024-06-11 21:07:33,972 DEBUG Pinging component on port 5008
+2024-06-11 21:07:33,972 INFO Trying to connect to localhost:5008
+2024-06-11 21:07:33,973 DEBUG Component on port 5008 is up
+2024-06-11 21:07:33,974 DEBUG Component OrderRouter status: up
+2024-06-11 21:07:33,974 DEBUG Pinging component on port 5009
+2024-06-11 21:07:33,974 INFO Trying to connect to localhost:5009
+2024-06-11 21:07:33,975 DEBUG Component on port 5009 is up
+2024-06-11 21:07:33,975 DEBUG Component FIXEngine status: up
+2024-06-11 21:07:33,975 DEBUG Pinging component on port 5010
+2024-06-11 21:07:33,975 INFO Trying to connect to localhost:5010
+2024-06-11 21:07:33,977 DEBUG Component on port 5010 is up
+2024-06-11 21:07:33,977 DEBUG Component MarketSimulator status: up
+2024-06-11 21:07:34,330 DEBUG Updating market data display
+2024-06-11 21:07:35,344 DEBUG Updating market data display
+2024-06-11 21:07:36,349 DEBUG Updating market data display
+2024-06-11 21:07:37,361 DEBUG Updating market data display
+2024-06-11 21:07:38,363 DEBUG Updating market data display
+2024-06-11 21:07:38,987 DEBUG Updating status lights
+2024-06-11 21:07:38,987 DEBUG Checking dependencies
+2024-06-11 21:07:38,987 DEBUG Pinging component on port 5008
+2024-06-11 21:07:38,988 INFO Trying to connect to localhost:5008
+2024-06-11 21:07:38,990 DEBUG Component on port 5008 is up
+2024-06-11 21:07:38,990 DEBUG Component OrderRouter status: up
+2024-06-11 21:07:38,990 DEBUG Pinging component on port 5009
+2024-06-11 21:07:38,990 INFO Trying to connect to localhost:5009
+2024-06-11 21:07:38,992 DEBUG Component on port 5009 is up
+2024-06-11 21:07:38,992 DEBUG Component FIXEngine status: up
+2024-06-11 21:07:38,993 DEBUG Pinging component on port 5010
+2024-06-11 21:07:38,993 INFO Trying to connect to localhost:5010
+2024-06-11 21:07:38,995 DEBUG Component on port 5010 is up
+2024-06-11 21:07:38,995 DEBUG Component MarketSimulator status: up
+2024-06-11 21:07:39,373 DEBUG Updating market data display
+2024-06-11 21:07:40,379 DEBUG Updating market data display
+2024-06-11 21:07:41,393 DEBUG Updating market data display
+2024-06-11 21:07:42,401 DEBUG Updating market data display
+2024-06-11 21:07:43,409 DEBUG Updating market data display
+2024-06-11 21:07:44,001 DEBUG Updating status lights
+2024-06-11 21:07:44,001 DEBUG Checking dependencies
+2024-06-11 21:07:44,001 DEBUG Pinging component on port 5008
+2024-06-11 21:07:44,002 INFO Trying to connect to localhost:5008
+2024-06-11 21:07:44,003 DEBUG Component on port 5008 is up
+2024-06-11 21:07:44,003 DEBUG Component OrderRouter status: up
+2024-06-11 21:07:44,004 DEBUG Pinging component on port 5009
+2024-06-11 21:07:44,004 INFO Trying to connect to localhost:5009
+2024-06-11 21:07:44,006 DEBUG Component on port 5009 is up
+2024-06-11 21:07:44,006 DEBUG Component FIXEngine status: up
+2024-06-11 21:07:44,007 DEBUG Pinging component on port 5010
+2024-06-11 21:07:44,007 INFO Trying to connect to localhost:5010
+2024-06-11 21:07:44,008 DEBUG Component on port 5010 is up
+2024-06-11 21:07:44,008 DEBUG Component MarketSimulator status: up
+2024-06-11 21:07:44,423 DEBUG Updating market data display
+2024-06-11 21:07:45,431 DEBUG Updating market data display
+2024-06-11 21:07:46,437 DEBUG Updating market data display
+2024-06-11 21:07:47,444 DEBUG Updating market data display
+2024-06-11 21:07:48,451 DEBUG Updating market data display
+2024-06-11 21:07:49,020 DEBUG Updating status lights
+2024-06-11 21:07:49,020 DEBUG Checking dependencies
+2024-06-11 21:07:49,021 DEBUG Pinging component on port 5008
+2024-06-11 21:07:49,021 INFO Trying to connect to localhost:5008
+2024-06-11 21:07:49,025 DEBUG Component on port 5008 is up
+2024-06-11 21:07:49,026 DEBUG Component OrderRouter status: up
+2024-06-11 21:07:49,026 DEBUG Pinging component on port 5009
+2024-06-11 21:07:49,027 INFO Trying to connect to localhost:5009
+2024-06-11 21:07:49,031 DEBUG Component on port 5009 is up
+2024-06-11 21:07:49,031 DEBUG Component FIXEngine status: up
+2024-06-11 21:07:49,032 DEBUG Pinging component on port 5010
+2024-06-11 21:07:49,032 INFO Trying to connect to localhost:5010
+2024-06-11 21:07:49,034 DEBUG Component on port 5010 is up
+2024-06-11 21:07:49,034 DEBUG Component MarketSimulator status: up
+2024-06-11 21:07:49,461 DEBUG Updating market data display
+2024-06-11 21:07:50,465 DEBUG Updating market data display
+2024-06-11 21:07:51,473 DEBUG Updating market data display
+2024-06-11 21:07:52,483 DEBUG Updating market data display
+2024-06-11 21:07:53,490 DEBUG Updating market data display
+2024-06-11 21:07:54,037 DEBUG Updating status lights
+2024-06-11 21:07:54,037 DEBUG Checking dependencies
+2024-06-11 21:07:54,037 DEBUG Pinging component on port 5008
+2024-06-11 21:07:54,037 INFO Trying to connect to localhost:5008
+2024-06-11 21:07:54,038 DEBUG Component on port 5008 is up
+2024-06-11 21:07:54,038 DEBUG Component OrderRouter status: up
+2024-06-11 21:07:54,039 DEBUG Pinging component on port 5009
+2024-06-11 21:07:54,039 INFO Trying to connect to localhost:5009
+2024-06-11 21:07:54,040 DEBUG Component on port 5009 is up
+2024-06-11 21:07:54,040 DEBUG Component FIXEngine status: up
+2024-06-11 21:07:54,041 DEBUG Pinging component on port 5010
+2024-06-11 21:07:54,041 INFO Trying to connect to localhost:5010
+2024-06-11 21:07:54,042 DEBUG Component on port 5010 is up
+2024-06-11 21:07:54,042 DEBUG Component MarketSimulator status: up
+2024-06-11 21:07:54,494 DEBUG Updating market data display
+2024-06-11 21:07:55,497 DEBUG Updating market data display
+2024-06-11 21:07:56,504 DEBUG Updating market data display
+2024-06-11 21:07:57,514 DEBUG Updating market data display
+2024-06-11 21:07:58,518 DEBUG Updating market data display
+2024-06-11 21:07:59,052 DEBUG Updating status lights
+2024-06-11 21:07:59,052 DEBUG Checking dependencies
+2024-06-11 21:07:59,052 DEBUG Pinging component on port 5008
+2024-06-11 21:07:59,052 INFO Trying to connect to localhost:5008
+2024-06-11 21:07:59,054 DEBUG Component on port 5008 is up
+2024-06-11 21:07:59,054 DEBUG Component OrderRouter status: up
+2024-06-11 21:07:59,054 DEBUG Pinging component on port 5009
+2024-06-11 21:07:59,054 INFO Trying to connect to localhost:5009
+2024-06-11 21:07:59,056 DEBUG Component on port 5009 is up
+2024-06-11 21:07:59,056 DEBUG Component FIXEngine status: up
+2024-06-11 21:07:59,056 DEBUG Pinging component on port 5010
+2024-06-11 21:07:59,057 INFO Trying to connect to localhost:5010
+2024-06-11 21:07:59,058 DEBUG Component on port 5010 is up
+2024-06-11 21:07:59,058 DEBUG Component MarketSimulator status: up
+2024-06-11 21:07:59,524 DEBUG Updating market data display
+2024-06-11 21:08:00,526 DEBUG Updating market data display
+2024-06-11 21:08:01,538 DEBUG Updating market data display
+2024-06-11 21:08:02,544 DEBUG Updating market data display
+2024-06-11 21:08:03,552 DEBUG Updating market data display
+2024-06-11 21:08:04,069 DEBUG Updating status lights
+2024-06-11 21:08:04,069 DEBUG Checking dependencies
+2024-06-11 21:08:04,069 DEBUG Pinging component on port 5008
+2024-06-11 21:08:04,069 INFO Trying to connect to localhost:5008
+2024-06-11 21:08:04,070 DEBUG Component on port 5008 is up
+2024-06-11 21:08:04,070 DEBUG Component OrderRouter status: up
+2024-06-11 21:08:04,071 DEBUG Pinging component on port 5009
+2024-06-11 21:08:04,071 INFO Trying to connect to localhost:5009
+2024-06-11 21:08:04,073 DEBUG Component on port 5009 is up
+2024-06-11 21:08:04,073 DEBUG Component FIXEngine status: up
+2024-06-11 21:08:04,073 DEBUG Pinging component on port 5010
+2024-06-11 21:08:04,073 INFO Trying to connect to localhost:5010
+2024-06-11 21:08:04,074 DEBUG Component on port 5010 is up
+2024-06-11 21:08:04,074 DEBUG Component MarketSimulator status: up
+2024-06-11 21:08:04,556 DEBUG Updating market data display
+2024-06-11 21:08:05,570 DEBUG Updating market data display
+2024-06-11 21:08:06,576 DEBUG Updating market data display
+2024-06-11 21:08:07,586 DEBUG Updating market data display
+2024-06-11 21:08:08,596 DEBUG Updating market data display
+2024-06-11 21:08:09,079 DEBUG Updating status lights
+2024-06-11 21:08:09,079 DEBUG Checking dependencies
+2024-06-11 21:08:09,079 DEBUG Pinging component on port 5008
+2024-06-11 21:08:09,079 INFO Trying to connect to localhost:5008
+2024-06-11 21:08:09,080 DEBUG Component on port 5008 is up
+2024-06-11 21:08:09,081 DEBUG Component OrderRouter status: up
+2024-06-11 21:08:09,081 DEBUG Pinging component on port 5009
+2024-06-11 21:08:09,081 INFO Trying to connect to localhost:5009
+2024-06-11 21:08:09,082 DEBUG Component on port 5009 is up
+2024-06-11 21:08:09,082 DEBUG Component FIXEngine status: up
+2024-06-11 21:08:09,082 DEBUG Pinging component on port 5010
+2024-06-11 21:08:09,082 INFO Trying to connect to localhost:5010
+2024-06-11 21:08:09,084 DEBUG Component on port 5010 is up
+2024-06-11 21:08:09,084 DEBUG Component MarketSimulator status: up
+2024-06-11 21:08:09,598 DEBUG Updating market data display
+2024-06-11 21:08:10,608 DEBUG Updating market data display
+2024-06-11 21:08:11,616 DEBUG Updating market data display
+2024-06-11 21:08:12,621 DEBUG Updating market data display
+2024-06-11 21:08:13,630 DEBUG Updating market data display
+2024-06-11 21:08:14,098 DEBUG Updating status lights
+2024-06-11 21:08:14,098 DEBUG Checking dependencies
+2024-06-11 21:08:14,098 DEBUG Pinging component on port 5008
+2024-06-11 21:08:14,099 INFO Trying to connect to localhost:5008
+2024-06-11 21:08:14,100 DEBUG Component on port 5008 is up
+2024-06-11 21:08:14,100 DEBUG Component OrderRouter status: up
+2024-06-11 21:08:14,101 DEBUG Pinging component on port 5009
+2024-06-11 21:08:14,101 INFO Trying to connect to localhost:5009
+2024-06-11 21:08:14,102 DEBUG Component on port 5009 is up
+2024-06-11 21:08:14,103 DEBUG Component FIXEngine status: up
+2024-06-11 21:08:14,103 DEBUG Pinging component on port 5010
+2024-06-11 21:08:14,103 INFO Trying to connect to localhost:5010
+2024-06-11 21:08:14,104 DEBUG Component on port 5010 is up
+2024-06-11 21:08:14,105 DEBUG Component MarketSimulator status: up
+2024-06-11 21:08:14,631 DEBUG Updating market data display
+2024-06-11 21:08:15,639 DEBUG Updating market data display
+2024-06-11 21:08:16,652 DEBUG Updating market data display
+2024-06-11 21:08:17,663 DEBUG Updating market data display
+2024-06-11 21:08:18,671 DEBUG Updating market data display
+2024-06-11 21:08:19,109 DEBUG Updating status lights
+2024-06-11 21:08:19,109 DEBUG Checking dependencies
+2024-06-11 21:08:19,109 DEBUG Pinging component on port 5008
+2024-06-11 21:08:19,109 INFO Trying to connect to localhost:5008
+2024-06-11 21:08:19,111 DEBUG Component on port 5008 is up
+2024-06-11 21:08:19,111 DEBUG Component OrderRouter status: up
+2024-06-11 21:08:19,111 DEBUG Pinging component on port 5009
+2024-06-11 21:08:19,112 INFO Trying to connect to localhost:5009
+2024-06-11 21:08:19,114 DEBUG Component on port 5009 is up
+2024-06-11 21:08:19,114 DEBUG Component FIXEngine status: up
+2024-06-11 21:08:19,114 DEBUG Pinging component on port 5010
+2024-06-11 21:08:19,114 INFO Trying to connect to localhost:5010
+2024-06-11 21:08:19,116 DEBUG Component on port 5010 is up
+2024-06-11 21:08:19,116 DEBUG Component MarketSimulator status: up
+2024-06-11 21:08:19,677 DEBUG Updating market data display
+2024-06-11 21:08:20,691 DEBUG Updating market data display
+2024-06-11 21:08:21,698 DEBUG Updating market data display
+2024-06-11 21:08:22,701 DEBUG Updating market data display
+2024-06-11 21:08:23,709 DEBUG Updating market data display
+2024-06-11 21:08:24,117 DEBUG Updating status lights
+2024-06-11 21:08:24,117 DEBUG Checking dependencies
+2024-06-11 21:08:24,117 DEBUG Pinging component on port 5008
+2024-06-11 21:08:24,117 INFO Trying to connect to localhost:5008
+2024-06-11 21:08:24,118 DEBUG Component on port 5008 is up
+2024-06-11 21:08:24,119 DEBUG Component OrderRouter status: up
+2024-06-11 21:08:24,119 DEBUG Pinging component on port 5009
+2024-06-11 21:08:24,119 INFO Trying to connect to localhost:5009
+2024-06-11 21:08:24,120 DEBUG Component on port 5009 is up
+2024-06-11 21:08:24,121 DEBUG Component FIXEngine status: up
+2024-06-11 21:08:24,121 DEBUG Pinging component on port 5010
+2024-06-11 21:08:24,121 INFO Trying to connect to localhost:5010
+2024-06-11 21:08:24,123 DEBUG Component on port 5010 is up
+2024-06-11 21:08:24,123 DEBUG Component MarketSimulator status: up
+2024-06-11 21:08:24,712 DEBUG Updating market data display
+2024-06-11 21:08:25,721 DEBUG Updating market data display
+2024-06-11 21:08:26,727 DEBUG Updating market data display
+2024-06-11 21:08:27,729 DEBUG Updating market data display
+2024-06-11 21:08:28,735 DEBUG Updating market data display
+2024-06-11 21:08:29,130 DEBUG Updating status lights
+2024-06-11 21:08:29,130 DEBUG Checking dependencies
+2024-06-11 21:08:29,130 DEBUG Pinging component on port 5008
+2024-06-11 21:08:29,130 INFO Trying to connect to localhost:5008
+2024-06-11 21:08:29,132 DEBUG Component on port 5008 is up
+2024-06-11 21:08:29,132 DEBUG Component OrderRouter status: up
+2024-06-11 21:08:29,132 DEBUG Pinging component on port 5009
+2024-06-11 21:08:29,133 INFO Trying to connect to localhost:5009
+2024-06-11 21:08:29,134 DEBUG Component on port 5009 is up
+2024-06-11 21:08:29,134 DEBUG Component FIXEngine status: up
+2024-06-11 21:08:29,134 DEBUG Pinging component on port 5010
+2024-06-11 21:08:29,134 INFO Trying to connect to localhost:5010
+2024-06-11 21:08:29,135 DEBUG Component on port 5010 is up
+2024-06-11 21:08:29,136 DEBUG Component MarketSimulator status: up
+2024-06-11 21:08:29,740 DEBUG Updating market data display
+2024-06-11 21:08:30,743 DEBUG Updating market data display
+2024-06-11 21:08:31,753 DEBUG Updating market data display
+2024-06-11 21:08:32,758 DEBUG Updating market data display
+2024-06-11 21:08:33,765 DEBUG Updating market data display
+2024-06-11 21:08:34,140 DEBUG Updating status lights
+2024-06-11 21:08:34,140 DEBUG Checking dependencies
+2024-06-11 21:08:34,140 DEBUG Pinging component on port 5008
+2024-06-11 21:08:34,141 INFO Trying to connect to localhost:5008
+2024-06-11 21:08:34,142 DEBUG Component on port 5008 is up
+2024-06-11 21:08:34,142 DEBUG Component OrderRouter status: up
+2024-06-11 21:08:34,143 DEBUG Pinging component on port 5009
+2024-06-11 21:08:34,143 INFO Trying to connect to localhost:5009
+2024-06-11 21:08:34,145 DEBUG Component on port 5009 is up
+2024-06-11 21:08:34,145 DEBUG Component FIXEngine status: up
+2024-06-11 21:08:34,145 DEBUG Pinging component on port 5010
+2024-06-11 21:08:34,145 INFO Trying to connect to localhost:5010
+2024-06-11 21:08:34,147 DEBUG Component on port 5010 is up
+2024-06-11 21:08:34,147 DEBUG Component MarketSimulator status: up
+2024-06-11 21:08:34,771 DEBUG Updating market data display
+2024-06-11 21:08:35,775 DEBUG Updating market data display
+2024-06-11 21:08:36,787 DEBUG Updating market data display
+2024-06-11 21:08:37,798 DEBUG Updating market data display
+2024-06-11 21:08:38,810 DEBUG Updating market data display
+2024-06-11 21:08:39,158 DEBUG Updating status lights
+2024-06-11 21:08:39,158 DEBUG Checking dependencies
+2024-06-11 21:08:39,158 DEBUG Pinging component on port 5008
+2024-06-11 21:08:39,158 INFO Trying to connect to localhost:5008
+2024-06-11 21:08:39,159 DEBUG Component on port 5008 is up
+2024-06-11 21:08:39,160 DEBUG Component OrderRouter status: up
+2024-06-11 21:08:39,160 DEBUG Pinging component on port 5009
+2024-06-11 21:08:39,160 INFO Trying to connect to localhost:5009
+2024-06-11 21:08:39,161 DEBUG Component on port 5009 is up
+2024-06-11 21:08:39,161 DEBUG Component FIXEngine status: up
+2024-06-11 21:08:39,161 DEBUG Pinging component on port 5010
+2024-06-11 21:08:39,162 INFO Trying to connect to localhost:5010
+2024-06-11 21:08:39,163 DEBUG Component on port 5010 is up
+2024-06-11 21:08:39,163 DEBUG Component MarketSimulator status: up
+2024-06-11 21:08:39,813 DEBUG Updating market data display
+2024-06-11 21:08:40,825 DEBUG Updating market data display
+2024-06-11 21:08:41,840 DEBUG Updating market data display
+2024-06-11 21:08:42,847 DEBUG Updating market data display
+2024-06-11 21:08:43,852 DEBUG Updating market data display
+2024-06-11 21:08:44,163 DEBUG Updating status lights
+2024-06-11 21:08:44,163 DEBUG Checking dependencies
+2024-06-11 21:08:44,163 DEBUG Pinging component on port 5008
+2024-06-11 21:08:44,163 INFO Trying to connect to localhost:5008
+2024-06-11 21:08:44,165 DEBUG Component on port 5008 is up
+2024-06-11 21:08:44,165 DEBUG Component OrderRouter status: up
+2024-06-11 21:08:44,165 DEBUG Pinging component on port 5009
+2024-06-11 21:08:44,165 INFO Trying to connect to localhost:5009
+2024-06-11 21:08:44,166 DEBUG Component on port 5009 is up
+2024-06-11 21:08:44,166 DEBUG Component FIXEngine status: up
+2024-06-11 21:08:44,166 DEBUG Pinging component on port 5010
+2024-06-11 21:08:44,168 INFO Trying to connect to localhost:5010
+2024-06-11 21:08:44,168 DEBUG Component on port 5010 is up
+2024-06-11 21:08:44,168 DEBUG Component MarketSimulator status: up
+2024-06-11 21:08:44,855 DEBUG Updating market data display
+2024-06-11 21:08:45,862 DEBUG Updating market data display
+2024-06-11 21:08:46,868 DEBUG Updating market data display
+2024-06-11 21:08:47,872 DEBUG Updating market data display
+2024-06-11 21:08:48,872 DEBUG Updating market data display
+2024-06-11 21:08:49,169 DEBUG Updating status lights
+2024-06-11 21:08:49,169 DEBUG Checking dependencies
+2024-06-11 21:08:49,169 DEBUG Pinging component on port 5008
+2024-06-11 21:08:49,169 INFO Trying to connect to localhost:5008
+2024-06-11 21:08:49,171 DEBUG Component on port 5008 is up
+2024-06-11 21:08:49,171 DEBUG Component OrderRouter status: up
+2024-06-11 21:08:49,171 DEBUG Pinging component on port 5009
+2024-06-11 21:08:49,171 INFO Trying to connect to localhost:5009
+2024-06-11 21:08:49,173 DEBUG Component on port 5009 is up
+2024-06-11 21:08:49,173 DEBUG Component FIXEngine status: up
+2024-06-11 21:08:49,173 DEBUG Pinging component on port 5010
+2024-06-11 21:08:49,173 INFO Trying to connect to localhost:5010
+2024-06-11 21:08:49,175 DEBUG Component on port 5010 is up
+2024-06-11 21:08:49,175 DEBUG Component MarketSimulator status: up
+2024-06-11 21:08:49,886 DEBUG Updating market data display
+2024-06-11 21:08:50,901 DEBUG Updating market data display
+2024-06-11 21:08:51,906 DEBUG Updating market data display
+2024-06-11 21:08:52,911 DEBUG Updating market data display
+2024-06-11 21:08:53,912 DEBUG Updating market data display
+2024-06-11 21:08:54,177 DEBUG Updating status lights
+2024-06-11 21:08:54,177 DEBUG Checking dependencies
+2024-06-11 21:08:54,177 DEBUG Pinging component on port 5008
+2024-06-11 21:08:54,177 INFO Trying to connect to localhost:5008
+2024-06-11 21:08:54,178 DEBUG Component on port 5008 is up
+2024-06-11 21:08:54,179 DEBUG Component OrderRouter status: up
+2024-06-11 21:08:54,179 DEBUG Pinging component on port 5009
+2024-06-11 21:08:54,179 INFO Trying to connect to localhost:5009
+2024-06-11 21:08:54,180 DEBUG Component on port 5009 is up
+2024-06-11 21:08:54,180 DEBUG Component FIXEngine status: up
+2024-06-11 21:08:54,180 DEBUG Pinging component on port 5010
+2024-06-11 21:08:54,181 INFO Trying to connect to localhost:5010
+2024-06-11 21:08:54,182 DEBUG Component on port 5010 is up
+2024-06-11 21:08:54,182 DEBUG Component MarketSimulator status: up
+2024-06-11 21:08:54,913 DEBUG Updating market data display
+2024-06-11 21:08:55,913 DEBUG Updating market data display
+2024-06-11 21:08:56,920 DEBUG Updating market data display
+2024-06-11 21:08:57,928 DEBUG Updating market data display
+2024-06-11 21:08:58,931 DEBUG Updating market data display
+2024-06-11 21:08:59,197 DEBUG Updating status lights
+2024-06-11 21:08:59,197 DEBUG Checking dependencies
+2024-06-11 21:08:59,197 DEBUG Pinging component on port 5008
+2024-06-11 21:08:59,197 INFO Trying to connect to localhost:5008
+2024-06-11 21:08:59,199 DEBUG Component on port 5008 is up
+2024-06-11 21:08:59,199 DEBUG Component OrderRouter status: up
+2024-06-11 21:08:59,199 DEBUG Pinging component on port 5009
+2024-06-11 21:08:59,199 INFO Trying to connect to localhost:5009
+2024-06-11 21:08:59,201 DEBUG Component on port 5009 is up
+2024-06-11 21:08:59,201 DEBUG Component FIXEngine status: up
+2024-06-11 21:08:59,201 DEBUG Pinging component on port 5010
+2024-06-11 21:08:59,201 INFO Trying to connect to localhost:5010
+2024-06-11 21:08:59,203 DEBUG Component on port 5010 is up
+2024-06-11 21:08:59,203 DEBUG Component MarketSimulator status: up
+2024-06-11 21:08:59,939 DEBUG Updating market data display
+2024-06-11 21:09:00,939 DEBUG Updating market data display
+2024-06-11 21:09:01,954 DEBUG Updating market data display
+2024-06-11 21:09:02,961 DEBUG Updating market data display
+2024-06-11 21:09:03,964 DEBUG Updating market data display
+2024-06-11 21:09:04,211 DEBUG Updating status lights
+2024-06-11 21:09:04,211 DEBUG Checking dependencies
+2024-06-11 21:09:04,211 DEBUG Pinging component on port 5008
+2024-06-11 21:09:04,212 INFO Trying to connect to localhost:5008
+2024-06-11 21:09:04,213 DEBUG Component on port 5008 is up
+2024-06-11 21:09:04,213 DEBUG Component OrderRouter status: up
+2024-06-11 21:09:04,214 DEBUG Pinging component on port 5009
+2024-06-11 21:09:04,214 INFO Trying to connect to localhost:5009
+2024-06-11 21:09:04,216 DEBUG Component on port 5009 is up
+2024-06-11 21:09:04,216 DEBUG Component FIXEngine status: up
+2024-06-11 21:09:04,216 DEBUG Pinging component on port 5010
+2024-06-11 21:09:04,217 INFO Trying to connect to localhost:5010
+2024-06-11 21:09:04,219 DEBUG Component on port 5010 is up
+2024-06-11 21:09:04,220 DEBUG Component MarketSimulator status: up
+2024-06-11 21:09:04,976 DEBUG Updating market data display
+2024-06-11 21:09:05,977 DEBUG Updating market data display
+2024-06-11 21:09:06,986 DEBUG Updating market data display
+2024-06-11 21:09:07,994 DEBUG Updating market data display
+2024-06-11 21:09:09,002 DEBUG Updating market data display
+2024-06-11 21:09:09,221 DEBUG Updating status lights
+2024-06-11 21:09:09,221 DEBUG Checking dependencies
+2024-06-11 21:09:09,221 DEBUG Pinging component on port 5008
+2024-06-11 21:09:09,221 INFO Trying to connect to localhost:5008
+2024-06-11 21:09:09,222 DEBUG Component on port 5008 is up
+2024-06-11 21:09:09,222 DEBUG Component OrderRouter status: up
+2024-06-11 21:09:09,223 DEBUG Pinging component on port 5009
+2024-06-11 21:09:09,223 INFO Trying to connect to localhost:5009
+2024-06-11 21:09:09,224 DEBUG Component on port 5009 is up
+2024-06-11 21:09:09,224 DEBUG Component FIXEngine status: up
+2024-06-11 21:09:09,224 DEBUG Pinging component on port 5010
+2024-06-11 21:09:09,224 INFO Trying to connect to localhost:5010
+2024-06-11 21:09:09,225 DEBUG Component on port 5010 is up
+2024-06-11 21:09:09,226 DEBUG Component MarketSimulator status: up
+2024-06-11 21:09:10,008 DEBUG Updating market data display
+2024-06-11 21:09:11,009 DEBUG Updating market data display
+2024-06-11 21:09:12,016 DEBUG Updating market data display
+2024-06-11 21:09:13,018 DEBUG Updating market data display
+2024-06-11 21:09:14,032 DEBUG Updating market data display
+2024-06-11 21:09:14,235 DEBUG Updating status lights
+2024-06-11 21:09:14,235 DEBUG Checking dependencies
+2024-06-11 21:09:14,235 DEBUG Pinging component on port 5008
+2024-06-11 21:09:14,235 INFO Trying to connect to localhost:5008
+2024-06-11 21:09:14,237 DEBUG Component on port 5008 is up
+2024-06-11 21:09:14,237 DEBUG Component OrderRouter status: up
+2024-06-11 21:09:14,237 DEBUG Pinging component on port 5009
+2024-06-11 21:09:14,237 INFO Trying to connect to localhost:5009
+2024-06-11 21:09:14,239 DEBUG Component on port 5009 is up
+2024-06-11 21:09:14,239 DEBUG Component FIXEngine status: up
+2024-06-11 21:09:14,239 DEBUG Pinging component on port 5010
+2024-06-11 21:09:14,239 INFO Trying to connect to localhost:5010
+2024-06-11 21:09:14,241 DEBUG Component on port 5010 is up
+2024-06-11 21:09:14,241 DEBUG Component MarketSimulator status: up
+2024-06-11 21:09:15,037 DEBUG Updating market data display
+2024-06-11 21:09:16,042 DEBUG Updating market data display
+2024-06-11 21:09:17,044 DEBUG Updating market data display
+2024-06-11 21:09:18,050 DEBUG Updating market data display
+2024-06-11 21:09:19,056 DEBUG Updating market data display
+2024-06-11 21:09:19,242 DEBUG Updating status lights
+2024-06-11 21:09:19,242 DEBUG Checking dependencies
+2024-06-11 21:09:19,242 DEBUG Pinging component on port 5008
+2024-06-11 21:09:19,242 INFO Trying to connect to localhost:5008
+2024-06-11 21:09:19,244 DEBUG Component on port 5008 is up
+2024-06-11 21:09:19,244 DEBUG Component OrderRouter status: up
+2024-06-11 21:09:19,244 DEBUG Pinging component on port 5009
+2024-06-11 21:09:19,244 INFO Trying to connect to localhost:5009
+2024-06-11 21:09:19,246 DEBUG Component on port 5009 is up
+2024-06-11 21:09:19,246 DEBUG Component FIXEngine status: up
+2024-06-11 21:09:19,246 DEBUG Pinging component on port 5010
+2024-06-11 21:09:19,246 INFO Trying to connect to localhost:5010
+2024-06-11 21:09:19,248 DEBUG Component on port 5010 is up
+2024-06-11 21:09:19,248 DEBUG Component MarketSimulator status: up
+2024-06-11 21:09:20,070 DEBUG Updating market data display
+2024-06-11 21:09:21,074 DEBUG Updating market data display
+2024-06-11 21:09:22,076 DEBUG Updating market data display
+2024-06-11 21:09:23,080 DEBUG Updating market data display
+2024-06-11 21:09:24,085 DEBUG Updating market data display
+2024-06-11 21:09:24,258 DEBUG Updating status lights
+2024-06-11 21:09:24,258 DEBUG Checking dependencies
+2024-06-11 21:09:24,258 DEBUG Pinging component on port 5008
+2024-06-11 21:09:24,259 INFO Trying to connect to localhost:5008
+2024-06-11 21:09:24,260 DEBUG Component on port 5008 is up
+2024-06-11 21:09:24,260 DEBUG Component OrderRouter status: up
+2024-06-11 21:09:24,260 DEBUG Pinging component on port 5009
+2024-06-11 21:09:24,261 INFO Trying to connect to localhost:5009
+2024-06-11 21:09:24,262 DEBUG Component on port 5009 is up
+2024-06-11 21:09:24,262 DEBUG Component FIXEngine status: up
+2024-06-11 21:09:24,262 DEBUG Pinging component on port 5010
+2024-06-11 21:09:24,263 INFO Trying to connect to localhost:5010
+2024-06-11 21:09:24,264 DEBUG Component on port 5010 is up
+2024-06-11 21:09:24,264 DEBUG Component MarketSimulator status: up
+2024-06-11 21:09:25,089 DEBUG Updating market data display
+2024-06-11 21:09:26,092 DEBUG Updating market data display
+2024-06-11 21:09:27,106 DEBUG Updating market data display
+2024-06-11 21:09:28,106 DEBUG Updating market data display
+2024-06-11 21:09:29,107 DEBUG Updating market data display
+2024-06-11 21:09:29,266 DEBUG Updating status lights
+2024-06-11 21:09:29,266 DEBUG Checking dependencies
+2024-06-11 21:09:29,266 DEBUG Pinging component on port 5008
+2024-06-11 21:09:29,266 INFO Trying to connect to localhost:5008
+2024-06-11 21:09:29,267 DEBUG Component on port 5008 is up
+2024-06-11 21:09:29,267 DEBUG Component OrderRouter status: up
+2024-06-11 21:09:29,267 DEBUG Pinging component on port 5009
+2024-06-11 21:09:29,268 INFO Trying to connect to localhost:5009
+2024-06-11 21:09:29,268 DEBUG Component on port 5009 is up
+2024-06-11 21:09:29,268 DEBUG Component FIXEngine status: up
+2024-06-11 21:09:29,268 DEBUG Pinging component on port 5010
+2024-06-11 21:09:29,268 INFO Trying to connect to localhost:5010
+2024-06-11 21:09:29,269 DEBUG Component on port 5010 is up
+2024-06-11 21:09:29,269 DEBUG Component MarketSimulator status: up
+2024-06-11 21:09:30,111 DEBUG Updating market data display
+2024-06-11 21:09:31,118 DEBUG Updating market data display
+2024-06-11 21:09:32,124 DEBUG Updating market data display
+2024-06-11 21:09:33,127 DEBUG Updating market data display
+2024-06-11 21:09:34,127 DEBUG Updating market data display
+2024-06-11 21:09:34,284 DEBUG Updating status lights
+2024-06-11 21:09:34,284 DEBUG Checking dependencies
+2024-06-11 21:09:34,284 DEBUG Pinging component on port 5008
+2024-06-11 21:09:34,285 INFO Trying to connect to localhost:5008
+2024-06-11 21:09:34,286 DEBUG Component on port 5008 is up
+2024-06-11 21:09:34,286 DEBUG Component OrderRouter status: up
+2024-06-11 21:09:34,286 DEBUG Pinging component on port 5009
+2024-06-11 21:09:34,287 INFO Trying to connect to localhost:5009
+2024-06-11 21:09:34,288 DEBUG Component on port 5009 is up
+2024-06-11 21:09:34,288 DEBUG Component FIXEngine status: up
+2024-06-11 21:09:34,289 DEBUG Pinging component on port 5010
+2024-06-11 21:09:34,289 INFO Trying to connect to localhost:5010
+2024-06-11 21:09:34,290 DEBUG Component on port 5010 is up
+2024-06-11 21:09:34,290 DEBUG Component MarketSimulator status: up
+2024-06-11 21:09:35,133 DEBUG Updating market data display
+2024-06-11 21:09:36,145 DEBUG Updating market data display
+2024-06-11 21:09:37,156 DEBUG Updating market data display
+2024-06-11 21:09:38,164 DEBUG Updating market data display
+2024-06-11 21:09:39,178 DEBUG Updating market data display
+2024-06-11 21:09:39,305 DEBUG Updating status lights
+2024-06-11 21:09:39,305 DEBUG Checking dependencies
+2024-06-11 21:09:39,305 DEBUG Pinging component on port 5008
+2024-06-11 21:09:39,305 INFO Trying to connect to localhost:5008
+2024-06-11 21:09:39,307 DEBUG Component on port 5008 is up
+2024-06-11 21:09:39,307 DEBUG Component OrderRouter status: up
+2024-06-11 21:09:39,307 DEBUG Pinging component on port 5009
+2024-06-11 21:09:39,307 INFO Trying to connect to localhost:5009
+2024-06-11 21:09:39,309 DEBUG Component on port 5009 is up
+2024-06-11 21:09:39,309 DEBUG Component FIXEngine status: up
+2024-06-11 21:09:39,309 DEBUG Pinging component on port 5010
+2024-06-11 21:09:39,309 INFO Trying to connect to localhost:5010
+2024-06-11 21:09:39,310 DEBUG Component on port 5010 is up
+2024-06-11 21:09:39,310 DEBUG Component MarketSimulator status: up
+2024-06-11 21:09:40,188 DEBUG Updating market data display
+2024-06-11 21:09:41,196 DEBUG Updating market data display
+2024-06-11 21:09:42,202 DEBUG Updating market data display
+2024-06-11 21:09:43,206 DEBUG Updating market data display
+2024-06-11 21:09:44,213 DEBUG Updating market data display
+2024-06-11 21:09:44,323 DEBUG Updating status lights
+2024-06-11 21:09:44,323 DEBUG Checking dependencies
+2024-06-11 21:09:44,323 DEBUG Pinging component on port 5008
+2024-06-11 21:09:44,323 INFO Trying to connect to localhost:5008
+2024-06-11 21:09:44,324 DEBUG Component on port 5008 is up
+2024-06-11 21:09:44,324 DEBUG Component OrderRouter status: up
+2024-06-11 21:09:44,325 DEBUG Pinging component on port 5009
+2024-06-11 21:09:44,325 INFO Trying to connect to localhost:5009
+2024-06-11 21:09:44,326 DEBUG Component on port 5009 is up
+2024-06-11 21:09:44,326 DEBUG Component FIXEngine status: up
+2024-06-11 21:09:44,326 DEBUG Pinging component on port 5010
+2024-06-11 21:09:44,326 INFO Trying to connect to localhost:5010
+2024-06-11 21:09:44,328 DEBUG Component on port 5010 is up
+2024-06-11 21:09:44,328 DEBUG Component MarketSimulator status: up
+2024-06-11 21:09:45,222 DEBUG Updating market data display
+2024-06-11 21:09:46,232 DEBUG Updating market data display
+2024-06-11 21:09:47,233 DEBUG Updating market data display
+2024-06-11 21:09:48,237 DEBUG Updating market data display
+2024-06-11 21:09:49,241 DEBUG Updating market data display
+2024-06-11 21:09:49,335 DEBUG Updating status lights
+2024-06-11 21:09:49,335 DEBUG Checking dependencies
+2024-06-11 21:09:49,335 DEBUG Pinging component on port 5008
+2024-06-11 21:09:49,335 INFO Trying to connect to localhost:5008
+2024-06-11 21:09:49,337 DEBUG Component on port 5008 is up
+2024-06-11 21:09:49,337 DEBUG Component OrderRouter status: up
+2024-06-11 21:09:49,337 DEBUG Pinging component on port 5009
+2024-06-11 21:09:49,337 INFO Trying to connect to localhost:5009
+2024-06-11 21:09:49,338 DEBUG Component on port 5009 is up
+2024-06-11 21:09:49,339 DEBUG Component FIXEngine status: up
+2024-06-11 21:09:49,339 DEBUG Pinging component on port 5010
+2024-06-11 21:09:49,339 INFO Trying to connect to localhost:5010
+2024-06-11 21:09:49,340 DEBUG Component on port 5010 is up
+2024-06-11 21:09:49,340 DEBUG Component MarketSimulator status: up
+2024-06-11 21:09:50,242 DEBUG Updating market data display
+2024-06-11 21:09:51,256 DEBUG Updating market data display
+2024-06-11 21:09:52,270 DEBUG Updating market data display
+2024-06-11 21:09:53,280 DEBUG Updating market data display
+2024-06-11 21:09:54,295 DEBUG Updating market data display
+2024-06-11 21:09:54,343 DEBUG Updating status lights
+2024-06-11 21:09:54,343 DEBUG Checking dependencies
+2024-06-11 21:09:54,343 DEBUG Pinging component on port 5008
+2024-06-11 21:09:54,344 INFO Trying to connect to localhost:5008
+2024-06-11 21:09:54,346 DEBUG Component on port 5008 is up
+2024-06-11 21:09:54,346 DEBUG Component OrderRouter status: up
+2024-06-11 21:09:54,347 DEBUG Pinging component on port 5009
+2024-06-11 21:09:54,347 INFO Trying to connect to localhost:5009
+2024-06-11 21:09:54,348 DEBUG Component on port 5009 is up
+2024-06-11 21:09:54,349 DEBUG Component FIXEngine status: up
+2024-06-11 21:09:54,349 DEBUG Pinging component on port 5010
+2024-06-11 21:09:54,349 INFO Trying to connect to localhost:5010
+2024-06-11 21:09:54,351 DEBUG Component on port 5010 is up
+2024-06-11 21:09:54,351 DEBUG Component MarketSimulator status: up
+2024-06-11 21:09:55,298 DEBUG Updating market data display
+2024-06-11 21:09:56,312 DEBUG Updating market data display
+2024-06-11 21:09:57,320 DEBUG Updating market data display
+2024-06-11 21:09:58,328 DEBUG Updating market data display
+2024-06-11 21:09:59,331 DEBUG Updating market data display
+2024-06-11 21:09:59,362 DEBUG Updating status lights
+2024-06-11 21:09:59,362 DEBUG Checking dependencies
+2024-06-11 21:09:59,363 DEBUG Pinging component on port 5008
+2024-06-11 21:09:59,363 INFO Trying to connect to localhost:5008
+2024-06-11 21:09:59,366 DEBUG Component on port 5008 is up
+2024-06-11 21:09:59,366 DEBUG Component OrderRouter status: up
+2024-06-11 21:09:59,366 DEBUG Pinging component on port 5009
+2024-06-11 21:09:59,367 INFO Trying to connect to localhost:5009
+2024-06-11 21:09:59,368 DEBUG Component on port 5009 is up
+2024-06-11 21:09:59,369 DEBUG Component FIXEngine status: up
+2024-06-11 21:09:59,369 DEBUG Pinging component on port 5010
+2024-06-11 21:09:59,369 INFO Trying to connect to localhost:5010
+2024-06-11 21:09:59,371 DEBUG Component on port 5010 is up
+2024-06-11 21:09:59,371 DEBUG Component MarketSimulator status: up
+2024-06-11 21:10:00,344 DEBUG Updating market data display
+2024-06-11 21:10:01,354 DEBUG Updating market data display
+2024-06-11 21:10:02,364 DEBUG Updating market data display
+2024-06-11 21:10:03,364 DEBUG Updating market data display
+2024-06-11 21:10:04,368 DEBUG Updating market data display
+2024-06-11 21:10:04,384 DEBUG Updating status lights
+2024-06-11 21:10:04,384 DEBUG Checking dependencies
+2024-06-11 21:10:04,384 DEBUG Pinging component on port 5008
+2024-06-11 21:10:04,385 INFO Trying to connect to localhost:5008
+2024-06-11 21:10:04,387 DEBUG Component on port 5008 is up
+2024-06-11 21:10:04,387 DEBUG Component OrderRouter status: up
+2024-06-11 21:10:04,388 DEBUG Pinging component on port 5009
+2024-06-11 21:10:04,388 INFO Trying to connect to localhost:5009
+2024-06-11 21:10:04,390 DEBUG Component on port 5009 is up
+2024-06-11 21:10:04,390 DEBUG Component FIXEngine status: up
+2024-06-11 21:10:04,390 DEBUG Pinging component on port 5010
+2024-06-11 21:10:04,391 INFO Trying to connect to localhost:5010
+2024-06-11 21:10:04,392 DEBUG Component on port 5010 is up
+2024-06-11 21:10:04,392 DEBUG Component MarketSimulator status: up
+2024-06-11 21:10:05,375 DEBUG Updating market data display
+2024-06-11 21:10:06,383 DEBUG Updating market data display
+2024-06-11 21:10:07,390 DEBUG Updating market data display
+2024-06-11 21:10:08,393 DEBUG Updating market data display
+2024-06-11 21:10:09,395 DEBUG Updating status lights
+2024-06-11 21:10:09,395 DEBUG Checking dependencies
+2024-06-11 21:10:09,396 DEBUG Pinging component on port 5008
+2024-06-11 21:10:09,396 INFO Trying to connect to localhost:5008
+2024-06-11 21:10:09,397 DEBUG Component on port 5008 is up
+2024-06-11 21:10:09,397 DEBUG Component OrderRouter status: up
+2024-06-11 21:10:09,397 DEBUG Pinging component on port 5009
+2024-06-11 21:10:09,398 INFO Trying to connect to localhost:5009
+2024-06-11 21:10:09,399 DEBUG Component on port 5009 is up
+2024-06-11 21:10:09,399 DEBUG Component FIXEngine status: up
+2024-06-11 21:10:09,399 DEBUG Pinging component on port 5010
+2024-06-11 21:10:09,399 INFO Trying to connect to localhost:5010
+2024-06-11 21:10:09,401 DEBUG Component on port 5010 is up
+2024-06-11 21:10:09,401 DEBUG Component MarketSimulator status: up
+2024-06-11 21:10:09,401 DEBUG Updating market data display
+2024-06-11 21:10:10,416 DEBUG Updating market data display
+2024-06-11 21:10:11,419 DEBUG Updating market data display
+2024-06-11 21:10:12,421 DEBUG Updating market data display
+2024-06-11 21:10:13,424 DEBUG Updating market data display
+2024-06-11 21:10:14,416 DEBUG Updating status lights
+2024-06-11 21:10:14,416 DEBUG Checking dependencies
+2024-06-11 21:10:14,416 DEBUG Pinging component on port 5008
+2024-06-11 21:10:14,416 INFO Trying to connect to localhost:5008
+2024-06-11 21:10:14,417 DEBUG Component on port 5008 is up
+2024-06-11 21:10:14,417 DEBUG Component OrderRouter status: up
+2024-06-11 21:10:14,417 DEBUG Pinging component on port 5009
+2024-06-11 21:10:14,417 INFO Trying to connect to localhost:5009
+2024-06-11 21:10:14,419 DEBUG Component on port 5009 is up
+2024-06-11 21:10:14,419 DEBUG Component FIXEngine status: up
+2024-06-11 21:10:14,419 DEBUG Pinging component on port 5010
+2024-06-11 21:10:14,419 INFO Trying to connect to localhost:5010
+2024-06-11 21:10:14,420 DEBUG Component on port 5010 is up
+2024-06-11 21:10:14,420 DEBUG Component MarketSimulator status: up
+2024-06-11 21:10:14,431 DEBUG Updating market data display
+2024-06-11 21:10:15,439 DEBUG Updating market data display
+2024-06-11 21:10:16,445 DEBUG Updating market data display
+2024-06-11 21:10:17,450 DEBUG Updating market data display
+2024-06-11 21:10:18,463 DEBUG Updating market data display
+2024-06-11 21:10:19,431 DEBUG Updating status lights
+2024-06-11 21:10:19,431 DEBUG Checking dependencies
+2024-06-11 21:10:19,431 DEBUG Pinging component on port 5008
+2024-06-11 21:10:19,431 INFO Trying to connect to localhost:5008
+2024-06-11 21:10:19,432 DEBUG Component on port 5008 is up
+2024-06-11 21:10:19,433 DEBUG Component OrderRouter status: up
+2024-06-11 21:10:19,433 DEBUG Pinging component on port 5009
+2024-06-11 21:10:19,433 INFO Trying to connect to localhost:5009
+2024-06-11 21:10:19,435 DEBUG Component on port 5009 is up
+2024-06-11 21:10:19,435 DEBUG Component FIXEngine status: up
+2024-06-11 21:10:19,436 DEBUG Pinging component on port 5010
+2024-06-11 21:10:19,436 INFO Trying to connect to localhost:5010
+2024-06-11 21:10:19,437 DEBUG Component on port 5010 is up
+2024-06-11 21:10:19,438 DEBUG Component MarketSimulator status: up
+2024-06-11 21:10:19,478 DEBUG Updating market data display
+2024-06-11 21:10:20,483 DEBUG Updating market data display
+2024-06-11 21:10:21,489 DEBUG Updating market data display
+2024-06-11 21:10:22,492 DEBUG Updating market data display
+2024-06-11 21:10:23,492 DEBUG Updating market data display
+2024-06-11 21:10:24,452 DEBUG Updating status lights
+2024-06-11 21:10:24,452 DEBUG Checking dependencies
+2024-06-11 21:10:24,452 DEBUG Pinging component on port 5008
+2024-06-11 21:10:24,452 INFO Trying to connect to localhost:5008
+2024-06-11 21:10:24,454 DEBUG Component on port 5008 is up
+2024-06-11 21:10:24,454 DEBUG Component OrderRouter status: up
+2024-06-11 21:10:24,454 DEBUG Pinging component on port 5009
+2024-06-11 21:10:24,454 INFO Trying to connect to localhost:5009
+2024-06-11 21:10:24,456 DEBUG Component on port 5009 is up
+2024-06-11 21:10:24,456 DEBUG Component FIXEngine status: up
+2024-06-11 21:10:24,456 DEBUG Pinging component on port 5010
+2024-06-11 21:10:24,456 INFO Trying to connect to localhost:5010
+2024-06-11 21:10:24,458 DEBUG Component on port 5010 is up
+2024-06-11 21:10:24,459 DEBUG Component MarketSimulator status: up
+2024-06-11 21:10:24,498 DEBUG Updating market data display
+2024-06-11 21:10:25,499 DEBUG Updating market data display
+2024-06-11 21:10:26,504 DEBUG Updating market data display
+2024-06-11 21:10:27,506 DEBUG Updating market data display
+2024-06-11 21:10:28,519 DEBUG Updating market data display
+2024-06-11 21:10:29,470 DEBUG Updating status lights
+2024-06-11 21:10:29,470 DEBUG Checking dependencies
+2024-06-11 21:10:29,470 DEBUG Pinging component on port 5008
+2024-06-11 21:10:29,470 INFO Trying to connect to localhost:5008
+2024-06-11 21:10:29,471 DEBUG Component on port 5008 is up
+2024-06-11 21:10:29,471 DEBUG Component OrderRouter status: up
+2024-06-11 21:10:29,472 DEBUG Pinging component on port 5009
+2024-06-11 21:10:29,472 INFO Trying to connect to localhost:5009
+2024-06-11 21:10:29,473 DEBUG Component on port 5009 is up
+2024-06-11 21:10:29,474 DEBUG Component FIXEngine status: up
+2024-06-11 21:10:29,474 DEBUG Pinging component on port 5010
+2024-06-11 21:10:29,474 INFO Trying to connect to localhost:5010
+2024-06-11 21:10:29,475 DEBUG Component on port 5010 is up
+2024-06-11 21:10:29,476 DEBUG Component MarketSimulator status: up
+2024-06-11 21:10:29,531 DEBUG Updating market data display
+2024-06-11 21:10:30,536 DEBUG Updating market data display
+2024-06-11 21:10:31,544 DEBUG Updating market data display
+2024-06-11 21:10:32,549 DEBUG Updating market data display
+2024-06-11 21:10:33,557 DEBUG Updating market data display
+2024-06-11 21:10:34,479 DEBUG Updating status lights
+2024-06-11 21:10:34,479 DEBUG Checking dependencies
+2024-06-11 21:10:34,479 DEBUG Pinging component on port 5008
+2024-06-11 21:10:34,480 INFO Trying to connect to localhost:5008
+2024-06-11 21:10:34,481 DEBUG Component on port 5008 is up
+2024-06-11 21:10:34,481 DEBUG Component OrderRouter status: up
+2024-06-11 21:10:34,481 DEBUG Pinging component on port 5009
+2024-06-11 21:10:34,481 INFO Trying to connect to localhost:5009
+2024-06-11 21:10:34,482 DEBUG Component on port 5009 is up
+2024-06-11 21:10:34,482 DEBUG Component FIXEngine status: up
+2024-06-11 21:10:34,483 DEBUG Pinging component on port 5010
+2024-06-11 21:10:34,483 INFO Trying to connect to localhost:5010
+2024-06-11 21:10:34,484 DEBUG Component on port 5010 is up
+2024-06-11 21:10:34,484 DEBUG Component MarketSimulator status: up
+2024-06-11 21:10:34,558 DEBUG Updating market data display
+2024-06-11 21:10:35,572 DEBUG Updating market data display
+2024-06-11 21:10:36,581 DEBUG Updating market data display
+2024-06-11 21:10:37,586 DEBUG Updating market data display
+2024-06-11 21:10:38,587 DEBUG Updating market data display
+2024-06-11 21:10:39,493 DEBUG Updating status lights
+2024-06-11 21:10:39,493 DEBUG Checking dependencies
+2024-06-11 21:10:39,493 DEBUG Pinging component on port 5008
+2024-06-11 21:10:39,493 INFO Trying to connect to localhost:5008
+2024-06-11 21:10:39,495 DEBUG Component on port 5008 is up
+2024-06-11 21:10:39,495 DEBUG Component OrderRouter status: up
+2024-06-11 21:10:39,495 DEBUG Pinging component on port 5009
+2024-06-11 21:10:39,495 INFO Trying to connect to localhost:5009
+2024-06-11 21:10:39,497 DEBUG Component on port 5009 is up
+2024-06-11 21:10:39,497 DEBUG Component FIXEngine status: up
+2024-06-11 21:10:39,497 DEBUG Pinging component on port 5010
+2024-06-11 21:10:39,497 INFO Trying to connect to localhost:5010
+2024-06-11 21:10:39,498 DEBUG Component on port 5010 is up
+2024-06-11 21:10:39,499 DEBUG Component MarketSimulator status: up
+2024-06-11 21:10:39,587 DEBUG Updating market data display
+2024-06-11 21:10:40,600 DEBUG Updating market data display
+2024-06-11 21:10:41,604 DEBUG Updating market data display
+2024-06-11 21:10:42,611 DEBUG Updating market data display
+2024-06-11 21:10:43,612 DEBUG Updating market data display
+2024-06-11 21:10:44,500 DEBUG Updating status lights
+2024-06-11 21:10:44,500 DEBUG Checking dependencies
+2024-06-11 21:10:44,500 DEBUG Pinging component on port 5008
+2024-06-11 21:10:44,500 INFO Trying to connect to localhost:5008
+2024-06-11 21:10:44,502 DEBUG Component on port 5008 is up
+2024-06-11 21:10:44,502 DEBUG Component OrderRouter status: up
+2024-06-11 21:10:44,502 DEBUG Pinging component on port 5009
+2024-06-11 21:10:44,502 INFO Trying to connect to localhost:5009
+2024-06-11 21:10:44,504 DEBUG Component on port 5009 is up
+2024-06-11 21:10:44,505 DEBUG Component FIXEngine status: up
+2024-06-11 21:10:44,505 DEBUG Pinging component on port 5010
+2024-06-11 21:10:44,505 INFO Trying to connect to localhost:5010
+2024-06-11 21:10:44,507 DEBUG Component on port 5010 is up
+2024-06-11 21:10:44,507 DEBUG Component MarketSimulator status: up
+2024-06-11 21:10:44,627 DEBUG Updating market data display
+2024-06-11 21:10:45,630 DEBUG Updating market data display
+2024-06-11 21:10:46,632 DEBUG Updating market data display
+2024-06-11 21:10:47,637 DEBUG Updating market data display
+2024-06-11 21:10:48,643 DEBUG Updating market data display
+2024-06-11 21:10:49,509 DEBUG Updating status lights
+2024-06-11 21:10:49,509 DEBUG Checking dependencies
+2024-06-11 21:10:49,509 DEBUG Pinging component on port 5008
+2024-06-11 21:10:49,509 INFO Trying to connect to localhost:5008
+2024-06-11 21:10:49,511 DEBUG Component on port 5008 is up
+2024-06-11 21:10:49,511 DEBUG Component OrderRouter status: up
+2024-06-11 21:10:49,511 DEBUG Pinging component on port 5009
+2024-06-11 21:10:49,511 INFO Trying to connect to localhost:5009
+2024-06-11 21:10:49,513 DEBUG Component on port 5009 is up
+2024-06-11 21:10:49,513 DEBUG Component FIXEngine status: up
+2024-06-11 21:10:49,513 DEBUG Pinging component on port 5010
+2024-06-11 21:10:49,513 INFO Trying to connect to localhost:5010
+2024-06-11 21:10:49,515 DEBUG Component on port 5010 is up
+2024-06-11 21:10:49,515 DEBUG Component MarketSimulator status: up
+2024-06-11 21:10:49,653 DEBUG Updating market data display
+2024-06-11 21:10:50,656 DEBUG Updating market data display
+2024-06-11 21:10:51,661 DEBUG Updating market data display
+2024-06-11 21:10:52,669 DEBUG Updating market data display
+2024-06-11 21:10:53,671 DEBUG Updating market data display
+2024-06-11 21:10:54,527 DEBUG Updating status lights
+2024-06-11 21:10:54,527 DEBUG Checking dependencies
+2024-06-11 21:10:54,527 DEBUG Pinging component on port 5008
+2024-06-11 21:10:54,527 INFO Trying to connect to localhost:5008
+2024-06-11 21:10:54,528 DEBUG Component on port 5008 is up
+2024-06-11 21:10:54,528 DEBUG Component OrderRouter status: up
+2024-06-11 21:10:54,529 DEBUG Pinging component on port 5009
+2024-06-11 21:10:54,529 INFO Trying to connect to localhost:5009
+2024-06-11 21:10:54,530 DEBUG Component on port 5009 is up
+2024-06-11 21:10:54,530 DEBUG Component FIXEngine status: up
+2024-06-11 21:10:54,530 DEBUG Pinging component on port 5010
+2024-06-11 21:10:54,530 INFO Trying to connect to localhost:5010
+2024-06-11 21:10:54,531 DEBUG Component on port 5010 is up
+2024-06-11 21:10:54,532 DEBUG Component MarketSimulator status: up
+2024-06-11 21:10:54,684 DEBUG Updating market data display
+2024-06-11 21:10:55,692 DEBUG Updating market data display
+2024-06-11 21:10:56,701 DEBUG Updating market data display
+2024-06-11 21:10:57,703 DEBUG Updating market data display
+2024-06-11 21:10:58,717 DEBUG Updating market data display
+2024-06-11 21:10:59,533 DEBUG Updating status lights
+2024-06-11 21:10:59,533 DEBUG Checking dependencies
+2024-06-11 21:10:59,533 DEBUG Pinging component on port 5008
+2024-06-11 21:10:59,533 INFO Trying to connect to localhost:5008
+2024-06-11 21:10:59,534 DEBUG Component on port 5008 is up
+2024-06-11 21:10:59,534 DEBUG Component OrderRouter status: up
+2024-06-11 21:10:59,534 DEBUG Pinging component on port 5009
+2024-06-11 21:10:59,534 INFO Trying to connect to localhost:5009
+2024-06-11 21:10:59,535 DEBUG Component on port 5009 is up
+2024-06-11 21:10:59,535 DEBUG Component FIXEngine status: up
+2024-06-11 21:10:59,535 DEBUG Pinging component on port 5010
+2024-06-11 21:10:59,535 INFO Trying to connect to localhost:5010
+2024-06-11 21:10:59,537 DEBUG Component on port 5010 is up
+2024-06-11 21:10:59,537 DEBUG Component MarketSimulator status: up
+2024-06-11 21:10:59,721 DEBUG Updating market data display
+2024-06-11 21:11:00,721 DEBUG Updating market data display
+2024-06-11 21:11:01,727 DEBUG Updating market data display
+2024-06-11 21:11:02,740 DEBUG Updating market data display
+2024-06-11 21:11:03,740 DEBUG Updating market data display
+2024-06-11 21:11:04,546 DEBUG Updating status lights
+2024-06-11 21:11:04,546 DEBUG Checking dependencies
+2024-06-11 21:11:04,546 DEBUG Pinging component on port 5008
+2024-06-11 21:11:04,546 INFO Trying to connect to localhost:5008
+2024-06-11 21:11:04,547 DEBUG Component on port 5008 is up
+2024-06-11 21:11:04,547 DEBUG Component OrderRouter status: up
+2024-06-11 21:11:04,547 DEBUG Pinging component on port 5009
+2024-06-11 21:11:04,547 INFO Trying to connect to localhost:5009
+2024-06-11 21:11:04,548 DEBUG Component on port 5009 is up
+2024-06-11 21:11:04,549 DEBUG Component FIXEngine status: up
+2024-06-11 21:11:04,549 DEBUG Pinging component on port 5010
+2024-06-11 21:11:04,549 INFO Trying to connect to localhost:5010
+2024-06-11 21:11:04,550 DEBUG Component on port 5010 is up
+2024-06-11 21:11:04,550 DEBUG Component MarketSimulator status: up
+2024-06-11 21:11:04,747 DEBUG Updating market data display
+2024-06-11 21:11:05,755 DEBUG Updating market data display
+2024-06-11 21:11:06,756 DEBUG Updating market data display
+2024-06-11 21:11:07,760 DEBUG Updating market data display
+2024-06-11 21:11:08,763 DEBUG Updating market data display
+2024-06-11 21:11:09,558 DEBUG Updating status lights
+2024-06-11 21:11:09,558 DEBUG Checking dependencies
+2024-06-11 21:11:09,558 DEBUG Pinging component on port 5008
+2024-06-11 21:11:09,558 INFO Trying to connect to localhost:5008
+2024-06-11 21:11:09,559 DEBUG Component on port 5008 is up
+2024-06-11 21:11:09,559 DEBUG Component OrderRouter status: up
+2024-06-11 21:11:09,559 DEBUG Pinging component on port 5009
+2024-06-11 21:11:09,559 INFO Trying to connect to localhost:5009
+2024-06-11 21:11:09,560 DEBUG Component on port 5009 is up
+2024-06-11 21:11:09,560 DEBUG Component FIXEngine status: up
+2024-06-11 21:11:09,560 DEBUG Pinging component on port 5010
+2024-06-11 21:11:09,560 INFO Trying to connect to localhost:5010
+2024-06-11 21:11:09,561 DEBUG Component on port 5010 is up
+2024-06-11 21:11:09,561 DEBUG Component MarketSimulator status: up
+2024-06-11 21:11:09,776 DEBUG Updating market data display
+2024-06-11 21:11:10,789 DEBUG Updating market data display
+2024-06-11 21:11:11,789 DEBUG Updating market data display
+2024-06-11 21:11:12,796 DEBUG Updating market data display
+2024-06-11 21:11:13,810 DEBUG Updating market data display
+2024-06-11 21:11:14,575 DEBUG Updating status lights
+2024-06-11 21:11:14,575 DEBUG Checking dependencies
+2024-06-11 21:11:14,575 DEBUG Pinging component on port 5008
+2024-06-11 21:11:14,575 INFO Trying to connect to localhost:5008
+2024-06-11 21:11:14,577 DEBUG Component on port 5008 is up
+2024-06-11 21:11:14,577 DEBUG Component OrderRouter status: up
+2024-06-11 21:11:14,577 DEBUG Pinging component on port 5009
+2024-06-11 21:11:14,577 INFO Trying to connect to localhost:5009
+2024-06-11 21:11:14,579 DEBUG Component on port 5009 is up
+2024-06-11 21:11:14,579 DEBUG Component FIXEngine status: up
+2024-06-11 21:11:14,579 DEBUG Pinging component on port 5010
+2024-06-11 21:11:14,579 INFO Trying to connect to localhost:5010
+2024-06-11 21:11:14,581 DEBUG Component on port 5010 is up
+2024-06-11 21:11:14,581 DEBUG Component MarketSimulator status: up
+2024-06-11 21:11:14,810 DEBUG Updating market data display
+2024-06-11 21:11:15,822 DEBUG Updating market data display
+2024-06-11 21:11:16,837 DEBUG Updating market data display
+2024-06-11 21:11:17,851 DEBUG Updating market data display
+2024-06-11 21:11:18,864 DEBUG Updating market data display
+2024-06-11 21:11:19,594 DEBUG Updating status lights
+2024-06-11 21:11:19,594 DEBUG Checking dependencies
+2024-06-11 21:11:19,594 DEBUG Pinging component on port 5008
+2024-06-11 21:11:19,594 INFO Trying to connect to localhost:5008
+2024-06-11 21:11:19,595 DEBUG Component on port 5008 is up
+2024-06-11 21:11:19,595 DEBUG Component OrderRouter status: up
+2024-06-11 21:11:19,596 DEBUG Pinging component on port 5009
+2024-06-11 21:11:19,596 INFO Trying to connect to localhost:5009
+2024-06-11 21:11:19,597 DEBUG Component on port 5009 is up
+2024-06-11 21:11:19,597 DEBUG Component FIXEngine status: up
+2024-06-11 21:11:19,598 DEBUG Pinging component on port 5010
+2024-06-11 21:11:19,598 INFO Trying to connect to localhost:5010
+2024-06-11 21:11:19,599 DEBUG Component on port 5010 is up
+2024-06-11 21:11:19,599 DEBUG Component MarketSimulator status: up
+2024-06-11 21:11:19,873 DEBUG Updating market data display
+2024-06-11 21:11:20,878 DEBUG Updating market data display
+2024-06-11 21:11:21,889 DEBUG Updating market data display
+2024-06-11 21:11:22,902 DEBUG Updating market data display
+2024-06-11 21:11:23,908 DEBUG Updating market data display
+2024-06-11 21:11:24,608 DEBUG Updating status lights
+2024-06-11 21:11:24,608 DEBUG Checking dependencies
+2024-06-11 21:11:24,608 DEBUG Pinging component on port 5008
+2024-06-11 21:11:24,608 INFO Trying to connect to localhost:5008
+2024-06-11 21:11:24,610 DEBUG Component on port 5008 is up
+2024-06-11 21:11:24,610 DEBUG Component OrderRouter status: up
+2024-06-11 21:11:24,610 DEBUG Pinging component on port 5009
+2024-06-11 21:11:24,610 INFO Trying to connect to localhost:5009
+2024-06-11 21:11:24,611 DEBUG Component on port 5009 is up
+2024-06-11 21:11:24,612 DEBUG Component FIXEngine status: up
+2024-06-11 21:11:24,612 DEBUG Pinging component on port 5010
+2024-06-11 21:11:24,612 INFO Trying to connect to localhost:5010
+2024-06-11 21:11:24,613 DEBUG Component on port 5010 is up
+2024-06-11 21:11:24,613 DEBUG Component MarketSimulator status: up
+2024-06-11 21:11:24,918 DEBUG Updating market data display
+2024-06-11 21:11:25,931 DEBUG Updating market data display
+2024-06-11 21:11:26,934 DEBUG Updating market data display
+2024-06-11 21:11:27,945 DEBUG Updating market data display
+2024-06-11 21:11:28,947 DEBUG Updating market data display
+2024-06-11 21:11:29,617 DEBUG Updating status lights
+2024-06-11 21:11:29,618 DEBUG Checking dependencies
+2024-06-11 21:11:29,618 DEBUG Pinging component on port 5008
+2024-06-11 21:11:29,618 INFO Trying to connect to localhost:5008
+2024-06-11 21:11:29,621 DEBUG Component on port 5008 is up
+2024-06-11 21:11:29,621 DEBUG Component OrderRouter status: up
+2024-06-11 21:11:29,622 DEBUG Pinging component on port 5009
+2024-06-11 21:11:29,622 INFO Trying to connect to localhost:5009
+2024-06-11 21:11:29,624 DEBUG Component on port 5009 is up
+2024-06-11 21:11:29,624 DEBUG Component FIXEngine status: up
+2024-06-11 21:11:29,624 DEBUG Pinging component on port 5010
+2024-06-11 21:11:29,624 INFO Trying to connect to localhost:5010
+2024-06-11 21:11:29,626 DEBUG Component on port 5010 is up
+2024-06-11 21:11:29,626 DEBUG Component MarketSimulator status: up
+2024-06-11 21:11:29,949 DEBUG Updating market data display
+2024-06-11 21:11:30,957 DEBUG Updating market data display
+2024-06-11 21:11:31,969 DEBUG Updating market data display

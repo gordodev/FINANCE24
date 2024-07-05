@@ -1,0 +1,783 @@
+2024-06-10 22:49:02,371 MarketDataListener initialized and joined multicast group
+2024-06-10 22:49:04,413 Component on port 5008 is down
+2024-06-10 22:49:05,235 Received market data message: blue
+2024-06-10 22:49:06,438 Component on port 5009 is down
+2024-06-10 22:49:07,240 Received market data message: blue
+2024-06-10 22:49:08,476 Component on port 5010 is down
+2024-06-10 22:49:08,476 2024-06-10 22:49:08 - blue
+2024-06-10 22:49:08,483 2024-06-10 22:49:08 - blue
+2024-06-10 22:49:08,485 Component on port 5008 is up
+2024-06-10 22:49:08,486 Component on port 5009 is up
+2024-06-10 22:49:09,243 Received market data message: blue
+2024-06-10 22:49:10,244 Received market data message: blue
+2024-06-10 22:49:10,525 Component on port 5010 is down
+2024-06-10 22:49:10,534 2024-06-10 22:49:10 - blue
+2024-06-10 22:49:10,536 2024-06-10 22:49:10 - blue
+2024-06-10 22:49:13,250 Received market data message: red
+2024-06-10 22:49:13,483 Component on port 5008 is up
+2024-06-10 22:49:13,484 Component on port 5009 is up
+2024-06-10 22:49:13,485 Component on port 5010 is up
+2024-06-10 22:49:13,561 2024-06-10 22:49:13 - red
+2024-06-10 22:49:16,252 Received market data message: blue
+2024-06-10 22:49:16,581 2024-06-10 22:49:16 - blue
+2024-06-10 22:49:17,255 Received market data message: blue
+2024-06-10 22:49:17,586 2024-06-10 22:49:17 - blue
+2024-06-10 22:49:18,496 Component on port 5008 is up
+2024-06-10 22:49:18,499 Component on port 5009 is up
+2024-06-10 22:49:18,502 Component on port 5010 is up
+2024-06-10 22:49:20,270 Received market data message: blue
+2024-06-10 22:49:20,614 2024-06-10 22:49:20 - blue
+2024-06-10 22:49:22,280 Received market data message: blue
+2024-06-10 22:49:22,630 2024-06-10 22:49:22 - blue
+2024-06-10 22:49:23,514 Component on port 5008 is up
+2024-06-10 22:49:23,514 Component on port 5009 is up
+2024-06-10 22:49:23,515 Component on port 5010 is up
+2024-06-10 22:49:25,284 Received market data message: blue
+2024-06-10 22:49:25,662 2024-06-10 22:49:25 - blue
+2024-06-10 22:49:28,297 Received market data message: blue
+2024-06-10 22:49:28,517 Component on port 5008 is up
+2024-06-10 22:49:28,518 Component on port 5009 is up
+2024-06-10 22:49:28,518 Component on port 5010 is up
+2024-06-10 22:49:28,685 2024-06-10 22:49:28 - blue
+2024-06-10 22:49:30,305 Received market data message: blue
+2024-06-10 22:49:30,700 2024-06-10 22:49:30 - blue
+2024-06-10 22:49:33,310 Received market data message: blue
+2024-06-10 22:49:33,531 Component on port 5008 is up
+2024-06-10 22:49:33,532 Component on port 5009 is up
+2024-06-10 22:49:33,533 Component on port 5010 is up
+2024-06-10 22:49:33,716 2024-06-10 22:49:33 - blue
+2024-06-10 22:49:34,314 Received market data message: blue
+2024-06-10 22:49:34,724 2024-06-10 22:49:34 - blue
+2024-06-10 22:49:35,328 Received market data message: blue
+2024-06-10 22:49:35,732 2024-06-10 22:49:35 - blue
+2024-06-10 22:49:38,341 Received market data message: red
+2024-06-10 22:49:38,545 Component on port 5008 is up
+2024-06-10 22:49:38,547 Component on port 5009 is up
+2024-06-10 22:49:38,548 Component on port 5010 is up
+2024-06-10 22:49:38,746 2024-06-10 22:49:38 - red
+2024-06-10 22:49:39,343 Received market data message: red
+2024-06-10 22:49:39,761 2024-06-10 22:49:39 - red
+2024-06-10 22:49:42,356 Received market data message: red
+2024-06-10 22:49:42,782 2024-06-10 22:49:42 - red
+2024-06-10 22:49:43,360 Received market data message: blue
+2024-06-10 22:49:43,562 Component on port 5008 is up
+2024-06-10 22:49:43,564 Component on port 5009 is up
+2024-06-10 22:49:43,565 Component on port 5010 is up
+2024-06-10 22:49:43,783 2024-06-10 22:49:43 - blue
+2024-06-10 22:49:45,368 Received market data message: blue
+2024-06-10 22:49:45,790 2024-06-10 22:49:45 - blue
+2024-06-10 22:49:47,390 Received market data message: red
+2024-06-10 22:49:47,805 2024-06-10 22:49:47 - red
+2024-06-10 22:49:48,398 Received market data message: red
+2024-06-10 22:49:48,570 Component on port 5008 is up
+2024-06-10 22:49:48,571 Component on port 5009 is up
+2024-06-10 22:49:48,572 Component on port 5010 is up
+2024-06-10 22:49:48,819 2024-06-10 22:49:48 - red
+2024-06-10 22:49:51,408 Received market data message: red
+2024-06-10 22:49:51,837 2024-06-10 22:49:51 - red
+2024-06-10 22:49:52,419 Received market data message: red
+2024-06-10 22:49:52,839 2024-06-10 22:49:52 - red
+2024-06-10 22:49:53,574 Component on port 5008 is up
+2024-06-10 22:49:53,576 Component on port 5009 is up
+2024-06-10 22:49:53,576 Component on port 5010 is up
+2024-06-10 22:49:54,424 Received market data message: blue
+2024-06-10 22:49:54,849 2024-06-10 22:49:54 - blue
+2024-06-10 22:49:55,430 Received market data message: blue
+2024-06-10 22:49:55,854 2024-06-10 22:49:55 - blue
+2024-06-10 22:49:56,433 Received market data message: red
+2024-06-10 22:49:56,857 2024-06-10 22:49:56 - red
+2024-06-10 22:49:58,590 Component on port 5008 is up
+2024-06-10 22:49:58,592 Component on port 5009 is up
+2024-06-10 22:49:58,593 Component on port 5010 is up
+2024-06-10 22:49:59,434 Received market data message: red
+2024-06-10 22:49:59,893 2024-06-10 22:49:59 - red
+2024-06-10 22:50:00,441 Received market data message: red
+2024-06-10 22:50:00,908 2024-06-10 22:50:00 - red
+2024-06-10 22:50:03,441 Received market data message: blue
+2024-06-10 22:50:03,601 Component on port 5008 is up
+2024-06-10 22:50:03,604 Component on port 5009 is up
+2024-06-10 22:50:03,606 Component on port 5010 is up
+2024-06-10 22:50:03,945 2024-06-10 22:50:03 - blue
+2024-06-10 22:50:04,443 Received market data message: red
+2024-06-10 22:50:04,958 2024-06-10 22:50:04 - red
+2024-06-10 22:50:07,449 Received market data message: red
+2024-06-10 22:50:07,965 2024-06-10 22:50:07 - red
+2024-06-10 22:50:08,452 Received market data message: blue
+2024-06-10 22:50:08,611 Component on port 5008 is up
+2024-06-10 22:50:08,612 Component on port 5009 is up
+2024-06-10 22:50:08,613 Component on port 5010 is up
+2024-06-10 22:50:08,972 2024-06-10 22:50:08 - blue
+2024-06-10 22:50:10,454 Received market data message: red
+2024-06-10 22:50:10,988 2024-06-10 22:50:10 - red
+2024-06-10 22:50:12,468 Received market data message: blue
+2024-06-10 22:50:12,998 2024-06-10 22:50:12 - blue
+2024-06-10 22:50:13,481 Received market data message: blue
+2024-06-10 22:50:13,623 Component on port 5008 is up
+2024-06-10 22:50:13,624 Component on port 5009 is up
+2024-06-10 22:50:13,624 Component on port 5010 is up
+2024-06-10 22:50:14,012 2024-06-10 22:50:14 - blue
+2024-06-10 22:50:16,490 Received market data message: blue
+2024-06-10 22:50:17,027 2024-06-10 22:50:17 - blue
+2024-06-10 22:50:18,635 Component on port 5008 is up
+2024-06-10 22:50:18,636 Component on port 5009 is up
+2024-06-10 22:50:18,636 Component on port 5010 is up
+2024-06-10 22:50:19,496 Received market data message: red
+2024-06-10 22:50:20,045 2024-06-10 22:50:20 - red
+2024-06-10 22:50:21,506 Received market data message: red
+2024-06-10 22:50:22,071 2024-06-10 22:50:22 - red
+2024-06-10 22:50:22,508 Received market data message: blue
+2024-06-10 22:50:23,086 2024-06-10 22:50:23 - blue
+2024-06-10 22:50:23,650 Component on port 5008 is up
+2024-06-10 22:50:23,651 Component on port 5009 is up
+2024-06-10 22:50:23,652 Component on port 5010 is up
+2024-06-10 22:50:24,511 Received market data message: red
+2024-06-10 22:50:25,091 2024-06-10 22:50:25 - red
+2024-06-10 22:50:25,512 Received market data message: red
+2024-06-10 22:50:26,107 2024-06-10 22:50:26 - red
+2024-06-10 22:50:27,523 Received market data message: red
+2024-06-10 22:50:28,120 2024-06-10 22:50:28 - red
+2024-06-10 22:50:28,529 Received market data message: red
+2024-06-10 22:50:28,655 Component on port 5008 is up
+2024-06-10 22:50:28,656 Component on port 5009 is up
+2024-06-10 22:50:28,657 Component on port 5010 is up
+2024-06-10 22:50:29,135 2024-06-10 22:50:29 - red
+2024-06-10 22:50:29,544 Received market data message: red
+2024-06-10 22:50:30,137 2024-06-10 22:50:30 - red
+2024-06-10 22:50:32,550 Received market data message: blue
+2024-06-10 22:50:33,164 2024-06-10 22:50:33 - blue
+2024-06-10 22:50:33,670 Component on port 5008 is up
+2024-06-10 22:50:33,672 Component on port 5009 is up
+2024-06-10 22:50:33,673 Component on port 5010 is up
+2024-06-10 22:50:35,565 Received market data message: blue
+2024-06-10 22:50:36,179 2024-06-10 22:50:36 - blue
+2024-06-10 22:50:38,568 Received market data message: blue
+2024-06-10 22:50:38,676 Component on port 5008 is up
+2024-06-10 22:50:38,677 Component on port 5009 is up
+2024-06-10 22:50:38,678 Component on port 5010 is up
+2024-06-10 22:50:39,210 2024-06-10 22:50:39 - blue
+2024-06-10 22:50:41,575 Received market data message: red
+2024-06-10 22:50:42,227 2024-06-10 22:50:42 - red
+2024-06-10 22:50:43,682 Component on port 5008 is up
+2024-06-10 22:50:43,683 Component on port 5009 is up
+2024-06-10 22:50:43,685 Component on port 5010 is up
+2024-06-10 22:50:44,578 Received market data message: blue
+2024-06-10 22:50:45,253 2024-06-10 22:50:45 - blue
+2024-06-10 22:50:46,579 Received market data message: blue
+2024-06-10 22:50:47,270 2024-06-10 22:50:47 - blue
+2024-06-10 22:50:48,701 Component on port 5008 is up
+2024-06-10 22:50:48,703 Component on port 5009 is up
+2024-06-10 22:50:48,704 Component on port 5010 is up
+2024-06-10 22:50:49,583 Received market data message: red
+2024-06-10 22:50:50,292 2024-06-10 22:50:50 - red
+2024-06-10 22:50:50,589 Received market data message: blue
+2024-06-10 22:50:51,298 2024-06-10 22:50:51 - blue
+2024-06-10 22:50:52,600 Received market data message: red
+2024-06-10 22:50:53,320 2024-06-10 22:50:53 - red
+2024-06-10 22:50:53,603 Received market data message: blue
+2024-06-10 22:50:53,713 Component on port 5008 is up
+2024-06-10 22:50:53,714 Component on port 5009 is up
+2024-06-10 22:50:53,715 Component on port 5010 is up
+2024-06-10 22:50:54,325 2024-06-10 22:50:54 - blue
+2024-06-10 22:50:54,611 Received market data message: red
+2024-06-10 22:50:55,332 2024-06-10 22:50:55 - red
+2024-06-10 22:50:56,614 Received market data message: red
+2024-06-10 22:50:57,348 2024-06-10 22:50:57 - red
+2024-06-10 22:50:57,629 Received market data message: blue
+2024-06-10 22:50:58,353 2024-06-10 22:50:58 - blue
+2024-06-10 22:50:58,727 Component on port 5008 is up
+2024-06-10 22:50:58,729 Component on port 5009 is up
+2024-06-10 22:50:58,731 Component on port 5010 is up
+2024-06-10 22:50:59,637 Received market data message: blue
+2024-06-10 22:51:00,378 2024-06-10 22:51:00 - blue
+2024-06-10 22:51:02,651 Received market data message: blue
+2024-06-10 22:51:03,400 2024-06-10 22:51:03 - blue
+2024-06-10 22:51:03,733 Component on port 5008 is up
+2024-06-10 22:51:03,735 Component on port 5009 is up
+2024-06-10 22:51:03,736 Component on port 5010 is up
+2024-06-10 22:51:04,659 Received market data message: blue
+2024-06-10 22:51:05,409 2024-06-10 22:51:05 - blue
+2024-06-10 22:51:07,672 Received market data message: blue
+2024-06-10 22:51:08,425 2024-06-10 22:51:08 - blue
+2024-06-10 22:51:08,673 Received market data message: red
+2024-06-10 22:51:08,750 Component on port 5008 is up
+2024-06-10 22:51:08,751 Component on port 5009 is up
+2024-06-10 22:51:08,752 Component on port 5010 is up
+2024-06-10 22:51:09,440 2024-06-10 22:51:09 - red
+2024-06-10 22:51:11,685 Received market data message: blue
+2024-06-10 22:51:12,471 2024-06-10 22:51:12 - blue
+2024-06-10 22:51:13,759 Component on port 5008 is up
+2024-06-10 22:51:13,761 Component on port 5009 is up
+2024-06-10 22:51:13,762 Component on port 5010 is up
+2024-06-10 22:51:14,688 Received market data message: red
+2024-06-10 22:51:15,496 2024-06-10 22:51:15 - red
+2024-06-10 22:51:16,697 Received market data message: red
+2024-06-10 22:51:17,520 2024-06-10 22:51:17 - red
+2024-06-10 22:51:18,767 Component on port 5008 is up
+2024-06-10 22:51:18,767 Component on port 5009 is up
+2024-06-10 22:51:18,767 Component on port 5010 is up
+2024-06-10 22:51:19,706 Received market data message: red
+2024-06-10 22:51:20,540 2024-06-10 22:51:20 - red
+2024-06-10 22:51:20,712 Received market data message: blue
+2024-06-10 22:51:21,544 2024-06-10 22:51:21 - blue
+2024-06-10 22:51:21,717 Received market data message: blue
+2024-06-10 22:51:22,550 2024-06-10 22:51:22 - blue
+2024-06-10 22:51:22,723 Received market data message: red
+2024-06-10 22:51:23,556 2024-06-10 22:51:23 - red
+2024-06-10 22:51:23,779 Component on port 5008 is up
+2024-06-10 22:51:23,780 Component on port 5009 is up
+2024-06-10 22:51:23,781 Component on port 5010 is up
+2024-06-10 22:51:24,728 Received market data message: red
+2024-06-10 22:51:25,572 2024-06-10 22:51:25 - red
+2024-06-10 22:51:27,735 Received market data message: red
+2024-06-10 22:51:28,587 2024-06-10 22:51:28 - red
+2024-06-10 22:51:28,746 Received market data message: blue
+2024-06-10 22:51:28,793 Component on port 5008 is up
+2024-06-10 22:51:28,795 Component on port 5009 is up
+2024-06-10 22:51:28,796 Component on port 5010 is up
+2024-06-10 22:51:29,588 2024-06-10 22:51:29 - blue
+2024-06-10 22:51:31,748 Received market data message: red
+2024-06-10 22:51:32,612 2024-06-10 22:51:32 - red
+2024-06-10 22:51:33,750 Received market data message: red
+2024-06-10 22:51:33,798 Component on port 5008 is up
+2024-06-10 22:51:33,799 Component on port 5009 is up
+2024-06-10 22:51:33,799 Component on port 5010 is up
+2024-06-10 22:51:34,629 2024-06-10 22:51:34 - red
+2024-06-10 22:51:35,751 Received market data message: blue
+2024-06-10 22:51:36,642 2024-06-10 22:51:36 - blue
+2024-06-10 22:51:37,758 Received market data message: red
+2024-06-10 22:51:38,656 2024-06-10 22:51:38 - red
+2024-06-10 22:51:38,815 Component on port 5008 is up
+2024-06-10 22:51:38,816 Component on port 5009 is up
+2024-06-10 22:51:38,817 Component on port 5010 is up
+2024-06-10 22:51:39,773 Received market data message: blue
+2024-06-10 22:51:40,666 2024-06-10 22:51:40 - blue
+2024-06-10 22:51:41,788 Received market data message: blue
+2024-06-10 22:51:42,690 2024-06-10 22:51:42 - blue
+2024-06-10 22:51:43,831 Component on port 5008 is up
+2024-06-10 22:51:43,831 Component on port 5009 is up
+2024-06-10 22:51:43,832 Component on port 5010 is up
+2024-06-10 22:51:44,793 Received market data message: blue
+2024-06-10 22:51:45,726 2024-06-10 22:51:45 - blue
+2024-06-10 22:51:46,807 Received market data message: red
+2024-06-10 22:51:47,738 2024-06-10 22:51:47 - red
+2024-06-10 22:51:48,844 Component on port 5008 is up
+2024-06-10 22:51:48,845 Component on port 5009 is up
+2024-06-10 22:51:48,846 Component on port 5010 is up
+2024-06-10 22:51:49,810 Received market data message: blue
+2024-06-10 22:51:50,773 2024-06-10 22:51:50 - blue
+2024-06-10 22:51:51,812 Received market data message: blue
+2024-06-10 22:51:52,787 2024-06-10 22:51:52 - blue
+2024-06-10 22:51:53,860 Component on port 5008 is up
+2024-06-10 22:51:53,861 Component on port 5009 is up
+2024-06-10 22:51:53,863 Component on port 5010 is up
+2024-06-10 22:51:54,822 Received market data message: blue
+2024-06-10 22:51:55,813 2024-06-10 22:51:55 - blue
+2024-06-10 22:51:56,831 Received market data message: blue
+2024-06-10 22:51:57,816 2024-06-10 22:51:57 - blue
+2024-06-10 22:51:58,846 Received market data message: red
+2024-06-10 22:51:58,879 Component on port 5008 is up
+2024-06-10 22:51:58,879 Component on port 5009 is up
+2024-06-10 22:51:58,880 Component on port 5010 is up
+2024-06-10 22:51:59,834 2024-06-10 22:51:59 - red
+2024-06-10 22:52:00,858 Received market data message: red
+2024-06-10 22:52:01,842 2024-06-10 22:52:01 - red
+2024-06-10 22:52:02,871 Received market data message: blue
+2024-06-10 22:52:03,859 2024-06-10 22:52:03 - blue
+2024-06-10 22:52:03,892 Component on port 5008 is up
+2024-06-10 22:52:03,893 Component on port 5009 is up
+2024-06-10 22:52:03,893 Component on port 5010 is up
+2024-06-10 22:52:05,884 Received market data message: blue
+2024-06-10 22:52:06,898 2024-06-10 22:52:06 - blue
+2024-06-10 22:52:06,898 Received market data message: blue
+2024-06-10 22:52:06,904 2024-06-10 22:52:06 - blue
+2024-06-10 22:52:08,904 Component on port 5008 is up
+2024-06-10 22:52:08,905 Component on port 5009 is up
+2024-06-10 22:52:08,906 Component on port 5010 is up
+2024-06-10 22:52:09,912 Received market data message: blue
+2024-06-10 22:52:09,928 2024-06-10 22:52:09 - blue
+2024-06-10 22:52:12,918 Received market data message: red
+2024-06-10 22:52:12,935 2024-06-10 22:52:12 - red
+2024-06-10 22:52:13,919 Component on port 5008 is up
+2024-06-10 22:52:13,921 Component on port 5009 is up
+2024-06-10 22:52:13,921 Component on port 5010 is up
+2024-06-10 22:52:13,933 Received market data message: red
+2024-06-10 22:52:13,948 2024-06-10 22:52:13 - red
+2024-06-10 22:52:16,940 Received market data message: red
+2024-06-10 22:52:16,970 2024-06-10 22:52:16 - red
+2024-06-10 22:52:17,942 Received market data message: blue
+2024-06-10 22:52:17,972 2024-06-10 22:52:17 - blue
+2024-06-10 22:52:18,928 Component on port 5008 is up
+2024-06-10 22:52:18,930 Component on port 5009 is up
+2024-06-10 22:52:18,931 Component on port 5010 is up
+2024-06-10 22:52:20,952 Received market data message: red
+2024-06-10 22:52:21,000 2024-06-10 22:52:21 - red
+2024-06-10 22:52:22,960 Received market data message: red
+2024-06-10 22:52:23,071 2024-06-10 22:52:23 - red
+2024-06-10 22:52:23,934 Component on port 5008 is up
+2024-06-10 22:52:23,935 Component on port 5009 is up
+2024-06-10 22:52:23,936 Component on port 5010 is up
+2024-06-10 22:52:25,961 Received market data message: blue
+2024-06-10 22:52:26,103 2024-06-10 22:52:26 - blue
+2024-06-10 22:52:28,950 Component on port 5008 is up
+2024-06-10 22:52:28,950 Component on port 5009 is up
+2024-06-10 22:52:28,951 Component on port 5010 is up
+2024-06-10 22:52:28,964 Received market data message: blue
+2024-06-10 22:52:29,137 2024-06-10 22:52:29 - blue
+2024-06-10 22:52:31,970 Received market data message: blue
+2024-06-10 22:52:32,162 2024-06-10 22:52:32 - blue
+2024-06-10 22:52:33,965 Component on port 5008 is up
+2024-06-10 22:52:33,967 Component on port 5009 is up
+2024-06-10 22:52:33,969 Component on port 5010 is up
+2024-06-10 22:52:34,976 Received market data message: blue
+2024-06-10 22:52:35,180 2024-06-10 22:52:35 - blue
+2024-06-10 22:52:35,986 Received market data message: red
+2024-06-10 22:52:36,192 2024-06-10 22:52:36 - red
+2024-06-10 22:52:37,990 Received market data message: red
+2024-06-10 22:52:38,210 2024-06-10 22:52:38 - red
+2024-06-10 22:52:38,986 Component on port 5008 is up
+2024-06-10 22:52:38,987 Component on port 5009 is up
+2024-06-10 22:52:38,988 Component on port 5010 is up
+2024-06-10 22:52:39,991 Received market data message: red
+2024-06-10 22:52:40,231 2024-06-10 22:52:40 - red
+2024-06-10 22:52:42,001 Received market data message: red
+2024-06-10 22:52:42,252 2024-06-10 22:52:42 - red
+2024-06-10 22:52:43,989 Component on port 5008 is up
+2024-06-10 22:52:43,990 Component on port 5009 is up
+2024-06-10 22:52:43,991 Component on port 5010 is up
+2024-06-10 22:52:44,005 Received market data message: red
+2024-06-10 22:52:44,274 2024-06-10 22:52:44 - red
+2024-06-10 22:52:47,017 Received market data message: red
+2024-06-10 22:52:47,298 2024-06-10 22:52:47 - red
+2024-06-10 22:52:49,001 Component on port 5008 is up
+2024-06-10 22:52:49,002 Component on port 5009 is up
+2024-06-10 22:52:49,003 Component on port 5010 is up
+2024-06-10 22:52:50,029 Received market data message: blue
+2024-06-10 22:52:50,324 2024-06-10 22:52:50 - blue
+2024-06-10 22:52:52,031 Received market data message: red
+2024-06-10 22:52:52,345 2024-06-10 22:52:52 - red
+2024-06-10 22:52:54,018 Component on port 5008 is up
+2024-06-10 22:52:54,019 Component on port 5009 is up
+2024-06-10 22:52:54,021 Component on port 5010 is up
+2024-06-10 22:52:55,041 Received market data message: red
+2024-06-10 22:52:55,373 2024-06-10 22:52:55 - red
+2024-06-10 22:52:56,052 Received market data message: blue
+2024-06-10 22:52:56,379 2024-06-10 22:52:56 - blue
+2024-06-10 22:52:59,031 Component on port 5008 is up
+2024-06-10 22:52:59,032 Component on port 5009 is up
+2024-06-10 22:52:59,033 Component on port 5010 is up
+2024-06-10 22:52:59,063 Received market data message: red
+2024-06-10 22:52:59,390 2024-06-10 22:52:59 - red
+2024-06-10 22:53:02,064 Received market data message: red
+2024-06-10 22:53:02,424 2024-06-10 22:53:02 - red
+2024-06-10 22:53:04,036 Component on port 5008 is up
+2024-06-10 22:53:04,037 Component on port 5009 is up
+2024-06-10 22:53:04,038 Component on port 5010 is up
+2024-06-10 22:53:04,066 Received market data message: red
+2024-06-10 22:53:04,445 2024-06-10 22:53:04 - red
+2024-06-10 22:53:07,077 Received market data message: blue
+2024-06-10 22:53:07,470 2024-06-10 22:53:07 - blue
+2024-06-10 22:53:09,046 Component on port 5008 is up
+2024-06-10 22:53:09,047 Component on port 5009 is up
+2024-06-10 22:53:09,048 Component on port 5010 is up
+2024-06-10 22:53:10,086 Received market data message: red
+2024-06-10 22:53:10,491 2024-06-10 22:53:10 - red
+2024-06-10 22:53:11,088 Received market data message: blue
+2024-06-10 22:53:11,497 2024-06-10 22:53:11 - blue
+2024-06-10 22:53:13,099 Received market data message: red
+2024-06-10 22:53:13,508 2024-06-10 22:53:13 - red
+2024-06-10 22:53:14,057 Component on port 5008 is up
+2024-06-10 22:53:14,058 Component on port 5009 is up
+2024-06-10 22:53:14,059 Component on port 5010 is up
+2024-06-10 22:53:14,102 Received market data message: red
+2024-06-10 22:53:14,510 2024-06-10 22:53:14 - red
+2024-06-10 22:53:16,108 Received market data message: blue
+2024-06-10 22:53:16,529 2024-06-10 22:53:16 - blue
+2024-06-10 22:53:19,060 Component on port 5008 is up
+2024-06-10 22:53:19,062 Component on port 5009 is up
+2024-06-10 22:53:19,063 Component on port 5010 is up
+2024-06-10 22:53:19,122 Received market data message: blue
+2024-06-10 22:53:19,548 2024-06-10 22:53:19 - blue
+2024-06-10 22:53:21,133 Received market data message: red
+2024-06-10 22:53:21,557 2024-06-10 22:53:21 - red
+2024-06-10 22:53:22,139 Received market data message: red
+2024-06-10 22:53:22,576 2024-06-10 22:53:22 - red
+2024-06-10 22:53:24,078 Component on port 5008 is up
+2024-06-10 22:53:24,079 Component on port 5009 is up
+2024-06-10 22:53:24,081 Component on port 5010 is up
+2024-06-10 22:53:24,141 Received market data message: blue
+2024-06-10 22:53:24,596 2024-06-10 22:53:24 - blue
+2024-06-10 22:53:26,156 Received market data message: blue
+2024-06-10 22:53:26,616 2024-06-10 22:53:26 - blue
+2024-06-10 22:53:29,096 Component on port 5008 is up
+2024-06-10 22:53:29,097 Component on port 5009 is up
+2024-06-10 22:53:29,097 Component on port 5010 is up
+2024-06-10 22:53:29,158 Received market data message: blue
+2024-06-10 22:53:29,630 2024-06-10 22:53:29 - blue
+2024-06-10 22:53:32,164 Received market data message: blue
+2024-06-10 22:53:32,649 2024-06-10 22:53:32 - blue
+2024-06-10 22:53:34,107 Component on port 5008 is up
+2024-06-10 22:53:34,109 Component on port 5009 is up
+2024-06-10 22:53:34,110 Component on port 5010 is up
+2024-06-10 22:53:35,179 Received market data message: blue
+2024-06-10 22:53:35,680 2024-06-10 22:53:35 - blue
+2024-06-10 22:53:36,194 Received market data message: red
+2024-06-10 22:53:36,682 2024-06-10 22:53:36 - red
+2024-06-10 22:53:39,127 Component on port 5008 is up
+2024-06-10 22:53:39,128 Component on port 5009 is up
+2024-06-10 22:53:39,130 Component on port 5010 is up
+2024-06-10 22:53:39,204 Received market data message: red
+2024-06-10 22:53:39,710 2024-06-10 22:53:39 - red
+2024-06-10 22:53:40,215 Received market data message: red
+2024-06-10 22:53:40,719 2024-06-10 22:53:40 - red
+2024-06-10 22:53:43,221 Received market data message: blue
+2024-06-10 22:53:43,738 2024-06-10 22:53:43 - blue
+2024-06-10 22:53:44,136 Component on port 5008 is up
+2024-06-10 22:53:44,138 Component on port 5009 is up
+2024-06-10 22:53:44,142 Component on port 5010 is up
+2024-06-10 22:53:45,232 Received market data message: blue
+2024-06-10 22:53:45,753 2024-06-10 22:53:45 - blue
+2024-06-10 22:53:48,239 Received market data message: blue
+2024-06-10 22:53:48,772 2024-06-10 22:53:48 - blue
+2024-06-10 22:53:49,153 Component on port 5008 is up
+2024-06-10 22:53:49,155 Component on port 5009 is up
+2024-06-10 22:53:49,157 Component on port 5010 is up
+2024-06-10 22:53:50,250 Received market data message: blue
+2024-06-10 22:53:50,786 2024-06-10 22:53:50 - blue
+2024-06-10 22:53:53,255 Received market data message: red
+2024-06-10 22:53:53,801 2024-06-10 22:53:53 - red
+2024-06-10 22:53:54,165 Component on port 5008 is up
+2024-06-10 22:53:54,166 Component on port 5009 is up
+2024-06-10 22:53:54,167 Component on port 5010 is up
+2024-06-10 22:53:54,256 Received market data message: red
+2024-06-10 22:53:54,809 2024-06-10 22:53:54 - red
+2024-06-10 22:53:55,260 Received market data message: blue
+2024-06-10 22:53:55,824 2024-06-10 22:53:55 - blue
+2024-06-10 22:53:56,268 Received market data message: blue
+2024-06-10 22:53:56,836 2024-06-10 22:53:56 - blue
+2024-06-10 22:53:57,276 Received market data message: red
+2024-06-10 22:53:57,842 2024-06-10 22:53:57 - red
+2024-06-10 22:53:59,180 Component on port 5008 is up
+2024-06-10 22:53:59,181 Component on port 5009 is up
+2024-06-10 22:53:59,182 Component on port 5010 is up
+2024-06-10 22:54:00,278 Received market data message: blue
+2024-06-10 22:54:00,858 2024-06-10 22:54:00 - blue
+2024-06-10 22:54:02,284 Received market data message: blue
+2024-06-10 22:54:02,876 2024-06-10 22:54:02 - blue
+2024-06-10 22:54:04,187 Component on port 5008 is up
+2024-06-10 22:54:04,188 Component on port 5009 is up
+2024-06-10 22:54:04,190 Component on port 5010 is up
+2024-06-10 22:54:05,300 Received market data message: red
+2024-06-10 22:54:05,897 2024-06-10 22:54:05 - red
+2024-06-10 22:54:08,302 Received market data message: blue
+2024-06-10 22:54:08,913 2024-06-10 22:54:08 - blue
+2024-06-10 22:54:09,199 Component on port 5008 is up
+2024-06-10 22:54:09,200 Component on port 5009 is up
+2024-06-10 22:54:09,201 Component on port 5010 is up
+2024-06-10 22:54:09,307 Received market data message: blue
+2024-06-10 22:54:09,923 2024-06-10 22:54:09 - blue
+2024-06-10 22:54:11,310 Received market data message: blue
+2024-06-10 22:54:11,938 2024-06-10 22:54:11 - blue
+2024-06-10 22:54:12,312 Received market data message: red
+2024-06-10 22:54:12,951 2024-06-10 22:54:12 - red
+2024-06-10 22:54:14,211 Component on port 5008 is up
+2024-06-10 22:54:14,212 Component on port 5009 is up
+2024-06-10 22:54:14,213 Component on port 5010 is up
+2024-06-10 22:54:14,321 Received market data message: blue
+2024-06-10 22:54:14,963 2024-06-10 22:54:14 - blue
+2024-06-10 22:54:16,325 Received market data message: blue
+2024-06-10 22:54:16,989 2024-06-10 22:54:16 - blue
+2024-06-10 22:54:17,330 Received market data message: blue
+2024-06-10 22:54:17,990 2024-06-10 22:54:17 - blue
+2024-06-10 22:54:18,334 Received market data message: red
+2024-06-10 22:54:18,994 2024-06-10 22:54:18 - red
+2024-06-10 22:54:19,214 Component on port 5008 is up
+2024-06-10 22:54:19,215 Component on port 5009 is up
+2024-06-10 22:54:19,216 Component on port 5010 is up
+2024-06-10 22:54:19,337 Received market data message: blue
+2024-06-10 22:54:20,008 2024-06-10 22:54:20 - blue
+2024-06-10 22:54:20,339 Received market data message: blue
+2024-06-10 22:54:21,011 2024-06-10 22:54:21 - blue
+2024-06-10 22:54:23,343 Received market data message: blue
+2024-06-10 22:54:24,026 2024-06-10 22:54:24 - blue
+2024-06-10 22:54:24,229 Component on port 5008 is up
+2024-06-10 22:54:24,230 Component on port 5009 is up
+2024-06-10 22:54:24,232 Component on port 5010 is up
+2024-06-10 22:54:25,350 Received market data message: blue
+2024-06-10 22:54:26,042 2024-06-10 22:54:26 - blue
+2024-06-10 22:54:26,355 Received market data message: blue
+2024-06-10 22:54:27,046 2024-06-10 22:54:27 - blue
+2024-06-10 22:54:28,359 Received market data message: red
+2024-06-10 22:54:29,060 2024-06-10 22:54:29 - red
+2024-06-10 22:54:29,247 Component on port 5008 is up
+2024-06-10 22:54:29,249 Component on port 5009 is up
+2024-06-10 22:54:29,251 Component on port 5010 is up
+2024-06-10 22:54:30,361 Received market data message: red
+2024-06-10 22:54:31,090 2024-06-10 22:54:31 - red
+2024-06-10 22:54:31,372 Received market data message: red
+2024-06-10 22:54:32,095 2024-06-10 22:54:32 - red
+2024-06-10 22:54:34,259 Component on port 5008 is up
+2024-06-10 22:54:34,260 Component on port 5009 is up
+2024-06-10 22:54:34,261 Component on port 5010 is up
+2024-06-10 22:54:34,384 Received market data message: red
+2024-06-10 22:54:35,108 2024-06-10 22:54:35 - red
+2024-06-10 22:54:35,394 Received market data message: red
+2024-06-10 22:54:36,113 2024-06-10 22:54:36 - red
+2024-06-10 22:54:38,396 Received market data message: blue
+2024-06-10 22:54:39,156 2024-06-10 22:54:39 - blue
+2024-06-10 22:54:39,267 Component on port 5008 is up
+2024-06-10 22:54:39,268 Component on port 5009 is up
+2024-06-10 22:54:39,269 Component on port 5010 is up
+2024-06-10 22:54:40,410 Received market data message: blue
+2024-06-10 22:54:41,166 2024-06-10 22:54:41 - blue
+2024-06-10 22:54:43,420 Received market data message: blue
+2024-06-10 22:54:44,186 2024-06-10 22:54:44 - blue
+2024-06-10 22:54:44,281 Component on port 5008 is up
+2024-06-10 22:54:44,283 Component on port 5009 is up
+2024-06-10 22:54:44,285 Component on port 5010 is up
+2024-06-10 22:54:44,422 Received market data message: blue
+2024-06-10 22:54:45,195 2024-06-10 22:54:45 - blue
+2024-06-10 22:54:45,432 Received market data message: red
+2024-06-10 22:54:46,212 2024-06-10 22:54:46 - red
+2024-06-10 22:54:48,448 Received market data message: blue
+2024-06-10 22:54:49,241 2024-06-10 22:54:49 - blue
+2024-06-10 22:54:49,289 Component on port 5008 is up
+2024-06-10 22:54:49,290 Component on port 5009 is up
+2024-06-10 22:54:49,292 Component on port 5010 is up
+2024-06-10 22:54:50,448 Received market data message: blue
+2024-06-10 22:54:51,257 2024-06-10 22:54:51 - blue
+2024-06-10 22:54:51,462 Received market data message: blue
+2024-06-10 22:54:52,260 2024-06-10 22:54:52 - blue
+2024-06-10 22:54:53,467 Received market data message: red
+2024-06-10 22:54:54,281 2024-06-10 22:54:54 - red
+2024-06-10 22:54:54,297 Component on port 5008 is up
+2024-06-10 22:54:54,297 Component on port 5009 is up
+2024-06-10 22:54:54,298 Component on port 5010 is up
+2024-06-10 22:54:54,468 Received market data message: red
+2024-06-10 22:54:55,296 2024-06-10 22:54:55 - red
+2024-06-10 22:54:55,471 Received market data message: red
+2024-06-10 22:54:56,309 2024-06-10 22:54:56 - red
+2024-06-10 22:54:57,484 Received market data message: blue
+2024-06-10 22:54:58,324 2024-06-10 22:54:58 - blue
+2024-06-10 22:54:58,497 Received market data message: red
+2024-06-10 22:54:59,311 Component on port 5008 is up
+2024-06-10 22:54:59,312 Component on port 5009 is up
+2024-06-10 22:54:59,313 Component on port 5010 is up
+2024-06-10 22:54:59,341 2024-06-10 22:54:59 - red
+2024-06-10 22:54:59,498 Received market data message: red
+2024-06-10 22:55:00,359 2024-06-10 22:55:00 - red
+2024-06-10 22:55:02,514 Received market data message: blue
+2024-06-10 22:55:03,392 2024-06-10 22:55:03 - blue
+2024-06-10 22:55:03,518 Received market data message: red
+2024-06-10 22:55:04,326 Component on port 5008 is up
+2024-06-10 22:55:04,328 Component on port 5009 is up
+2024-06-10 22:55:04,331 Component on port 5010 is up
+2024-06-10 22:55:04,403 2024-06-10 22:55:04 - red
+2024-06-10 22:55:05,519 Received market data message: red
+2024-06-10 22:55:06,417 2024-06-10 22:55:06 - red
+2024-06-10 22:55:08,531 Received market data message: red
+2024-06-10 22:55:09,348 Component on port 5008 is up
+2024-06-10 22:55:09,350 Component on port 5009 is up
+2024-06-10 22:55:09,353 Component on port 5010 is up
+2024-06-10 22:55:09,438 2024-06-10 22:55:09 - red
+2024-06-10 22:55:11,544 Received market data message: red
+2024-06-10 22:55:12,477 2024-06-10 22:55:12 - red
+2024-06-10 22:55:12,557 Received market data message: blue
+2024-06-10 22:55:13,480 2024-06-10 22:55:13 - blue
+2024-06-10 22:55:14,370 Component on port 5008 is up
+2024-06-10 22:55:14,372 Component on port 5009 is up
+2024-06-10 22:55:14,372 Component on port 5010 is up
+2024-06-10 22:55:15,564 Received market data message: red
+2024-06-10 22:55:16,513 2024-06-10 22:55:16 - red
+2024-06-10 22:55:18,577 Received market data message: red
+2024-06-10 22:55:19,379 Component on port 5008 is up
+2024-06-10 22:55:19,380 Component on port 5009 is up
+2024-06-10 22:55:19,382 Component on port 5010 is up
+2024-06-10 22:55:19,549 2024-06-10 22:55:19 - red
+2024-06-10 22:55:19,581 Received market data message: blue
+2024-06-10 22:55:20,564 2024-06-10 22:55:20 - blue
+2024-06-10 22:55:22,582 Received market data message: red
+2024-06-10 22:55:23,594 2024-06-10 22:55:23 - red
+2024-06-10 22:55:24,395 Component on port 5008 is up
+2024-06-10 22:55:24,396 Component on port 5009 is up
+2024-06-10 22:55:24,397 Component on port 5010 is up
+2024-06-10 22:55:24,583 Received market data message: blue
+2024-06-10 22:55:24,599 2024-06-10 22:55:24 - blue
+2024-06-10 22:55:26,588 Received market data message: red
+2024-06-10 22:55:26,620 2024-06-10 22:55:26 - red
+2024-06-10 22:55:28,592 Received market data message: red
+2024-06-10 22:55:28,638 2024-06-10 22:55:28 - red
+2024-06-10 22:55:29,402 Component on port 5008 is up
+2024-06-10 22:55:29,403 Component on port 5009 is up
+2024-06-10 22:55:29,405 Component on port 5010 is up
+2024-06-10 22:55:29,602 Received market data message: blue
+2024-06-10 22:55:29,648 2024-06-10 22:55:29 - blue
+2024-06-10 22:55:30,606 Received market data message: blue
+2024-06-10 22:55:30,654 2024-06-10 22:55:30 - blue
+2024-06-10 22:55:32,610 Received market data message: red
+2024-06-10 22:55:32,674 2024-06-10 22:55:32 - red
+2024-06-10 22:55:34,417 Component on port 5008 is up
+2024-06-10 22:55:34,419 Component on port 5009 is up
+2024-06-10 22:55:34,420 Component on port 5010 is up
+2024-06-10 22:55:35,614 Received market data message: blue
+2024-06-10 22:55:35,693 2024-06-10 22:55:35 - blue
+2024-06-10 22:55:38,624 Received market data message: red
+2024-06-10 22:55:38,719 2024-06-10 22:55:38 - red
+2024-06-10 22:55:39,431 Component on port 5008 is up
+2024-06-10 22:55:39,433 Component on port 5009 is up
+2024-06-10 22:55:39,435 Component on port 5010 is up
+2024-06-10 22:55:41,630 Received market data message: blue
+2024-06-10 22:55:41,739 2024-06-10 22:55:41 - blue
+2024-06-10 22:55:42,638 Received market data message: red
+2024-06-10 22:55:42,748 2024-06-10 22:55:42 - red
+2024-06-10 22:55:43,646 Received market data message: blue
+2024-06-10 22:55:43,755 2024-06-10 22:55:43 - blue
+2024-06-10 22:55:44,448 Component on port 5008 is up
+2024-06-10 22:55:44,449 Component on port 5009 is up
+2024-06-10 22:55:44,450 Component on port 5010 is up
+2024-06-10 22:55:45,650 Received market data message: blue
+2024-06-10 22:55:45,776 2024-06-10 22:55:45 - blue
+2024-06-10 22:55:47,660 Received market data message: blue
+2024-06-10 22:55:47,786 2024-06-10 22:55:47 - blue
+2024-06-10 22:55:48,664 Received market data message: red
+2024-06-10 22:55:48,790 2024-06-10 22:55:48 - red
+2024-06-10 22:55:49,466 Component on port 5008 is up
+2024-06-10 22:55:49,467 Component on port 5009 is up
+2024-06-10 22:55:49,469 Component on port 5010 is up
+2024-06-10 22:55:51,673 Received market data message: red
+2024-06-10 22:55:51,815 2024-06-10 22:55:51 - red
+2024-06-10 22:55:52,681 Received market data message: blue
+2024-06-10 22:55:52,823 2024-06-10 22:55:52 - blue
+2024-06-10 22:55:53,692 Received market data message: blue
+2024-06-10 22:55:53,830 2024-06-10 22:55:53 - blue
+2024-06-10 22:55:54,478 Component on port 5008 is up
+2024-06-10 22:55:54,479 Component on port 5009 is up
+2024-06-10 22:55:54,481 Component on port 5010 is up
+2024-06-10 22:55:56,700 Received market data message: blue
+2024-06-10 22:55:56,858 2024-06-10 22:55:56 - blue
+2024-06-10 22:55:58,709 Received market data message: red
+2024-06-10 22:55:58,865 2024-06-10 22:55:58 - red
+2024-06-10 22:55:59,483 Component on port 5008 is up
+2024-06-10 22:55:59,484 Component on port 5009 is up
+2024-06-10 22:55:59,485 Component on port 5010 is up
+2024-06-10 22:56:00,725 Received market data message: red
+2024-06-10 22:56:00,882 2024-06-10 22:56:00 - red
+2024-06-10 22:56:03,740 Received market data message: red
+2024-06-10 22:56:03,897 2024-06-10 22:56:03 - red
+2024-06-10 22:56:04,497 Component on port 5008 is up
+2024-06-10 22:56:04,498 Component on port 5009 is up
+2024-06-10 22:56:04,499 Component on port 5010 is up
+2024-06-10 22:56:04,748 Received market data message: red
+2024-06-10 22:56:04,907 2024-06-10 22:56:04 - red
+2024-06-10 22:56:07,758 Received market data message: blue
+2024-06-10 22:56:07,929 2024-06-10 22:56:07 - blue
+2024-06-10 22:56:08,770 Received market data message: red
+2024-06-10 22:56:08,941 2024-06-10 22:56:08 - red
+2024-06-10 22:56:09,506 Component on port 5008 is up
+2024-06-10 22:56:09,508 Component on port 5009 is up
+2024-06-10 22:56:09,510 Component on port 5010 is up
+2024-06-10 22:56:10,778 Received market data message: red
+2024-06-10 22:56:10,965 2024-06-10 22:56:10 - red
+2024-06-10 22:56:12,791 Received market data message: red
+2024-06-10 22:56:12,992 2024-06-10 22:56:12 - red
+2024-06-10 22:56:14,520 Component on port 5008 is up
+2024-06-10 22:56:14,521 Component on port 5009 is up
+2024-06-10 22:56:14,522 Component on port 5010 is up
+2024-06-10 22:56:15,798 Received market data message: red
+2024-06-10 22:56:16,018 2024-06-10 22:56:16 - red
+2024-06-10 22:56:16,803 Received market data message: red
+2024-06-10 22:56:17,025 2024-06-10 22:56:17 - red
+2024-06-10 22:56:17,811 Received market data message: red
+2024-06-10 22:56:18,033 2024-06-10 22:56:18 - red
+2024-06-10 22:56:19,538 Component on port 5008 is up
+2024-06-10 22:56:19,539 Component on port 5009 is up
+2024-06-10 22:56:19,541 Component on port 5010 is up
+2024-06-10 22:56:20,826 Received market data message: blue
+2024-06-10 22:56:21,062 2024-06-10 22:56:21 - blue
+2024-06-10 22:56:22,846 Received market data message: red
+2024-06-10 22:56:23,072 2024-06-10 22:56:23 - red
+2024-06-10 22:56:23,857 Received market data message: blue
+2024-06-10 22:56:24,078 2024-06-10 22:56:24 - blue
+2024-06-10 22:56:24,553 Component on port 5008 is up
+2024-06-10 22:56:24,554 Component on port 5009 is up
+2024-06-10 22:56:24,556 Component on port 5010 is up
+2024-06-10 22:56:24,869 Received market data message: red
+2024-06-10 22:56:25,088 2024-06-10 22:56:25 - red
+2024-06-10 22:56:25,881 Received market data message: blue
+2024-06-10 22:56:26,104 2024-06-10 22:56:26 - blue
+2024-06-10 22:56:26,889 Received market data message: blue
+2024-06-10 22:56:27,120 2024-06-10 22:56:27 - blue
+2024-06-10 22:56:28,893 Received market data message: blue
+2024-06-10 22:56:29,127 2024-06-10 22:56:29 - blue
+2024-06-10 22:56:29,565 Component on port 5008 is up
+2024-06-10 22:56:29,567 Component on port 5009 is up
+2024-06-10 22:56:29,568 Component on port 5010 is up
+2024-06-10 22:56:30,896 Received market data message: red
+2024-06-10 22:56:31,147 2024-06-10 22:56:31 - red
+2024-06-10 22:56:33,897 Received market data message: red
+2024-06-10 22:56:34,166 2024-06-10 22:56:34 - red
+2024-06-10 22:56:34,574 Component on port 5008 is up
+2024-06-10 22:56:34,576 Component on port 5009 is up
+2024-06-10 22:56:34,576 Component on port 5010 is up
+2024-06-10 22:56:35,897 Received market data message: red
+2024-06-10 22:56:36,183 2024-06-10 22:56:36 - red
+2024-06-10 22:56:37,907 Received market data message: blue
+2024-06-10 22:56:38,205 2024-06-10 22:56:38 - blue
+2024-06-10 22:56:39,578 Component on port 5008 is up
+2024-06-10 22:56:39,579 Component on port 5009 is up
+2024-06-10 22:56:39,580 Component on port 5010 is up
+2024-06-10 22:56:39,921 Received market data message: blue
+2024-06-10 22:56:40,217 2024-06-10 22:56:40 - blue
+2024-06-10 22:56:41,925 Received market data message: blue
+2024-06-10 22:56:42,238 2024-06-10 22:56:42 - blue
+2024-06-10 22:56:43,928 Received market data message: red
+2024-06-10 22:56:44,281 2024-06-10 22:56:44 - red
+2024-06-10 22:56:44,583 Component on port 5008 is up
+2024-06-10 22:56:44,584 Component on port 5009 is up
+2024-06-10 22:56:44,585 Component on port 5010 is up
+2024-06-10 22:56:44,931 Received market data message: blue
+2024-06-10 22:56:45,293 2024-06-10 22:56:45 - blue
+2024-06-10 22:56:46,945 Received market data message: red
+2024-06-10 22:56:47,308 2024-06-10 22:56:47 - red
+2024-06-10 22:56:49,596 Component on port 5008 is up
+2024-06-10 22:56:49,598 Component on port 5009 is up
+2024-06-10 22:56:49,600 Component on port 5010 is up
+2024-06-10 22:56:49,958 Received market data message: red
+2024-06-10 22:56:50,350 2024-06-10 22:56:50 - red
+2024-06-10 22:56:51,965 Received market data message: red
+2024-06-10 22:56:52,373 2024-06-10 22:56:52 - red
+2024-06-10 22:56:54,605 Component on port 5008 is up
+2024-06-10 22:56:54,605 Component on port 5009 is up
+2024-06-10 22:56:54,606 Component on port 5010 is up
+2024-06-10 22:56:54,977 Received market data message: red
+2024-06-10 22:56:55,400 2024-06-10 22:56:55 - red
+2024-06-10 22:56:57,982 Received market data message: blue
+2024-06-10 22:56:58,442 2024-06-10 22:56:58 - blue
+2024-06-10 22:56:59,617 Component on port 5008 is up
+2024-06-10 22:56:59,618 Component on port 5009 is up
+2024-06-10 22:56:59,618 Component on port 5010 is up
+2024-06-10 22:57:00,990 Received market data message: red
+2024-06-10 22:57:01,473 2024-06-10 22:57:01 - red
+2024-06-10 22:57:03,992 Received market data message: blue
+2024-06-10 22:57:04,489 2024-06-10 22:57:04 - blue
+2024-06-10 22:57:04,623 Component on port 5008 is up
+2024-06-10 22:57:04,624 Component on port 5009 is up
+2024-06-10 22:57:04,625 Component on port 5010 is up
+2024-06-10 22:57:05,007 Received market data message: blue
+2024-06-10 22:57:05,495 2024-06-10 22:57:05 - blue
+2024-06-10 22:57:07,010 Received market data message: blue
+2024-06-10 22:57:07,507 2024-06-10 22:57:07 - blue
+2024-06-10 22:57:09,638 Component on port 5008 is up
+2024-06-10 22:57:09,639 Component on port 5009 is up
+2024-06-10 22:57:09,640 Component on port 5010 is up
+2024-06-10 22:57:10,018 Received market data message: red
+2024-06-10 22:57:10,537 2024-06-10 22:57:10 - red
+2024-06-10 22:57:13,027 Received market data message: red
+2024-06-10 22:57:13,564 2024-06-10 22:57:13 - red
+2024-06-10 22:57:14,039 Received market data message: blue
+2024-06-10 22:57:14,573 2024-06-10 22:57:14 - blue
+2024-06-10 22:57:14,658 Component on port 5008 is up
+2024-06-10 22:57:14,660 Component on port 5009 is up
+2024-06-10 22:57:14,662 Component on port 5010 is up
+2024-06-10 22:57:15,046 Received market data message: blue
+2024-06-10 22:57:15,578 2024-06-10 22:57:15 - blue
+2024-06-10 22:57:17,046 Received market data message: red

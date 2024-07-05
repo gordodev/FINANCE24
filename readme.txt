@@ -104,10 +104,4 @@ Direction: All components -> Logging Service/Files
 Protocol: Depends on logging implementation (e.g., file I/O, network logging services)
 Data: Events, errors, and debug information
 
-SUMMARY
 
-Windows Frontend communicates with the Linux Backend via TCP with SSL/TLS to submit orders securely within the LAN.
-Linux Backend interacts with the Market Data Feed via TCP/IP to get real-time prices.
-Linux Backend sends trade details to the Linux Position Server via TCP with SSL/TLS.
-Linux Position Server updates the Database using SQL.
-Application Logs capture events at each step, stored locally or in a centralized logging service.

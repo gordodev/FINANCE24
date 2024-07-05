@@ -1,0 +1,688 @@
+2024-06-11 22:21:38,876 DEBUG Starting TradingApp
+2024-06-11 22:21:45,776 DEBUG Starting MarketDataListener
+2024-06-11 22:21:45,776 DEBUG Initializing MarketDataListener
+2024-06-11 22:21:45,778 INFO Socket bound to ('', 5007)
+2024-06-11 22:21:45,778 INFO MarketDataListener joined multicast group 224.1.1.1 on port 5007
+2024-06-11 22:21:45,779 DEBUG MarketDataListener thread started
+2024-06-11 22:21:45,786 DEBUG Updating status lights
+2024-06-11 22:21:45,786 DEBUG Checking dependencies
+2024-06-11 22:21:45,786 DEBUG Pinging component on port 5008
+2024-06-11 22:21:45,786 INFO Trying to connect to localhost:5008
+2024-06-11 22:21:47,821 DEBUG Component on port 5008 is down
+2024-06-11 22:21:47,821 DEBUG Component OrderRouter status: down
+2024-06-11 22:21:47,821 DEBUG Pinging component on port 5009
+2024-06-11 22:21:47,821 INFO Trying to connect to localhost:5009
+2024-06-11 22:21:49,849 DEBUG Component on port 5009 is down
+2024-06-11 22:21:49,850 DEBUG Component FIXEngine status: down
+2024-06-11 22:21:49,850 DEBUG Pinging component on port 5010
+2024-06-11 22:21:49,851 INFO Trying to connect to localhost:5010
+2024-06-11 22:21:51,902 DEBUG Component on port 5010 is down
+2024-06-11 22:21:51,902 DEBUG Component MarketSimulator status: down
+2024-06-11 22:21:51,902 DEBUG Checking market data multicast
+2024-06-11 22:21:52,912 ERROR Failed to receive multicast data within the timeout period
+2024-06-11 22:21:52,913 DEBUG MarketData component status: down
+2024-06-11 22:21:52,913 DEBUG Checking dependencies
+2024-06-11 22:21:52,914 DEBUG Pinging component on port 5008
+2024-06-11 22:21:52,915 INFO Trying to connect to localhost:5008
+2024-06-11 22:21:54,936 DEBUG Component on port 5008 is down
+2024-06-11 22:21:54,936 DEBUG Component OrderRouter status: down
+2024-06-11 22:21:54,937 DEBUG Pinging component on port 5009
+2024-06-11 22:21:54,937 INFO Trying to connect to localhost:5009
+2024-06-11 22:21:56,954 DEBUG Component on port 5009 is down
+2024-06-11 22:21:56,954 DEBUG Component FIXEngine status: down
+2024-06-11 22:21:56,954 DEBUG Pinging component on port 5010
+2024-06-11 22:21:56,954 INFO Trying to connect to localhost:5010
+2024-06-11 22:21:58,983 DEBUG Component on port 5010 is down
+2024-06-11 22:21:58,983 DEBUG Component MarketSimulator status: down
+2024-06-11 22:21:58,983 DEBUG Checking market data multicast
+2024-06-11 22:21:59,988 ERROR Failed to receive multicast data within the timeout period
+2024-06-11 22:21:59,989 DEBUG MarketData component status: down
+2024-06-11 22:22:00,007 DEBUG Updating market data display
+2024-06-11 22:22:00,008 DEBUG Updating status lights
+2024-06-11 22:22:00,009 DEBUG Checking dependencies
+2024-06-11 22:22:00,009 DEBUG Pinging component on port 5008
+2024-06-11 22:22:00,009 INFO Trying to connect to localhost:5008
+2024-06-11 22:22:02,036 DEBUG Component on port 5008 is down
+2024-06-11 22:22:02,036 DEBUG Component OrderRouter status: down
+2024-06-11 22:22:02,037 DEBUG Pinging component on port 5009
+2024-06-11 22:22:02,037 INFO Trying to connect to localhost:5009
+2024-06-11 22:22:04,064 DEBUG Component on port 5009 is down
+2024-06-11 22:22:04,064 DEBUG Component FIXEngine status: down
+2024-06-11 22:22:04,065 DEBUG Pinging component on port 5010
+2024-06-11 22:22:04,065 INFO Trying to connect to localhost:5010
+2024-06-11 22:22:06,091 DEBUG Component on port 5010 is down
+2024-06-11 22:22:06,092 DEBUG Component MarketSimulator status: down
+2024-06-11 22:22:06,092 DEBUG Checking market data multicast
+2024-06-11 22:22:07,104 ERROR Failed to receive multicast data within the timeout period
+2024-06-11 22:22:07,104 DEBUG MarketData component status: down
+2024-06-11 22:22:08,160 DEBUG Updating market data display
+2024-06-11 22:22:09,186 DEBUG Updating market data display
+2024-06-11 22:22:10,190 DEBUG Updating market data display
+2024-06-11 22:22:11,196 DEBUG Updating market data display
+2024-06-11 22:22:12,136 DEBUG Updating status lights
+2024-06-11 22:22:12,136 DEBUG Checking dependencies
+2024-06-11 22:22:12,136 DEBUG Pinging component on port 5008
+2024-06-11 22:22:12,136 INFO Trying to connect to localhost:5008
+2024-06-11 22:22:14,150 DEBUG Component on port 5008 is down
+2024-06-11 22:22:14,150 DEBUG Component OrderRouter status: down
+2024-06-11 22:22:14,150 DEBUG Pinging component on port 5009
+2024-06-11 22:22:14,151 INFO Trying to connect to localhost:5009
+2024-06-11 22:22:16,170 DEBUG Component on port 5009 is down
+2024-06-11 22:22:16,171 DEBUG Component FIXEngine status: down
+2024-06-11 22:22:16,171 DEBUG Pinging component on port 5010
+2024-06-11 22:22:16,172 INFO Trying to connect to localhost:5010
+2024-06-11 22:22:18,192 DEBUG Component on port 5010 is down
+2024-06-11 22:22:18,192 DEBUG Component MarketSimulator status: down
+2024-06-11 22:22:18,192 DEBUG Checking market data multicast
+2024-06-11 22:22:19,194 ERROR Failed to receive multicast data within the timeout period
+2024-06-11 22:22:19,195 DEBUG MarketData component status: down
+2024-06-11 22:22:19,213 DEBUG Updating market data display
+2024-06-11 22:22:20,244 DEBUG Updating market data display
+2024-06-11 22:22:21,251 DEBUG Updating market data display
+2024-06-11 22:22:22,253 DEBUG Updating market data display
+2024-06-11 22:22:23,257 DEBUG Updating market data display
+2024-06-11 22:22:24,201 DEBUG Updating status lights
+2024-06-11 22:22:24,201 DEBUG Checking dependencies
+2024-06-11 22:22:24,201 DEBUG Pinging component on port 5008
+2024-06-11 22:22:24,201 INFO Trying to connect to localhost:5008
+2024-06-11 22:22:26,213 DEBUG Component on port 5008 is down
+2024-06-11 22:22:26,213 DEBUG Component OrderRouter status: down
+2024-06-11 22:22:26,213 DEBUG Pinging component on port 5009
+2024-06-11 22:22:26,213 INFO Trying to connect to localhost:5009
+2024-06-11 22:22:28,238 DEBUG Component on port 5009 is down
+2024-06-11 22:22:28,238 DEBUG Component FIXEngine status: down
+2024-06-11 22:22:28,238 DEBUG Pinging component on port 5010
+2024-06-11 22:22:28,239 INFO Trying to connect to localhost:5010
+2024-06-11 22:22:30,259 DEBUG Component on port 5010 is down
+2024-06-11 22:22:30,259 DEBUG Component MarketSimulator status: down
+2024-06-11 22:22:30,259 DEBUG Checking market data multicast
+2024-06-11 22:22:31,276 ERROR Failed to receive multicast data within the timeout period
+2024-06-11 22:22:31,276 DEBUG MarketData component status: down
+2024-06-11 22:22:31,347 DEBUG Updating market data display
+2024-06-11 22:22:32,371 DEBUG Updating market data display
+2024-06-11 22:22:33,427 DEBUG Updating market data display
+2024-06-11 22:22:34,428 DEBUG Updating market data display
+2024-06-11 22:22:35,450 DEBUG Updating market data display
+2024-06-11 22:22:36,302 DEBUG Updating status lights
+2024-06-11 22:22:36,302 DEBUG Checking dependencies
+2024-06-11 22:22:36,303 DEBUG Pinging component on port 5008
+2024-06-11 22:22:36,303 INFO Trying to connect to localhost:5008
+2024-06-11 22:22:38,321 DEBUG Component on port 5008 is down
+2024-06-11 22:22:38,321 DEBUG Component OrderRouter status: down
+2024-06-11 22:22:38,322 DEBUG Pinging component on port 5009
+2024-06-11 22:22:38,322 INFO Trying to connect to localhost:5009
+2024-06-11 22:22:40,337 DEBUG Component on port 5009 is down
+2024-06-11 22:22:40,337 DEBUG Component FIXEngine status: down
+2024-06-11 22:22:40,337 DEBUG Pinging component on port 5010
+2024-06-11 22:22:40,337 INFO Trying to connect to localhost:5010
+2024-06-11 22:22:42,364 DEBUG Component on port 5010 is down
+2024-06-11 22:22:42,364 DEBUG Component MarketSimulator status: down
+2024-06-11 22:22:42,364 DEBUG Checking market data multicast
+2024-06-11 22:22:43,371 ERROR Failed to receive multicast data within the timeout period
+2024-06-11 22:22:43,371 DEBUG MarketData component status: down
+2024-06-11 22:22:44,395 DEBUG Updating market data display
+2024-06-11 22:22:45,397 DEBUG Updating market data display
+2024-06-11 22:22:46,406 DEBUG Updating market data display
+2024-06-11 22:22:47,417 DEBUG Updating market data display
+2024-06-11 22:22:48,381 DEBUG Updating status lights
+2024-06-11 22:22:48,381 DEBUG Checking dependencies
+2024-06-11 22:22:48,381 DEBUG Pinging component on port 5008
+2024-06-11 22:22:48,382 INFO Trying to connect to localhost:5008
+2024-06-11 22:22:50,428 DEBUG Component on port 5008 is down
+2024-06-11 22:22:50,428 DEBUG Component OrderRouter status: down
+2024-06-11 22:22:50,429 DEBUG Pinging component on port 5009
+2024-06-11 22:22:50,430 INFO Trying to connect to localhost:5009
+2024-06-11 22:22:52,459 DEBUG Component on port 5009 is down
+2024-06-11 22:22:52,459 DEBUG Component FIXEngine status: down
+2024-06-11 22:22:52,460 DEBUG Pinging component on port 5010
+2024-06-11 22:22:52,461 INFO Trying to connect to localhost:5010
+2024-06-11 22:22:54,477 DEBUG Component on port 5010 is down
+2024-06-11 22:22:54,477 DEBUG Component MarketSimulator status: down
+2024-06-11 22:22:54,478 DEBUG Checking market data multicast
+2024-06-11 22:22:55,484 ERROR Failed to receive multicast data within the timeout period
+2024-06-11 22:22:55,484 DEBUG MarketData component status: down
+2024-06-11 22:22:55,491 DEBUG Updating market data display
+2024-06-11 22:22:56,503 DEBUG Updating market data display
+2024-06-11 22:22:57,504 DEBUG Updating market data display
+2024-06-11 22:22:58,512 DEBUG Updating market data display
+2024-06-11 22:22:59,520 DEBUG Updating market data display
+2024-06-11 22:23:00,492 DEBUG Updating status lights
+2024-06-11 22:23:00,492 DEBUG Checking dependencies
+2024-06-11 22:23:00,492 DEBUG Pinging component on port 5008
+2024-06-11 22:23:00,492 INFO Trying to connect to localhost:5008
+2024-06-11 22:23:02,512 DEBUG Component on port 5008 is down
+2024-06-11 22:23:02,512 DEBUG Component OrderRouter status: down
+2024-06-11 22:23:02,512 DEBUG Pinging component on port 5009
+2024-06-11 22:23:02,512 INFO Trying to connect to localhost:5009
+2024-06-11 22:23:04,540 DEBUG Component on port 5009 is down
+2024-06-11 22:23:04,540 DEBUG Component FIXEngine status: down
+2024-06-11 22:23:04,540 DEBUG Pinging component on port 5010
+2024-06-11 22:23:04,541 INFO Trying to connect to localhost:5010
+2024-06-11 22:23:06,571 DEBUG Component on port 5010 is down
+2024-06-11 22:23:06,571 DEBUG Component MarketSimulator status: down
+2024-06-11 22:23:06,572 DEBUG Checking market data multicast
+2024-06-11 22:23:07,582 ERROR Failed to receive multicast data within the timeout period
+2024-06-11 22:23:07,582 DEBUG MarketData component status: down
+2024-06-11 22:23:07,591 DEBUG Updating market data display
+2024-06-11 22:23:08,603 DEBUG Updating market data display
+2024-06-11 22:23:09,608 DEBUG Updating market data display
+2024-06-11 22:23:10,615 DEBUG Updating market data display
+2024-06-11 22:23:11,622 DEBUG Updating market data display
+2024-06-11 22:23:12,585 DEBUG Updating status lights
+2024-06-11 22:23:12,586 DEBUG Checking dependencies
+2024-06-11 22:23:12,586 DEBUG Pinging component on port 5008
+2024-06-11 22:23:12,586 INFO Trying to connect to localhost:5008
+2024-06-11 22:23:14,634 DEBUG Component on port 5008 is down
+2024-06-11 22:23:14,635 DEBUG Component OrderRouter status: down
+2024-06-11 22:23:14,635 DEBUG Pinging component on port 5009
+2024-06-11 22:23:14,636 INFO Trying to connect to localhost:5009
+2024-06-11 22:23:16,659 DEBUG Component on port 5009 is down
+2024-06-11 22:23:16,660 DEBUG Component FIXEngine status: down
+2024-06-11 22:23:16,660 DEBUG Pinging component on port 5010
+2024-06-11 22:23:16,661 INFO Trying to connect to localhost:5010
+2024-06-11 22:23:18,689 DEBUG Component on port 5010 is down
+2024-06-11 22:23:18,689 DEBUG Component MarketSimulator status: down
+2024-06-11 22:23:18,690 DEBUG Checking market data multicast
+2024-06-11 22:23:19,695 ERROR Failed to receive multicast data within the timeout period
+2024-06-11 22:23:19,696 DEBUG MarketData component status: down
+2024-06-11 22:23:19,706 DEBUG Updating market data display
+2024-06-11 22:23:20,709 DEBUG Updating market data display
+2024-06-11 22:23:21,719 DEBUG Updating market data display
+2024-06-11 22:23:22,733 DEBUG Updating market data display
+2024-06-11 22:23:23,745 DEBUG Updating market data display
+2024-06-11 22:23:24,706 DEBUG Updating status lights
+2024-06-11 22:23:24,707 DEBUG Checking dependencies
+2024-06-11 22:23:24,707 DEBUG Pinging component on port 5008
+2024-06-11 22:23:24,708 INFO Trying to connect to localhost:5008
+2024-06-11 22:23:26,746 DEBUG Component on port 5008 is down
+2024-06-11 22:23:26,746 DEBUG Component OrderRouter status: down
+2024-06-11 22:23:26,746 DEBUG Pinging component on port 5009
+2024-06-11 22:23:26,746 INFO Trying to connect to localhost:5009
+2024-06-11 22:23:28,761 DEBUG Component on port 5009 is down
+2024-06-11 22:23:28,761 DEBUG Component FIXEngine status: down
+2024-06-11 22:23:28,762 DEBUG Pinging component on port 5010
+2024-06-11 22:23:28,762 INFO Trying to connect to localhost:5010
+2024-06-11 22:23:30,783 DEBUG Component on port 5010 is down
+2024-06-11 22:23:30,784 DEBUG Component MarketSimulator status: down
+2024-06-11 22:23:30,785 DEBUG Checking market data multicast
+2024-06-11 22:23:31,791 ERROR Failed to receive multicast data within the timeout period
+2024-06-11 22:23:31,791 DEBUG MarketData component status: down
+2024-06-11 22:23:31,797 DEBUG Updating market data display
+2024-06-11 22:23:32,804 DEBUG Updating market data display
+2024-06-11 22:23:33,810 DEBUG Updating market data display
+2024-06-11 22:23:34,813 DEBUG Updating market data display
+2024-06-11 22:23:35,814 DEBUG Updating market data display
+2024-06-11 22:23:36,806 DEBUG Updating status lights
+2024-06-11 22:23:36,807 DEBUG Checking dependencies
+2024-06-11 22:23:36,807 DEBUG Pinging component on port 5008
+2024-06-11 22:23:36,808 INFO Trying to connect to localhost:5008
+2024-06-11 22:23:38,830 DEBUG Component on port 5008 is down
+2024-06-11 22:23:38,830 DEBUG Component OrderRouter status: down
+2024-06-11 22:23:38,830 DEBUG Pinging component on port 5009
+2024-06-11 22:23:38,830 INFO Trying to connect to localhost:5009
+2024-06-11 22:23:40,857 DEBUG Component on port 5009 is down
+2024-06-11 22:23:40,857 DEBUG Component FIXEngine status: down
+2024-06-11 22:23:40,858 DEBUG Pinging component on port 5010
+2024-06-11 22:23:40,858 INFO Trying to connect to localhost:5010
+2024-06-11 22:23:42,892 DEBUG Component on port 5010 is down
+2024-06-11 22:23:42,892 DEBUG Component MarketSimulator status: down
+2024-06-11 22:23:42,893 DEBUG Checking market data multicast
+2024-06-11 22:23:43,901 ERROR Failed to receive multicast data within the timeout period
+2024-06-11 22:23:43,902 DEBUG MarketData component status: down
+2024-06-11 22:23:43,909 DEBUG Updating market data display
+2024-06-11 22:23:44,922 DEBUG Updating market data display
+2024-06-11 22:23:45,930 DEBUG Updating market data display
+2024-06-11 22:23:46,935 DEBUG Updating market data display
+2024-06-11 22:23:47,936 DEBUG Updating market data display
+2024-06-11 22:23:48,912 DEBUG Updating status lights
+2024-06-11 22:23:48,912 DEBUG Checking dependencies
+2024-06-11 22:23:48,913 DEBUG Pinging component on port 5008
+2024-06-11 22:23:48,913 INFO Trying to connect to localhost:5008
+2024-06-11 22:23:50,933 DEBUG Component on port 5008 is down
+2024-06-11 22:23:50,933 DEBUG Component OrderRouter status: down
+2024-06-11 22:23:50,933 DEBUG Pinging component on port 5009
+2024-06-11 22:23:50,933 INFO Trying to connect to localhost:5009
+2024-06-11 22:23:52,961 DEBUG Component on port 5009 is down
+2024-06-11 22:23:52,962 DEBUG Component FIXEngine status: down
+2024-06-11 22:23:52,964 DEBUG Pinging component on port 5010
+2024-06-11 22:23:52,964 INFO Trying to connect to localhost:5010
+2024-06-11 22:23:54,986 DEBUG Component on port 5010 is down
+2024-06-11 22:23:54,986 DEBUG Component MarketSimulator status: down
+2024-06-11 22:23:54,986 DEBUG Checking market data multicast
+2024-06-11 22:23:55,989 ERROR Failed to receive multicast data within the timeout period
+2024-06-11 22:23:55,989 DEBUG MarketData component status: down
+2024-06-11 22:23:55,998 DEBUG Updating market data display
+2024-06-11 22:23:57,013 DEBUG Updating market data display
+2024-06-11 22:23:58,023 DEBUG Updating market data display
+2024-06-11 22:23:59,027 DEBUG Updating market data display
+2024-06-11 22:24:00,033 DEBUG Updating market data display
+2024-06-11 22:24:00,991 DEBUG Updating status lights
+2024-06-11 22:24:00,992 DEBUG Checking dependencies
+2024-06-11 22:24:00,993 DEBUG Pinging component on port 5008
+2024-06-11 22:24:00,993 INFO Trying to connect to localhost:5008
+2024-06-11 22:24:03,012 DEBUG Component on port 5008 is down
+2024-06-11 22:24:03,012 DEBUG Component OrderRouter status: down
+2024-06-11 22:24:03,013 DEBUG Pinging component on port 5009
+2024-06-11 22:24:03,013 INFO Trying to connect to localhost:5009
+2024-06-11 22:24:05,031 DEBUG Component on port 5009 is down
+2024-06-11 22:24:05,033 DEBUG Component FIXEngine status: down
+2024-06-11 22:24:05,033 DEBUG Pinging component on port 5010
+2024-06-11 22:24:05,033 INFO Trying to connect to localhost:5010
+2024-06-11 22:24:07,065 DEBUG Component on port 5010 is down
+2024-06-11 22:24:07,066 DEBUG Component MarketSimulator status: down
+2024-06-11 22:24:07,067 DEBUG Checking market data multicast
+2024-06-11 22:24:08,075 ERROR Failed to receive multicast data within the timeout period
+2024-06-11 22:24:08,075 DEBUG MarketData component status: down
+2024-06-11 22:24:08,086 DEBUG Updating market data display
+2024-06-11 22:24:09,102 DEBUG Updating market data display
+2024-06-11 22:24:10,114 DEBUG Updating market data display
+2024-06-11 22:24:11,117 DEBUG Updating market data display
+2024-06-11 22:24:12,127 DEBUG Updating market data display
+2024-06-11 22:24:13,077 DEBUG Updating status lights
+2024-06-11 22:24:13,077 DEBUG Checking dependencies
+2024-06-11 22:24:13,078 DEBUG Pinging component on port 5008
+2024-06-11 22:24:13,078 INFO Trying to connect to localhost:5008
+2024-06-11 22:24:15,089 DEBUG Component on port 5008 is down
+2024-06-11 22:24:15,090 DEBUG Component OrderRouter status: down
+2024-06-11 22:24:15,091 DEBUG Pinging component on port 5009
+2024-06-11 22:24:15,092 INFO Trying to connect to localhost:5009
+2024-06-11 22:24:17,114 DEBUG Component on port 5009 is down
+2024-06-11 22:24:17,114 DEBUG Component FIXEngine status: down
+2024-06-11 22:24:17,116 DEBUG Pinging component on port 5010
+2024-06-11 22:24:17,116 INFO Trying to connect to localhost:5010
+2024-06-11 22:24:19,148 DEBUG Component on port 5010 is down
+2024-06-11 22:24:19,148 DEBUG Component MarketSimulator status: down
+2024-06-11 22:24:19,149 DEBUG Checking market data multicast
+2024-06-11 22:24:20,154 ERROR Failed to receive multicast data within the timeout period
+2024-06-11 22:24:20,155 DEBUG MarketData component status: down
+2024-06-11 22:24:20,177 DEBUG Updating market data display
+2024-06-11 22:24:21,181 DEBUG Updating market data display
+2024-06-11 22:24:22,188 DEBUG Updating market data display
+2024-06-11 22:24:23,199 DEBUG Updating market data display
+2024-06-11 22:24:24,208 DEBUG Updating market data display
+2024-06-11 22:24:25,162 DEBUG Updating status lights
+2024-06-11 22:24:25,164 DEBUG Checking dependencies
+2024-06-11 22:24:25,164 DEBUG Pinging component on port 5008
+2024-06-11 22:24:25,165 INFO Trying to connect to localhost:5008
+2024-06-11 22:24:27,207 DEBUG Component on port 5008 is down
+2024-06-11 22:24:27,208 DEBUG Component OrderRouter status: down
+2024-06-11 22:24:27,208 DEBUG Pinging component on port 5009
+2024-06-11 22:24:27,209 INFO Trying to connect to localhost:5009
+2024-06-11 22:24:29,243 DEBUG Component on port 5009 is down
+2024-06-11 22:24:29,244 DEBUG Component FIXEngine status: down
+2024-06-11 22:24:29,245 DEBUG Pinging component on port 5010
+2024-06-11 22:24:29,246 INFO Trying to connect to localhost:5010
+2024-06-11 22:24:31,271 DEBUG Component on port 5010 is down
+2024-06-11 22:24:31,272 DEBUG Component MarketSimulator status: down
+2024-06-11 22:24:31,272 DEBUG Checking market data multicast
+2024-06-11 22:24:32,275 ERROR Failed to receive multicast data within the timeout period
+2024-06-11 22:24:32,275 DEBUG MarketData component status: down
+2024-06-11 22:24:32,283 DEBUG Updating market data display
+2024-06-11 22:24:33,285 DEBUG Updating market data display
+2024-06-11 22:24:34,295 DEBUG Updating market data display
+2024-06-11 22:24:35,297 DEBUG Updating market data display
+2024-06-11 22:24:36,306 DEBUG Updating market data display
+2024-06-11 22:24:37,283 DEBUG Updating status lights
+2024-06-11 22:24:37,284 DEBUG Checking dependencies
+2024-06-11 22:24:37,284 DEBUG Pinging component on port 5008
+2024-06-11 22:24:37,285 INFO Trying to connect to localhost:5008
+2024-06-11 22:24:39,306 DEBUG Component on port 5008 is down
+2024-06-11 22:24:39,307 DEBUG Component OrderRouter status: down
+2024-06-11 22:24:39,308 DEBUG Pinging component on port 5009
+2024-06-11 22:24:39,308 INFO Trying to connect to localhost:5009
+2024-06-11 22:24:41,335 DEBUG Component on port 5009 is down
+2024-06-11 22:24:41,335 DEBUG Component FIXEngine status: down
+2024-06-11 22:24:41,336 DEBUG Pinging component on port 5010
+2024-06-11 22:24:41,337 INFO Trying to connect to localhost:5010
+2024-06-11 22:24:43,374 DEBUG Component on port 5010 is down
+2024-06-11 22:24:43,374 DEBUG Component MarketSimulator status: down
+2024-06-11 22:24:43,374 DEBUG Checking market data multicast
+2024-06-11 22:24:44,383 ERROR Failed to receive multicast data within the timeout period
+2024-06-11 22:24:44,384 DEBUG MarketData component status: down
+2024-06-11 22:24:44,392 DEBUG Updating market data display
+2024-06-11 22:24:45,404 DEBUG Updating market data display
+2024-06-11 22:24:46,418 DEBUG Updating market data display
+2024-06-11 22:24:47,425 DEBUG Updating market data display
+2024-06-11 22:24:48,435 DEBUG Updating market data display
+2024-06-11 22:24:49,399 DEBUG Updating status lights
+2024-06-11 22:24:49,399 DEBUG Checking dependencies
+2024-06-11 22:24:49,400 DEBUG Pinging component on port 5008
+2024-06-11 22:24:49,400 INFO Trying to connect to localhost:5008
+2024-06-11 22:24:51,428 DEBUG Component on port 5008 is down
+2024-06-11 22:24:51,429 DEBUG Component OrderRouter status: down
+2024-06-11 22:24:51,429 DEBUG Pinging component on port 5009
+2024-06-11 22:24:51,430 INFO Trying to connect to localhost:5009
+2024-06-11 22:24:53,443 DEBUG Component on port 5009 is down
+2024-06-11 22:24:53,444 DEBUG Component FIXEngine status: down
+2024-06-11 22:24:53,445 DEBUG Pinging component on port 5010
+2024-06-11 22:24:53,446 INFO Trying to connect to localhost:5010
+2024-06-11 22:24:55,472 DEBUG Component on port 5010 is down
+2024-06-11 22:24:55,473 DEBUG Component MarketSimulator status: down
+2024-06-11 22:24:55,475 DEBUG Checking market data multicast
+2024-06-11 22:24:56,486 ERROR Failed to receive multicast data within the timeout period
+2024-06-11 22:24:56,486 DEBUG MarketData component status: down
+2024-06-11 22:24:56,496 DEBUG Updating market data display
+2024-06-11 22:24:57,499 DEBUG Updating market data display
+2024-06-11 22:24:58,499 DEBUG Updating market data display
+2024-06-11 22:24:59,507 DEBUG Updating market data display
+2024-06-11 22:25:00,517 DEBUG Updating market data display
+2024-06-11 22:25:01,497 DEBUG Updating status lights
+2024-06-11 22:25:01,497 DEBUG Checking dependencies
+2024-06-11 22:25:01,498 DEBUG Pinging component on port 5008
+2024-06-11 22:25:01,498 INFO Trying to connect to localhost:5008
+2024-06-11 22:25:03,527 DEBUG Component on port 5008 is down
+2024-06-11 22:25:03,527 DEBUG Component OrderRouter status: down
+2024-06-11 22:25:03,528 DEBUG Pinging component on port 5009
+2024-06-11 22:25:03,528 INFO Trying to connect to localhost:5009
+2024-06-11 22:25:05,560 DEBUG Component on port 5009 is down
+2024-06-11 22:25:05,561 DEBUG Component FIXEngine status: down
+2024-06-11 22:25:05,562 DEBUG Pinging component on port 5010
+2024-06-11 22:25:05,562 INFO Trying to connect to localhost:5010
+2024-06-11 22:25:07,597 DEBUG Component on port 5010 is down
+2024-06-11 22:25:07,597 DEBUG Component MarketSimulator status: down
+2024-06-11 22:25:07,598 DEBUG Checking market data multicast
+2024-06-11 22:25:08,605 ERROR Failed to receive multicast data within the timeout period
+2024-06-11 22:25:08,607 DEBUG MarketData component status: down
+2024-06-11 22:25:08,618 DEBUG Updating market data display
+2024-06-11 22:25:09,630 DEBUG Updating market data display
+2024-06-11 22:25:10,639 DEBUG Updating market data display
+2024-06-11 22:25:11,649 DEBUG Updating market data display
+2024-06-11 22:25:12,658 DEBUG Updating market data display
+2024-06-11 22:25:13,608 DEBUG Updating status lights
+2024-06-11 22:25:13,608 DEBUG Checking dependencies
+2024-06-11 22:25:13,609 DEBUG Pinging component on port 5008
+2024-06-11 22:25:13,609 INFO Trying to connect to localhost:5008
+2024-06-11 22:25:15,622 DEBUG Component on port 5008 is down
+2024-06-11 22:25:15,623 DEBUG Component OrderRouter status: down
+2024-06-11 22:25:15,624 DEBUG Pinging component on port 5009
+2024-06-11 22:25:15,625 INFO Trying to connect to localhost:5009
+2024-06-11 22:25:17,665 DEBUG Component on port 5009 is down
+2024-06-11 22:25:17,666 DEBUG Component FIXEngine status: down
+2024-06-11 22:25:17,667 DEBUG Pinging component on port 5010
+2024-06-11 22:25:17,667 INFO Trying to connect to localhost:5010
+2024-06-11 22:25:19,692 DEBUG Component on port 5010 is down
+2024-06-11 22:25:19,693 DEBUG Component MarketSimulator status: down
+2024-06-11 22:25:19,695 DEBUG Checking market data multicast
+2024-06-11 22:25:20,700 ERROR Failed to receive multicast data within the timeout period
+2024-06-11 22:25:20,701 DEBUG MarketData component status: down
+2024-06-11 22:25:20,710 DEBUG Updating market data display
+2024-06-11 22:25:21,723 DEBUG Updating market data display
+2024-06-11 22:25:22,728 DEBUG Updating market data display
+2024-06-11 22:25:23,738 DEBUG Updating market data display
+2024-06-11 22:25:24,749 DEBUG Updating market data display
+2024-06-11 22:25:25,708 DEBUG Updating status lights
+2024-06-11 22:25:25,708 DEBUG Checking dependencies
+2024-06-11 22:25:25,709 DEBUG Pinging component on port 5008
+2024-06-11 22:25:25,709 INFO Trying to connect to localhost:5008
+2024-06-11 22:25:27,722 DEBUG Component on port 5008 is down
+2024-06-11 22:25:27,723 DEBUG Component OrderRouter status: down
+2024-06-11 22:25:27,724 DEBUG Pinging component on port 5009
+2024-06-11 22:25:27,724 INFO Trying to connect to localhost:5009
+2024-06-11 22:25:29,771 DEBUG Component on port 5009 is down
+2024-06-11 22:25:29,771 DEBUG Component FIXEngine status: down
+2024-06-11 22:25:29,772 DEBUG Pinging component on port 5010
+2024-06-11 22:25:29,773 INFO Trying to connect to localhost:5010
+2024-06-11 22:25:31,796 DEBUG Component on port 5010 is down
+2024-06-11 22:25:31,797 DEBUG Component MarketSimulator status: down
+2024-06-11 22:25:31,798 DEBUG Checking market data multicast
+2024-06-11 22:25:32,801 ERROR Failed to receive multicast data within the timeout period
+2024-06-11 22:25:32,802 DEBUG MarketData component status: down
+2024-06-11 22:25:32,815 DEBUG Updating market data display
+2024-06-11 22:25:33,819 DEBUG Updating market data display
+2024-06-11 22:25:34,832 DEBUG Updating market data display
+2024-06-11 22:25:35,837 DEBUG Updating market data display
+2024-06-11 22:25:36,852 DEBUG Updating market data display
+2024-06-11 22:25:37,807 DEBUG Updating status lights
+2024-06-11 22:25:37,807 DEBUG Checking dependencies
+2024-06-11 22:25:37,808 DEBUG Pinging component on port 5008
+2024-06-11 22:25:37,808 INFO Trying to connect to localhost:5008
+2024-06-11 22:25:39,864 DEBUG Component on port 5008 is down
+2024-06-11 22:25:39,865 DEBUG Component OrderRouter status: down
+2024-06-11 22:25:39,866 DEBUG Pinging component on port 5009
+2024-06-11 22:25:39,867 INFO Trying to connect to localhost:5009
+2024-06-11 22:25:41,898 DEBUG Component on port 5009 is down
+2024-06-11 22:25:41,899 DEBUG Component FIXEngine status: down
+2024-06-11 22:25:41,900 DEBUG Pinging component on port 5010
+2024-06-11 22:25:41,901 INFO Trying to connect to localhost:5010
+2024-06-11 22:25:43,955 DEBUG Component on port 5010 is down
+2024-06-11 22:25:43,955 DEBUG Component MarketSimulator status: down
+2024-06-11 22:25:43,956 DEBUG Checking market data multicast
+2024-06-11 22:25:44,961 ERROR Failed to receive multicast data within the timeout period
+2024-06-11 22:25:44,962 DEBUG MarketData component status: down
+2024-06-11 22:25:44,977 DEBUG Updating market data display
+2024-06-11 22:25:45,980 DEBUG Updating market data display
+2024-06-11 22:25:46,995 DEBUG Updating market data display
+2024-06-11 22:25:48,000 DEBUG Updating market data display
+2024-06-11 22:25:49,013 DEBUG Updating market data display
+2024-06-11 22:25:49,978 DEBUG Updating status lights
+2024-06-11 22:25:49,978 DEBUG Checking dependencies
+2024-06-11 22:25:49,978 DEBUG Pinging component on port 5008
+2024-06-11 22:25:49,979 INFO Trying to connect to localhost:5008
+2024-06-11 22:25:52,020 DEBUG Component on port 5008 is down
+2024-06-11 22:25:52,021 DEBUG Component OrderRouter status: down
+2024-06-11 22:25:52,023 DEBUG Pinging component on port 5009
+2024-06-11 22:25:52,023 INFO Trying to connect to localhost:5009
+2024-06-11 22:25:54,051 DEBUG Component on port 5009 is down
+2024-06-11 22:25:54,053 DEBUG Component FIXEngine status: down
+2024-06-11 22:25:54,054 DEBUG Pinging component on port 5010
+2024-06-11 22:25:54,055 INFO Trying to connect to localhost:5010
+2024-06-11 22:25:56,081 DEBUG Component on port 5010 is down
+2024-06-11 22:25:56,082 DEBUG Component MarketSimulator status: down
+2024-06-11 22:25:56,082 DEBUG Checking market data multicast
+2024-06-11 22:25:57,094 ERROR Failed to receive multicast data within the timeout period
+2024-06-11 22:25:57,094 DEBUG MarketData component status: down
+2024-06-11 22:25:57,099 DEBUG Updating market data display
+2024-06-11 22:25:58,115 DEBUG Updating market data display
+2024-06-11 22:25:59,121 DEBUG Updating market data display
+2024-06-11 22:26:00,129 DEBUG Updating market data display
+2024-06-11 22:26:01,140 DEBUG Updating market data display
+2024-06-11 22:26:02,094 DEBUG Updating status lights
+2024-06-11 22:26:02,095 DEBUG Checking dependencies
+2024-06-11 22:26:02,095 DEBUG Pinging component on port 5008
+2024-06-11 22:26:02,095 INFO Trying to connect to localhost:5008
+2024-06-11 22:26:04,116 DEBUG Component on port 5008 is down
+2024-06-11 22:26:04,117 DEBUG Component OrderRouter status: down
+2024-06-11 22:26:04,117 DEBUG Pinging component on port 5009
+2024-06-11 22:26:04,118 INFO Trying to connect to localhost:5009
+2024-06-11 22:26:06,159 DEBUG Component on port 5009 is down
+2024-06-11 22:26:06,159 DEBUG Component FIXEngine status: down
+2024-06-11 22:26:06,160 DEBUG Pinging component on port 5010
+2024-06-11 22:26:06,160 INFO Trying to connect to localhost:5010
+2024-06-11 22:26:08,201 DEBUG Component on port 5010 is down
+2024-06-11 22:26:08,201 DEBUG Component MarketSimulator status: down
+2024-06-11 22:26:08,202 DEBUG Checking market data multicast
+2024-06-11 22:26:09,208 ERROR Failed to receive multicast data within the timeout period
+2024-06-11 22:26:09,208 DEBUG MarketData component status: down
+2024-06-11 22:26:09,217 DEBUG Updating market data display
+2024-06-11 22:26:10,225 DEBUG Updating market data display
+2024-06-11 22:26:11,238 DEBUG Updating market data display
+2024-06-11 22:26:12,239 DEBUG Updating market data display
+2024-06-11 22:26:13,243 DEBUG Updating market data display
+2024-06-11 22:26:14,220 DEBUG Updating status lights
+2024-06-11 22:26:14,221 DEBUG Checking dependencies
+2024-06-11 22:26:14,221 DEBUG Pinging component on port 5008
+2024-06-11 22:26:14,222 INFO Trying to connect to localhost:5008
+2024-06-11 22:26:16,257 DEBUG Component on port 5008 is down
+2024-06-11 22:26:16,257 DEBUG Component OrderRouter status: down
+2024-06-11 22:26:16,257 DEBUG Pinging component on port 5009
+2024-06-11 22:26:16,258 INFO Trying to connect to localhost:5009
+2024-06-11 22:26:18,280 DEBUG Component on port 5009 is down
+2024-06-11 22:26:18,280 DEBUG Component FIXEngine status: down
+2024-06-11 22:26:18,280 DEBUG Pinging component on port 5010
+2024-06-11 22:26:18,281 INFO Trying to connect to localhost:5010
+2024-06-11 22:26:20,305 DEBUG Component on port 5010 is down
+2024-06-11 22:26:20,306 DEBUG Component MarketSimulator status: down
+2024-06-11 22:26:20,307 DEBUG Checking market data multicast
+2024-06-11 22:26:21,319 ERROR Failed to receive multicast data within the timeout period
+2024-06-11 22:26:21,320 DEBUG MarketData component status: down
+2024-06-11 22:26:21,325 DEBUG Updating market data display
+2024-06-11 22:26:22,330 DEBUG Updating market data display
+2024-06-11 22:26:23,333 DEBUG Updating market data display
+2024-06-11 22:26:24,347 DEBUG Updating market data display
+2024-06-11 22:26:25,354 DEBUG Updating market data display
+2024-06-11 22:26:26,322 DEBUG Updating status lights
+2024-06-11 22:26:26,322 DEBUG Checking dependencies
+2024-06-11 22:26:26,322 DEBUG Pinging component on port 5008
+2024-06-11 22:26:26,322 INFO Trying to connect to localhost:5008
+2024-06-11 22:26:28,348 DEBUG Component on port 5008 is down
+2024-06-11 22:26:28,348 DEBUG Component OrderRouter status: down
+2024-06-11 22:26:28,348 DEBUG Pinging component on port 5009
+2024-06-11 22:26:28,350 INFO Trying to connect to localhost:5009
+2024-06-11 22:26:30,372 DEBUG Component on port 5009 is down
+2024-06-11 22:26:30,372 DEBUG Component FIXEngine status: down
+2024-06-11 22:26:30,372 DEBUG Pinging component on port 5010
+2024-06-11 22:26:30,372 INFO Trying to connect to localhost:5010
+2024-06-11 22:26:32,385 DEBUG Component on port 5010 is down
+2024-06-11 22:26:32,385 DEBUG Component MarketSimulator status: down
+2024-06-11 22:26:32,386 DEBUG Checking market data multicast
+2024-06-11 22:26:33,401 ERROR Failed to receive multicast data within the timeout period
+2024-06-11 22:26:33,402 DEBUG MarketData component status: down
+2024-06-11 22:26:33,416 DEBUG Updating market data display
+2024-06-11 22:26:34,422 DEBUG Updating market data display
+2024-06-11 22:26:35,428 DEBUG Updating market data display
+2024-06-11 22:26:36,433 DEBUG Updating market data display
+2024-06-11 22:26:37,436 DEBUG Updating market data display
+2024-06-11 22:26:38,409 DEBUG Updating status lights
+2024-06-11 22:26:38,409 DEBUG Checking dependencies
+2024-06-11 22:26:38,409 DEBUG Pinging component on port 5008
+2024-06-11 22:26:38,410 INFO Trying to connect to localhost:5008
+2024-06-11 22:26:40,425 DEBUG Component on port 5008 is down
+2024-06-11 22:26:40,425 DEBUG Component OrderRouter status: down
+2024-06-11 22:26:40,426 DEBUG Pinging component on port 5009
+2024-06-11 22:26:40,427 INFO Trying to connect to localhost:5009
+2024-06-11 22:26:42,469 DEBUG Component on port 5009 is down
+2024-06-11 22:26:42,469 DEBUG Component FIXEngine status: down
+2024-06-11 22:26:42,469 DEBUG Pinging component on port 5010
+2024-06-11 22:26:42,469 INFO Trying to connect to localhost:5010
+2024-06-11 22:26:44,499 DEBUG Component on port 5010 is down
+2024-06-11 22:26:44,500 DEBUG Component MarketSimulator status: down
+2024-06-11 22:26:44,500 DEBUG Checking market data multicast
+2024-06-11 22:26:45,516 ERROR Failed to receive multicast data within the timeout period
+2024-06-11 22:26:45,516 DEBUG MarketData component status: down
+2024-06-11 22:26:45,522 DEBUG Updating market data display
+2024-06-11 22:26:46,533 DEBUG Updating market data display
+2024-06-11 22:26:47,539 DEBUG Updating market data display
+2024-06-11 22:26:48,547 DEBUG Updating market data display
+2024-06-11 22:26:49,552 DEBUG Updating market data display
+2024-06-11 22:26:50,521 DEBUG Updating status lights
+2024-06-11 22:26:50,521 DEBUG Checking dependencies
+2024-06-11 22:26:50,522 DEBUG Pinging component on port 5008
+2024-06-11 22:26:50,522 INFO Trying to connect to localhost:5008
+2024-06-11 22:26:52,545 DEBUG Component on port 5008 is down
+2024-06-11 22:26:52,546 DEBUG Component OrderRouter status: down
+2024-06-11 22:26:52,546 DEBUG Pinging component on port 5009
+2024-06-11 22:26:52,546 INFO Trying to connect to localhost:5009
+2024-06-11 22:26:54,566 DEBUG Component on port 5009 is down
+2024-06-11 22:26:54,566 DEBUG Component FIXEngine status: down
+2024-06-11 22:26:54,567 DEBUG Pinging component on port 5010
+2024-06-11 22:26:54,567 INFO Trying to connect to localhost:5010
+2024-06-11 22:26:56,600 DEBUG Component on port 5010 is down
+2024-06-11 22:26:56,601 DEBUG Component MarketSimulator status: down
+2024-06-11 22:26:56,602 DEBUG Checking market data multicast
+2024-06-11 22:26:57,612 ERROR Failed to receive multicast data within the timeout period
+2024-06-11 22:26:57,613 DEBUG MarketData component status: down
+2024-06-11 22:26:57,619 DEBUG Updating market data display
+2024-06-11 22:26:58,632 DEBUG Updating market data display
+2024-06-11 22:26:59,645 DEBUG Updating market data display
+2024-06-11 22:27:00,646 DEBUG Updating market data display
+2024-06-11 22:27:01,661 DEBUG Updating market data display
+2024-06-11 22:27:02,614 DEBUG Updating status lights
+2024-06-11 22:27:02,614 DEBUG Checking dependencies
+2024-06-11 22:27:02,615 DEBUG Pinging component on port 5008
+2024-06-11 22:27:02,617 INFO Trying to connect to localhost:5008
+2024-06-11 22:27:04,635 DEBUG Component on port 5008 is down
+2024-06-11 22:27:04,635 DEBUG Component OrderRouter status: down
+2024-06-11 22:27:04,636 DEBUG Pinging component on port 5009
+2024-06-11 22:27:04,636 INFO Trying to connect to localhost:5009
+2024-06-11 22:27:06,681 DEBUG Component on port 5009 is down
+2024-06-11 22:27:06,682 DEBUG Component FIXEngine status: down
+2024-06-11 22:27:06,682 DEBUG Pinging component on port 5010
+2024-06-11 22:27:06,683 INFO Trying to connect to localhost:5010
+2024-06-11 22:27:08,703 DEBUG Component on port 5010 is down
+2024-06-11 22:27:08,704 DEBUG Component MarketSimulator status: down
+2024-06-11 22:27:08,704 DEBUG Checking market data multicast
+2024-06-11 22:27:09,714 ERROR Failed to receive multicast data within the timeout period
+2024-06-11 22:27:09,714 DEBUG MarketData component status: down
+2024-06-11 22:27:09,723 DEBUG Updating market data display
+2024-06-11 22:27:10,723 DEBUG Updating market data display
+2024-06-11 22:27:11,728 DEBUG Updating market data display
+2024-06-11 22:27:12,739 DEBUG Updating market data display
+2024-06-11 22:27:13,752 DEBUG Updating market data display
+2024-06-11 22:27:14,715 DEBUG Updating status lights
+2024-06-11 22:27:14,716 DEBUG Checking dependencies
+2024-06-11 22:27:14,716 DEBUG Pinging component on port 5008
+2024-06-11 22:27:14,717 INFO Trying to connect to localhost:5008
+2024-06-11 22:27:16,747 DEBUG Component on port 5008 is down
+2024-06-11 22:27:16,747 DEBUG Component OrderRouter status: down
+2024-06-11 22:27:16,747 DEBUG Pinging component on port 5009
+2024-06-11 22:27:16,748 INFO Trying to connect to localhost:5009
+2024-06-11 22:27:18,799 DEBUG Component on port 5009 is down
+2024-06-11 22:27:18,799 DEBUG Component FIXEngine status: down
+2024-06-11 22:27:18,800 DEBUG Pinging component on port 5010
+2024-06-11 22:27:18,800 INFO Trying to connect to localhost:5010
+2024-06-11 22:27:20,815 DEBUG Component on port 5010 is down
+2024-06-11 22:27:20,815 DEBUG Component MarketSimulator status: down
+2024-06-11 22:27:20,816 DEBUG Checking market data multicast
+2024-06-11 22:27:21,820 ERROR Failed to receive multicast data within the timeout period
+2024-06-11 22:27:21,820 DEBUG MarketData component status: down
+2024-06-11 22:27:21,824 DEBUG Updating market data display
+2024-06-11 22:27:22,829 DEBUG Updating market data display
+2024-06-11 22:27:23,842 DEBUG Updating market data display
+2024-06-11 22:27:24,846 DEBUG Updating market data display
+2024-06-11 22:27:25,847 DEBUG Updating market data display
+2024-06-11 22:27:26,827 DEBUG Updating status lights
+2024-06-11 22:27:26,828 DEBUG Checking dependencies
+2024-06-11 22:27:26,828 DEBUG Pinging component on port 5008
+2024-06-11 22:27:26,829 INFO Trying to connect to localhost:5008
+2024-06-11 22:27:28,849 DEBUG Component on port 5008 is down
+2024-06-11 22:27:28,850 DEBUG Component OrderRouter status: down
+2024-06-11 22:27:28,850 DEBUG Pinging component on port 5009
+2024-06-11 22:27:28,851 INFO Trying to connect to localhost:5009
+2024-06-11 22:27:30,882 DEBUG Component on port 5009 is down
+2024-06-11 22:27:30,883 DEBUG Component FIXEngine status: down
+2024-06-11 22:27:30,883 DEBUG Pinging component on port 5010
+2024-06-11 22:27:30,883 INFO Trying to connect to localhost:5010
+2024-06-11 22:27:32,898 DEBUG Component on port 5010 is down
+2024-06-11 22:27:32,898 DEBUG Component MarketSimulator status: down
+2024-06-11 22:27:32,899 DEBUG Checking market data multicast
+2024-06-11 22:27:33,909 ERROR Failed to receive multicast data within the timeout period
+2024-06-11 22:27:33,909 DEBUG MarketData component status: down
+2024-06-11 22:27:33,918 DEBUG Updating market data display
+2024-06-11 22:27:34,926 DEBUG Updating market data display
+2024-06-11 22:27:35,939 DEBUG Updating market data display
+2024-06-11 22:27:36,949 DEBUG Updating market data display
+2024-06-11 22:27:37,959 DEBUG Updating market data display
+2024-06-11 22:27:38,916 DEBUG Updating status lights
+2024-06-11 22:27:38,916 DEBUG Checking dependencies
+2024-06-11 22:27:38,916 DEBUG Pinging component on port 5008
+2024-06-11 22:27:38,917 INFO Trying to connect to localhost:5008
+2024-06-11 22:27:40,945 DEBUG Component on port 5008 is down
+2024-06-11 22:27:40,946 DEBUG Component OrderRouter status: down
+2024-06-11 22:27:40,947 DEBUG Pinging component on port 5009
+2024-06-11 22:27:40,947 INFO Trying to connect to localhost:5009
+2024-06-11 22:27:42,974 DEBUG Component on port 5009 is down
+2024-06-11 22:27:42,974 DEBUG Component FIXEngine status: down
+2024-06-11 22:27:42,975 DEBUG Pinging component on port 5010
+2024-06-11 22:27:42,975 INFO Trying to connect to localhost:5010
+2024-06-11 22:27:44,995 DEBUG Component on port 5010 is down
+2024-06-11 22:27:44,995 DEBUG Component MarketSimulator status: down
+2024-06-11 22:27:44,996 DEBUG Checking market data multicast
+2024-06-11 22:27:45,998 ERROR Failed to receive multicast data within the timeout period
+2024-06-11 22:27:45,998 DEBUG MarketData component status: down
+2024-06-11 22:27:46,009 DEBUG Updating market data display
+2024-06-11 22:27:47,019 DEBUG Updating market data display
+2024-06-11 22:27:48,030 DEBUG Updating market data display
+2024-06-11 22:27:49,041 DEBUG Updating market data display
+2024-06-11 22:27:50,052 DEBUG Updating market data display
+2024-06-11 22:27:51,008 DEBUG Updating status lights
+2024-06-11 22:27:51,009 DEBUG Checking dependencies
+2024-06-11 22:27:51,010 DEBUG Pinging component on port 5008
+2024-06-11 22:27:51,011 INFO Trying to connect to localhost:5008
+2024-06-11 22:27:53,060 DEBUG Component on port 5008 is down
+2024-06-11 22:27:53,060 DEBUG Component OrderRouter status: down
+2024-06-11 22:27:53,061 DEBUG Pinging component on port 5009
+2024-06-11 22:27:53,062 INFO Trying to connect to localhost:5009
+2024-06-11 22:27:55,079 DEBUG Component on port 5009 is down
+2024-06-11 22:27:55,080 DEBUG Component FIXEngine status: down
+2024-06-11 22:27:55,081 DEBUG Pinging component on port 5010
+2024-06-11 22:27:55,081 INFO Trying to connect to localhost:5010

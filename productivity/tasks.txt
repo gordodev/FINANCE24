@@ -1,0 +1,7 @@
+follow up with recruiters,follow up,contact recruiters,email recruiters,0
+update resume,update resume,revise resume,edit resume,0
+apply for unemployment,apply for unemployment,unemployment application,0
+practice for interviews,practice for interviews,interview practice,mock interviews,0
+practice SQL,practice SQL,SQL practice,learning SQL,study SQL,SQL stuff,0
+practice FIX,practice FIX,FIX practice,learning FIX,study FIX,0
+practice DEV,practice DEV,DEV practice,learning DEV,study DEV,0
