@@ -1,0 +1,550 @@
+2024-11-29 19:24:33,218 - Starting safe rename operation...
+2024-11-29 19:24:33,218 - Creating backup in: /home/csws/dev/Github/FINANCE24/rename_backup_20241129_192433
+2024-11-29 19:24:34,627 - 
+Proposed changes:
+2024-11-29 19:24:34,628 - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/MERCATI MAESTRO/docs/API_Documentation.txt -> /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/MERCATI MAESTRO/docs/api_documentation.txt
+2024-11-29 19:24:34,628 - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/MERCATI MAESTRO/docs/User_Guide.txt -> /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/MERCATI MAESTRO/docs/user_guide.txt
+2024-11-29 19:24:34,628 - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/dati/README.TXT -> /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/dati/readme.txt
+2024-11-29 19:24:34,628 - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/FIX/FIX.py -> /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/FIX/fix.py
+2024-11-29 19:24:34,629 - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/test/newGUI.py -> /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/test/newgui.py
+2024-11-29 19:24:34,629 - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/Posizione/Posizione.py -> /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/Posizione/posizione.py
+2024-11-29 19:24:34,629 - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/MERCATI MAESTRO/CSMM_Installer.py -> /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/MERCATI MAESTRO/csmm_installer.py
+2024-11-29 19:24:34,629 - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/MERCATI MAESTRO/README.txt -> /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/MERCATI MAESTRO/readme.txt
+2024-11-29 19:24:34,629 - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/SOR/SOR.py -> /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/SOR/sor.py
+2024-11-29 19:24:34,629 - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/TradeServer/TradeServer.py -> /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/TradeServer/tradeserver.py
+2024-11-29 19:24:34,629 - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/SystemController.py -> /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/systemcontroller.py
+2024-11-29 19:24:34,629 - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/SIM -> /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/sim
+2024-11-29 19:24:34,629 - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/datiTester.py -> /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/datitester.py
+2024-11-29 19:24:34,629 - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/datiReader.py -> /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/datireader.py
+2024-11-29 19:24:34,629 - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/FIX -> /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/fix
+2024-11-29 19:24:34,629 - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/Posizione -> /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/posizione
+2024-11-29 19:24:34,629 - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/MERCATI_MAESTRO -> /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/mercati_maestro
+2024-11-29 19:24:34,629 - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/MERCATI MAESTRO -> /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/mercati maestro
+2024-11-29 19:24:34,630 - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/SOR -> /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/sor
+2024-11-29 19:24:34,630 - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/TradeServer -> /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/tradeserver
+2024-11-29 19:24:34,630 - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/run_SystemController.sh -> /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/run_systemcontroller.sh
+2024-11-29 19:24:34,630 - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/Conformita -> /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/conformita
+2024-11-29 19:25:17,593 - Renamed: /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/MERCATI MAESTRO/docs/API_Documentation.txt -> /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/MERCATI MAESTRO/docs/api_documentation.txt
+2024-11-29 19:25:17,594 - Renamed: /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/MERCATI MAESTRO/docs/User_Guide.txt -> /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/MERCATI MAESTRO/docs/user_guide.txt
+2024-11-29 19:25:17,594 - Renamed: /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/dati/README.TXT -> /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/dati/readme.txt
+2024-11-29 19:25:17,594 - Renamed: /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/FIX/FIX.py -> /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/FIX/fix.py
+2024-11-29 19:25:17,594 - Renamed: /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/test/newGUI.py -> /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/test/newgui.py
+2024-11-29 19:25:17,594 - Renamed: /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/Posizione/Posizione.py -> /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/Posizione/posizione.py
+2024-11-29 19:25:17,594 - Renamed: /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/MERCATI MAESTRO/CSMM_Installer.py -> /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/MERCATI MAESTRO/csmm_installer.py
+2024-11-29 19:25:17,594 - Renamed: /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/MERCATI MAESTRO/README.txt -> /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/MERCATI MAESTRO/readme.txt
+2024-11-29 19:25:17,594 - Renamed: /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/SOR/SOR.py -> /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/SOR/sor.py
+2024-11-29 19:25:17,595 - Renamed: /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/TradeServer/TradeServer.py -> /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/TradeServer/tradeserver.py
+2024-11-29 19:25:17,595 - Renamed: /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/SystemController.py -> /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/systemcontroller.py
+2024-11-29 19:25:17,595 - Renamed: /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/SIM -> /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/sim
+2024-11-29 19:25:17,595 - Renamed: /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/datiTester.py -> /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/datitester.py
+2024-11-29 19:25:17,595 - Renamed: /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/datiReader.py -> /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/datireader.py
+2024-11-29 19:25:17,595 - Renamed: /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/FIX -> /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/fix
+2024-11-29 19:25:17,595 - Renamed: /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/Posizione -> /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/posizione
+2024-11-29 19:25:17,595 - Renamed: /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/MERCATI_MAESTRO -> /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/mercati_maestro
+2024-11-29 19:25:17,596 - Renamed: /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/MERCATI MAESTRO -> /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/mercati maestro
+2024-11-29 19:25:17,596 - Renamed: /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/SOR -> /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/sor
+2024-11-29 19:25:17,596 - Renamed: /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/TradeServer -> /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/tradeserver
+2024-11-29 19:25:17,597 - Renamed: /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/run_SystemController.sh -> /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/run_systemcontroller.sh
+2024-11-29 19:25:17,597 - Renamed: /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/Conformita -> /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/conformita
+2024-11-29 19:25:17,608 - Verification failed!
+Missing files after conversion:
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/datiReader.py
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/SIM/marketsimulator.py
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/MERCATI MAESTRO/logs
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/run_SystemController.sh
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/MERCATI MAESTRO/logs/error.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/MERCATI_MAESTRO/csmm.py.py
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/MERCATI MAESTRO/src/csmm.py
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/MERCATI MAESTRO/logs/app.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/test/newGUI.py
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/MERCATI MAESTRO/docs/API_Documentation.txt
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/MERCATI MAESTRO/config/app_config.yaml
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/SOR/SOR.py
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/MERCATI MAESTRO/src/trading_simulator.db
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/dati/README.TXT
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/Conformita/readme.txt
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/MERCATI MAESTRO/CSMM_Installer.py
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/datiTester.py
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/MERCATI_MAESTRO
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/SIM
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/FIX/FIX.py
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/Posizione
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/MERCATI MAESTRO/docs/User_Guide.txt
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/TradeServer/TradeServer.py
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/MERCATI MAESTRO/tests
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/MERCATI MAESTRO/config/database_config.yaml
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/Conformita/conformita.py
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/SystemController.py
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/MERCATI MAESTRO/src/main.py
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/TradeServer
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/MERCATI MAESTRO/README.txt
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/MERCATI MAESTRO/logs/access.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/SOR
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/MERCATI MAESTRO/tests/test_config.yaml
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/MERCATI MAESTRO/src
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/MERCATI MAESTRO/docs
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/MERCATI MAESTRO/config
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/Conformita
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/FIX
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/Posizione/Posizione.py
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/MERCATI MAESTRO
+Unexpected files after conversion:
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/orders.db
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/fixengine_240610200247.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/orderrouter_240610191155.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/orderrouter_240702234420.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/trading_240611221902.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/trading_240607002428.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/fixengine_240610222927.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/orderrouter_240610232121.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/orderrouter_240705120259.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/orderrouter_240607155941.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/dati/logs/marketdata_241125121015.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/marketdata_240610223651.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/marketsimulator_240611181927.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/marketsimulator_240611211147.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/orderrouter_240608123435.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/fixengine_240607155944.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/marketdata_240608011549.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/marketdata_240607010528.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/trading_240609161234.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/marketdata_240611185250.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/fixengine_240611194118.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/marketsimulator_240607010540.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/orderrouter_240610192452.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/mercati maestro/logs/app.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/fixengine_240611183407.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/mercati maestro/logs
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/dati/logs/marketdata_240611221803.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/marketdata_240610195314.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/trading_240610191732.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/trading_240609230629.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/trading_240610194948.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/marketdata_240610191729.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/trading240606020014.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/orderrouter_240607001537.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/posizione/posizione.py
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/marketdata_240610202301.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/platform_controller.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/marketsimulator_240611205839.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/marketsimulator_240611214642.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/trading_240608123432.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/maestro.py
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/orderrouter_240610232614.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/orderrouter_240610201554.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/marketdata_240610232215.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/frontend.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/marketsimulator_240610232127.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/marketsimulator_241125151306.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/marketdata_240607155935.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/orderrouter_240607005613.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/marketsimulator_240702233507.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/trading_240702233334.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/marketdata_240607011156.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/marketsimulator_240610221928.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/fixengine_240608011558.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/marketsimulator_240607002428.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/marketsimulator_240611182529.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/marketsimulator_241127165958.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/marketsimulator_240611214920.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/fixengine_240611211144.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/marketdata_240610200649.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/orderrouter_240611205833.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/marketsimulator_240607001017.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/marketdata_240607001537.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/trading_240608123838.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/mercati maestro/config
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/fixengine_240611181924.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/marketsimulator_240607004915.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/marketsimulator_240610195327.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/fixengine_240607000156.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/marketsimulator_240610223251.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/dati/logs/marketdata_240607001638.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/fixengine_240610191739.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/orderrouter_240607000156.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/trading_240611214633.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/trading_240608121559.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/mercati maestro/src/main.py
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/marketdata_240607010745.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/orderrouter_240610225726.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/marketdata_240607002414.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/fixengine_240607010608.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/marketdata_240611214630.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/fixengine_240607010754.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/trading_240607010748.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/marketdata_240607000156.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/marketdata_240607011223.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/marketdata_240607004903.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/marketdata_240610200238.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/readme.txt
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/trading_241126194500.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/fixengine_240611195015.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/marketdata_240702233454.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/trading_240702234417.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/dati/logs
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/trading_test_240612225607.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/orderrouter_240608001820.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/marketsimulator_240611174647.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/orderrouter_240611185256.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/marketsimulator_240611211204.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/orderrouter_240608011523.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/marketdata_240611183358.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/trading_240611214911.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/trading240606020957.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/marketdata_240610222918.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/marketdata_240611194109.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/marketdata_240610223238.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/fixengine_240607002400.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/orderrouter_240607002428.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/orderrouter_240611172820.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/orderrouter_241127170724.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/marketdata_240607002400.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/fixengine_241127165955.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/myenv/bin/python3
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/fixengine_240610221925.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/marketsimulator_240610224911.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/trading_240610192124.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/fixengine_240607010537.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/myenv/include
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/marketdata_240607002428.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/fixengine_240608123438.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/marketsimulator_240607011209.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/fixengine_240611205836.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/fixengine_240610223248.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/marketsimulator_240705120305.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/trading_240611211155.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/trading_240611214546.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/marketsimulator_240607002400.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/marketdata_240611211152.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/orderrouter_240608011555.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/myenv/lib
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/orderrouter_240607010751.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/test
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/fixengine_240607002414.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/trading_240610221919.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/marketdata_241126194456.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/trading_240611234433.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/trading_240611211138.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/orderrouter_241126194503.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/fixengine_240610195324.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/orderrouter_241127165952.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/dati/logs/marketdata240606015615.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/fixengine_240702233503.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/fixengine_240608124119.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/fixengine_240607001017.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/fixengine_240610223700.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/fixengine_240610222042.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/orderrouter_240609152654.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/dati/logs/marketdata_241125121001.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/fixengine_240610231607.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/marketsimulator_240702234427.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/marketsimulator_240610192134.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/marketdata_240608123429.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/marketdata_240611195006.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/marketsimulator_240610225732.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/marketsimulator_240611195018.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/marketdata_240610232130.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/orderrouter_240610221922.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/orderrouter_240610200655.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/trading_240607001017.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/marketsimulator_240611183410.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/marketdata_240607010559.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/fixengine_240611174644.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/marketsimulator_240610195741.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/fixengine_240607011232.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/marketdata_240607011753.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/trading_240610223654.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/fixengine_241127170727.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/orderrouter_240610223245.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/marketdata_240609155749.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/marketdata_240610231558.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/sor/sor.py
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/trading_240610201551.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/orderrouter_240611211158.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/orderrouter_240608121602.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/fixengine_240611220536.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/marketdata_241127170718.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/fixengine_240610224908.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/fixengine_240610232124.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/trading_240610222036.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/trading_240609152819.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/fixengine_240611214917.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/orderrouter_240607011229.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/marketdata_240610232608.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/orderrouter_240610194951.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/trading_240609155752.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/fixengine_240705120302.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/marketsimulator_240607000156.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/fixengine_240610200658.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/myenv
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/marketdata_240610191149.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/trading_240611182520.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/marketsimulator_240610222045.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/mercati maestro/logs/error.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/orderrouter_240607000512.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/orderrouter_240607003535.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/orderrouter_240611183404.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/fixengine_240610232355.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/marketdata_240609230626.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/trading_240607005610.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/trading_240607011200.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/marketdata_240609152648.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/orderrouter_240611182523.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/marketsimulator_240610202313.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/marketsimulator_240610191742.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/marketdata_240609152816.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/orderrouter_240611181921.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/orderrouter_240609230632.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/marketdata_240610192121.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/marketsimulator_240609230639.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/fixengine_240610194954.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/marketdata_240609161231.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/trading_240608124113.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/fixengine_240612225732.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/marketsimulator_240610200701.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/fixengine_240607001537.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/mercati maestro/config/app_config.yaml
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/orderrouter_240608124116.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/conformita/readme.txt
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/marketsimulator_240607011805.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/dati/dati.py
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/trading_240610192449.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/marketsimulator_240607003541.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/myenv/include/python3.12
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/marketdata_240702234449.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/trading_240610232611.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/marketsimulator_240607001537.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/orderrouter_240610222039.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/fixengine_240610232617.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/marketdata_240608001814.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/fixengine_240611174519.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/trading240606020207.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/orderrouter_240611195608.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/trading_240611194112.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/marketdata_240607001017.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/fixengine_240607002428.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/lowercase.py
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/fixengine_240610225729.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/marketsimulator_240610201600.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/mercati maestro/csmm_installer.py
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/fixengine_240702234424.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/fixengine_240611211201.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/trading_240611231140.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/marketdata_240611220527.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/marketsimulator_240610232358.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/mercati maestro/readme.txt
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/fixengine_240610195738.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/mercati maestro/src/trading_simulator.db
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/trading_240610191152.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/trading_240705120256.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/trading_240702233457.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/marketsimulator_240610191201.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/orderrouter_240611214636.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/orderrouter_240610200244.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/sim/marketsimulator.py
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/marketdata_240611205827.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/orderrouter_240609161237.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/mercati maestro/logs/access.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/trading_240611183401.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/orderrouter_240611195012.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/marketdata_240607000512.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/mercati maestro/docs/api_documentation.txt
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/trading.db
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/trading_240610223242.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/orderrouter_240611220533.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/trading_240611235019.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/myenv/bin/python3.12
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/marketsimulator_240702234501.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/trading_240611172817.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/trading_240608011520.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/marketdata_240611172814.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/orderrouter_240610195321.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/fixengine_240607011206.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/trading_240611181918.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/marketsimulator_240607010757.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/trading_240610202304.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/trading_240608011552.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/trading_240611222131.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/marketsimulator_241127170730.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/tradeserver/tradeserver.py
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/fixengine_240611185259.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/orderrouter_240702233500.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/marketdata_240611214543.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/trading_240610195318.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/orderrouter_240607010605.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/marketsimulator_240609152700.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/fixengine_240608123844.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/marketdata_240608121556.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/trading_240610200652.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/marketdata_240610232111.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/marketdata_240607003529.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/orderrouter_240610223657.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/trading240606020237.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/marketdata_241127165946.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/marketsimulator_240611185302.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/myenv/bin/python
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/orderrouter_240611174638.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/fixengine_240607000512.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/fixengine_240609155758.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/marketdata_240705120252.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/orderrouter_240607011202.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/marketdata_240607001717.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/myenv/bin
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/trading_240611195009.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/fixengine_240609161240.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/myenv/lib64
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/archive
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/trading_241125151257.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/myenv/lib/python3.12
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/marketdata_240612225723.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/fixengine_240611182526.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/marketsimulator_240610200250.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/orderrouter_240609152822.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/orderrouter_240610191735.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/marketsimulator_240611194121.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/marketsimulator_241126194509.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/marketsimulator_240607000512.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/marketsimulator_240611174525.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/conformita/conformita.py
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/fixengine_240609152825.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/fixengine_241126194506.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/myenv/lib/python3.12/site-packages
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/orderrouter_240610232352.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/mercati maestro/src
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/trading_241127170721.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/trading_test_240611212951.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/fixengine_240608001823.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/trading_240611185253.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/fixengine_240610232141.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/fixengine_240610191158.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/marketdata_240610195728.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/orderrouter_240607004909.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/marketsimulator_240610232620.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/trading_240611220530.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/orderrouter_240702234455.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/marketdata_240610201548.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/marketdata_240608124110.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/fixengine_240610192130.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/mercati maestro/src/csmm.py
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/trading_240607002414.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/fixengine_240609152657.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/trading_240607011756.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/trading_240610224902.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/orderrouter_240609155755.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/orderrouter_240610231604.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/marketsimulator_240610192458.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/marketdata_240611211135.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/fixengine_240702234458.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/marketdata_240702234414.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/trading_240610222921.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/trading_240612001139.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/trading_241127165949.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/trading_240607155938.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/orderrouter_240607010534.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/mercati maestro/docs
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/fixengine_240611214639.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/fixengine_240610192455.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/orderrouter_240610224905.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/fixengine_240609230635.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/orderrouter_240610195735.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/marketdata_240610225720.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/orderrouter_240610192127.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/trading_240607004906.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/marketsimulator_240609161243.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/marketsimulator_240610223703.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/dati/logs/marketdata240606020231.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/orderrouter_240610232138.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/marketsimulator_240607002414.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/marketdata_240610222033.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/marketdata_240610194945.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/fixengine_240607011802.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/orderrouter_240607011759.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/fixengine_240610232227.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/mercati maestro/config/database_config.yaml
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/marketdata_240610224859.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/trading_240608001817.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/fixengine_240607001717.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/fixengine_240610202310.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/fixengine_240611195611.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/marketsimulator_240611220539.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/dati/dati.py.bk
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/marketsimulator_240607010611.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/orderrouter_240608123841.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/marketsimulator_240608124122.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/orderrouter_240611194115.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/trading_240610225723.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/marketdata_240608011517.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/mercati maestro/docs/user_guide.txt
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/trading_240607003532.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/orderrouter_240612225729.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/marketsimulator_240607011235.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/trading_240607001421.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/orderrouter_240611211141.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/marketdata_240611195602.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/marketsimulator_240610232144.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/marketdata_240611182517.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/trading_240702234452.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/dati
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/marketsimulator_240609155801.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/trading_240612225726.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/fixengine_240608011526.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/trading_240610231601.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/trading_240611205830.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/orderrouter_240611214549.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/marketdata_240611214908.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/orderrouter_240607001017.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/trading_240611222911.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/fixengine_241125151303.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/marketsimulator_240610222930.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/marketdata_240608123835.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/marketdata_240611181915.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/trading_240611234656.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/marketdata_240607005607.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/fixengine_240607005616.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/marketdata_240610232333.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/orderrouter_240610232224.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/orderrouter_240611214914.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/mercati maestro/tests/test_config.yaml
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/mercati_maestro/csmm.py.py
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/marketsimulator_240610194957.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/trading_240607002400.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/orderrouter_240607002400.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/marketsimulator_240609152828.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/marketsimulator_240610232230.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/trading_240610195732.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/trading_240610200241.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/marketdata_241125151254.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/myenv/pyvenv.cfg
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/marketsimulator_240610231610.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/orderrouter_240607001717.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/trading_240611174635.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/marketdata_240611174632.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/trading_240611195605.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/marketsimulator_240612225735.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/orderrouter_241125151300.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/fixengine_240607004912.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/marketsimulator_240607001717.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/fixengine_240607003538.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/orderrouter_240610222924.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/marketsimulator_240611195615.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/fixengine_240611214552.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/trading_241125150025.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/trading_240607001537.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/fixengine_240610201557.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/trading_240609152651.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/mercati maestro/tests
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/trading_240607001717.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/trading_240607001105.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/fix/fix.py
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/marketdata_240610192445.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/marketsimulator_240611214555.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/marketsimulator_240607005619.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/marketdata_240610221916.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/trading_240607011226.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/orderrouter_240607002414.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/fixengine_240608121605.log
+  - /home/csws/dev/Github/FINANCE24/cs_mercati_maestro_trading_platform/logs/orderrouter_240610202307.log
+2024-11-29 19:25:17,614 - Original files backed up at: /home/csws/dev/Github/FINANCE24/rename_backup_20241129_192433
+2024-11-29 19:25:17,615 - 
+Operation complete. Check /home/csws/dev/Github/FINANCE24/rename_backup_20241129_192433/final_report.txt for full details.
